@@ -1,0 +1,28 @@
+#mpft-related-taxonomy-options .maxwidth-f input.text {
+  width: 60px;
+}
+
+#mpft-related-taxonomy-options label.checkbox {
+  margin-right: 0px;
+}
+
+
+#mpft-related-taxonomy-options .f-taxonomies .fwi {
+  margin-right: 20px;
+  float: left;
+  padding-bottom: 4px;
+}
+
+#mpft-related-taxonomy-options .f-taxonomies .fwi {
+  padding-bottom: 10px;
+}
+
+#mpft-related-taxonomy-options .f-taxonomies .fwi label {
+  padding-left: 22px;
+  margin-left: 8px;
+  background-repeat: no-repeat;
+  background-position: 0 3px;
+  margin-top: 0;
+  padding-top: 4px;
+}
+

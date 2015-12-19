@@ -1,0 +1,1295 @@
+<?php
+//Define Sanbox settings
+$GLOBALS['nabSandbox'] = false;
+
+
+// Axcelerate API Documentation
+// https://stg.axcelerate.com.au/apidocs/home/index
+
+// NAB Documentation Guide
+// XMLAPIIntegrationGuide.pdf
+
+set_time_limit(360);
+error_reporting(-1);
+ini_set('display_errors', 1);
+
+function axcelerate_menu() {
+  $items['axcelerate/courses'] = array(
+    'title' => 'Fetch Axcelerate Course',
+    'page callback' => 'axcelerate_get_course',
+    'access arguments' => array( 'access content' ),
+    'type' => MENU_CALLBACK,
+  );
+
+  $items['axcelerate/instances'] = array(
+    'title' => 'Fetch Axcelerate Course',
+    'page callback' => 'axcelerate_get_instance',
+    'access arguments' => array( 'access content' ),
+    'type' => MENU_CALLBACK,
+  );
+  /*
+  $items['axcelerate/courses/%'] = array(
+    'title' => 'Fetch Axcelerate Course',
+    'page callback' => 'axcelerate_coursedata',
+    'page arguments' => array( 2 ),
+    'access arguments' => array( 'access content' ),
+    'type' => MENU_CALLBACK,
+  );
+*/
+  $items['axcelerate/drill/%'] = array(
+    'title' => 'Fetch Axcelerate Course',
+    'page callback' => 'axcelerate_drill',
+    'page arguments' => array( 'stage1', 2 ),
+    'access arguments' => array( 'access content' ),
+    'type' => MENU_CALLBACK,
+  );
+
+  $items['axcelerate/drill/%/%'] = array(
+    'title' => 'Fetch Axcelerate Course',
+    'page callback' => 'axcelerate_drill',
+    'page arguments' => array( 'stage2', 2, 3 ),
+    'access arguments' => array( 'access content' ),
+    'type' => MENU_CALLBACK,
+  );
+
+  $items['axcelerate/drill/%/%/%'] = array(
+    'title' => 'Fetch Axcelerate Course',
+    'page callback' => 'axcelerate_drill',
+    'page arguments' => array( 'stage3', 2, 3, 4 ),
+    'access arguments' => array( 'access content' ),
+    'type' => MENU_CALLBACK,
+  );
+
+
+  $items['axcelerate/test'] = array(
+    'title' => 'Fetch Axcelerate Course',
+    'page callback' => 'axcelerate_test',
+    'access arguments' => array( 'access content' ),
+    'type' => MENU_CALLBACK,
+  );
+
+  $items['axcelerate/book/%'] = array(
+    'title' => 'Course Booking Form',
+    'page callback' => 'axcelerate_booking_forms',
+    'page arguments' => array( 2 ),
+    'access arguments' => array( 'access content' ),
+    'type' => MENU_CALLBACK,
+    'file' => 'booking_form.php.inc',
+  );
+  
+  $items['axcelerate/enrol/%'] = array(
+    'title' => 'Course Enrolment Form',
+    'page callback' => 'axcelerate_process_enrolment',
+    'page arguments' => array( 2 ),
+    'access arguments' => array( 'access content' ),
+    'type' => MENU_CALLBACK,
+  );
+
+  $items['axcelerate/manual'] = array(
+    'title' => 'Axcelerate Cron',
+    'page callback' => 'axcelerate_cron',
+    'access arguments' => array( 'access content' ),
+    'type' => MENU_CALLBACK,
+  );
+
+	
+
+  return $items;
+}
+
+function axcelerate_get_url() {
+  return 'https://admin.axcelerate.com.au';
+}
+
+
+function axcelerate_block_info() {
+  $blocks = array();
+  $blocks['booking_block'] = array(
+    'info' => t( 'Axcelerate booking block' ),
+  );
+
+  $blocks['booking_block_current'] = array(
+    'info' => t( 'Axcelerate Current Booking' ),
+  );
+
+  return $blocks;
+}
+
+function axcelerate_process_enrolment($courseID = false){
+	// Main function for processing enroment requests from Enrolment Form.
+	$postVar = $_POST;
+	
+	//Course ID from the form
+	$courseID                  = $postVar['courseid'];
+	$courseDetails             = axcelerate_get_course(true,$courseID);
+	
+	//Course Details
+	$courseCostTotal           = $courseDetails['courseTotalCost'];
+
+	//Contact Details
+	$enrolVar['fname']         = $postVar['fname'];    if($enrolVar['fname']==""){ return errorBackResponse("First name cannot be blank"); }
+	$enrolVar['lname']         = $postVar['lname'];	   if($enrolVar['lname']==""){ return errorBackResponse("Last name cannot be blank"); }
+	$enrolVar['mobile']        = $postVar['mobile'];   if($enrolVar['mobile']==""){ return errorBackResponse("Mobile cannot be blank"); }
+	$enrolVar['email']         = $postVar['email'];    if($enrolVar['email']==""){ return errorBackResponse("Email cannot be blank"); }
+	$enrolVar['address']       = $postVar['address'];  if($enrolVar['address']==""){ return errorBackResponse("Address cannot be blank"); }
+	$enrolVar['suburb']        = $postVar['suburb'];   if($enrolVar['suburb']==""){ return errorBackResponse("Suburb cannot be blank"); }
+	$enrolVar['postcode']      = $postVar['postcode']; if($enrolVar['postcode']==""){ return errorBackResponse("postcode cannot be blank"); }
+	 
+	//Extra Details
+	$enrolVar['workplace']     = $postVar['workplace'];
+	$enrolVar['source']        = $postVar['source'];
+	$enrolVar['special_needs'] = $postVar['special_needs'];
+	
+	//Payment Method
+	$enrolVar['payment']       = $postVar['payment'];  if($enrolVar['payment']==""){ return errorBackResponse("Payment type cannot be blank"); }
+	$enrolVarp['otherPtype']   = $postVar['otherpaymentselection']; 
+	
+	//Fields for Credit Card
+	$enrolVar['cc']            = $postVar['cc'];
+	$enrolVar['expiryM']       = $postVar['expiryM'];
+	$enrolVar['expiryY']       = substr($postVar['expiryY'],-2,2);
+	$enrolVar['cvv']           = $postVar['cvv'];
+	
+	//Terms & Conditions / mailing opt in
+	$enrolVar['opt_in']        = $postVar['opt_in'];
+	$enrolVar['terms']         = $postVar['terms'];
+	
+	$enrolVar['campaign']      = $postVar['campaign'];
+	
+	
+	//Create contact in Excelerate for this entry
+	$contactVars = array(
+                      'givenName'    => $enrolVar['fname'],
+                      'surname'      => $enrolVar['lname'],
+                      'title'        => '',
+                      'emailAddress' => $enrolVar['email'],
+                      'mobilephone'  => $enrolVar['mobile'],
+                      'organisation' => $enrolVar['workplace'],
+                      'address1'     => $enrolVar['address'],
+                      'city'         => $enrolVar['suburb'],
+                      'postcode'     => $enrolVar['postcode'],
+                   );
+    
+	$enroll      = axcelerate_save_contact($contactVars);
+	$contactID   = $enroll->CONTACTID;
+	$courseInstanceID = axcelerate_getInstanceIdFromCourseID($courseID);
+
+    $enrollVars  = array(
+      					'contactID'  => $contactID,
+      					'instanceID' => $courseInstanceID,
+      					'type'       => 'w',
+          		   );
+	
+	
+	if($enrolVar['payment']=="payment-card"){
+		
+		//Credit Card Payments. Process and book.
+		if($enrolVar['campaign']=="lesmills"){
+			$courseCostTotal = $courseCostTotal-5;
+		}
+		
+ 		$amount = number_format($courseCostTotal ,2);
+		
+                
+	    $data   = array(
+				    'txnType' => '0',
+				    'txnSource' => 23,
+				    'amount' => (int)($amount * 100),
+				    'currency' => 'AUD',
+				    'purchaseOrderNo' => time(),
+				    'CreditCardInfo' => array(
+				      'cardNumber' => $enrolVar['cc'],
+				      'expiryDate' => $enrolVar['expiryM'].'/'.$enrolVar['expiryY'],
+				    ),
+				  );
+        
+        $order_id = time();
+		$trans    = uc_nab_transact_charge($order_id, $amount, $data);
+		
+
+        if($trans['success'] == '1'){
+           	//Payment Successfull.
+           	
+           	$txnID    = $trans['data']['TxnID'][0];
+           	
+           	$enrollNow =  axcelerate_enroll($enrollVars);
+			
+			$paymentamount = $enrollNow->AMOUNT;
+			
+			if($enrolVar['campaign']=="lesmills"){
+				$paymentamount = $paymentamount-5;
+			}
+
+			
+		    $transVars = array(
+	                           'amount' => $paymentamount,
+	                           'ContactID' => $contactID,
+	                           'invoiceID' => $enrollNow->INVOICEID,
+	                           'reference' => $txnID,
+	                           'description' => "TXN: ".$txnID
+	                     );
+						 
+		    $extrans =  axcelerate_transact($transVars);
+			
+			$enrolmentReturn = array(
+									'success' => true,
+									'error_message' => '',
+									'txnid' => "".$txnID."",
+			                   );
+			
+        } else {
+            ////// RETURN ERROR ABOUT TRANSACTION FAILING ---------------------------------------------------------------------
+            //var_dump("----- PAYMENT FAILED -----");
+			
+			$enrolmentReturn = array(
+									'success' => false,
+									'error_message' => $trans['message'],
+			                   );
+			
+        }
+		
+	} else {
+		$enrollNow =  axcelerate_enroll($enrollVars);
+		//var_dump($enrollNow);
+		$enrolmentReturn = array(
+									'success' => true,
+									'error_message' => '',
+									'txnid' => '',
+			                   );
+		//var_dump($_POST);					   
+		if($enrolVar['campaign']=="lesmills"){
+			
+			//var_dump($enrollNow);
+			//var_dump("-------------------------");
+			//var_dump($courseDetails);
+			
+			$paymentamount = $enrollNow->AMOUNT;
+			$paymentamount = $paymentamount-5;
+			
+			$message = "
+			Hello,<br>
+			<br>
+			Please note the following student has enroled online with the Les Mills Campaign.<br>
+			As of this they require a <strong>Manual</strong> invoice to be created with a $5 Discount applied as they have chosen to pay Offline.<br>
+			<br>
+			<h1>Student & Booking Details</h1>
+			
+			<strong>Invoice ID:</strong> ".$enrollNow->INVOICEID."  <br>
+			<strong>Contact ID:</strong>  ".$enrollNow->CONTACTID." <br>
+			<strong>Leaner ID:</strong>  ".$enrollNow->LEARNERID." <br>
+			<br>
+			<strong>Student Name:</strong>  ".$enrolVar['fname']." ".$enrolVar['lname']."   <br>
+			<strong>Course Name:</strong> ".$courseDetails['courseName']."  <br>
+			<strong>Course Date:</strong>  ".$courseDetails['courseDate']."  <br>
+			<strong>Course Time:</strong>  ".$courseDetails['courseTimings']."  <br>
+			<strong>Course Location:</strong>  ".$courseDetails['courseLocation']."  <br><br>
+			<strong>Amount Due:</strong>  $".$paymentamount." &nbsp;&nbsp;&nbsp;&nbsp;   (<strong>Amount Normally Due:</strong> $".$enrollNow->AMOUNT.")
+			<br>
+			---------------------------------------------------<br>
+			<br>
+			";
+
+			
+			$semail = "noreply@australiawidefirstaid.com.au";
+            $sname = "AWFA - Online Enrolments";
+			
+            $rname = "";
+            $priority = "high";
+            $type = "text/html";
+            $replysemail = $semail;
+			$fullmessage = "";
+			
+			$rname = "AWFA";
+			$remail = "accounts@australiawidefirstaid.com.au";
+			$subject = "Les Mills Booking - Action Required for Invoicing";
+            
+            // Checks if carbon copy & blind carbon copy exist
+            if($cc != null){$cc="CC: ".$cc."\r\n";}else{$cc="";}
+            if($bcc != null){$bcc="BCC: ".$bcc."\r\n";}else{$bcc="";}
+            
+            // Checks the importance of the email
+            if($priority == "high"){$priority = "X-Priority: 1\r\nX-MSMail-Priority: High\r\nImportance: High\r\n";}
+            elseif($priority == "low"){$priority = "X-Priority: 3\r\nX-MSMail-Priority: Low\r\nImportance: Low\r\n";}
+            else{$priority = "";}
+            
+            // Checks if it is plain text or HTML
+            if($type == "plain"){$type="text/plain";}else{$type="text/html";}
+            
+            // The boundary is set up to separate the segments of the MIME email
+            $boundary = md5(@date("Y-m-d-g:ia"));
+            
+            // The header includes most of the message details, such as from, cc, bcc, priority etc. 
+            $header = "From: ".$sname." <".$semail.">\r\nMIME-Version: 1.0\r\nX-Mailer: PHP\r\nReply-To: ".$sname." <".$replysemail.">\r\nReturn-Path: ".$sname." <".$replysemail.">\r\n".$cc.$bcc.$priority."Content-Type: multipart/mixed; boundary = ".$boundary."\r\n\r\n";    
+              
+            // The full message takes the message and turns it into base 64, this basically makes it readable at the recipients end
+            $fullmessage .= "--".$boundary."\r\nContent-Type: ".$type."; charset=UTF-8\r\nContent-Transfer-Encoding: base64\r\n\r\n".chunk_split(base64_encode($message));
+            
+            // And finally the end boundary to set the end of the message
+            $fullmessage .= "--".$boundary."--";
+			
+			mail($rname."<".$remail.">", $subject, $fullmessage, $header);
+		}
+	}
+	if($enrolVar['payment']=="payment-paypal"){
+		//PayPal Payments - PENDING
+	}
+	if($enrolVar['payment']=="payment-ontheday"){
+		//On The Day payment. Process and Book. (makr as not paid)
+	}
+	if($enrolVar['payment']=="payment-other"){
+		//Other Payment options -> load from otherPtype variable.
+		
+		if($enrolVarp['otherPtype']=="Direct Debit"){
+			
+		}
+		if($enrolVarp['otherPtype']=="Send me an Invoice"){
+			
+		}
+		if($enrolVarp['otherPtype']=="Corporate Invoice"){
+			
+		}
+		if($enrolVarp['otherPtype']=="Money Order/Cheque"){
+			
+		}
+	}
+	         
+			
+	echo json_encode($enrolmentReturn);
+}
+
+
+function axcelerate_getInstanceIdFromCourseID($courseID){
+    $course = db_select('field_data_field_instance_id','fid')
+            ->fields('fid')
+            ->condition('entity_id',$courseID,'=')
+            ->execute()
+			->fetchAssoc();
+			
+			
+			
+
+    //var_dump($course);
+    return $course['field_instance_id_value'];
+}
+
+function errorBackResponse($errorMessage){
+	$enrolmentReturn = array(
+							'success' => false,
+							'error_message' => $errorMessage,
+	                   );
+    echo json_encode($enrolmentReturn);
+	die();
+	return false;
+}
+
+function axcelerate_block_view( $delta='' ) {
+  $block = array();
+
+  switch ( $delta ) {
+  case 'booking_block' :
+    $block['content'] = theme( 'booking_block_theme' );
+    break;
+  case 'booking_block_current' :
+    $block['content'] = theme( 'booking_block_current' );
+    break;
+  }
+
+  return $block;
+}
+
+
+function axcelerate_preprocess_html( &$variables ) {
+  if ( ( arg( 0 ) == 'axcelerate'  || arg( 0 ) == 'node' ) && ( arg( 1 ) == 'book' || arg( 1 ) == '1056' ) ) {
+    //$stage = arg(2);
+    $stage = arg( 2 );
+    if ( $stage ) {
+      //  print_r($variables);
+      $variables['classes_array'][] = 'staged-booking-page';
+    }else {
+      $variables['classes_array'][] = 'non-staged-booking-page';
+    }
+
+  }
+}
+
+function axcelerate_preprocess_page( &$variables, $hook ) {
+  // print arg(1);
+  if ( ( arg( 0 ) == 'axcelerate'  || arg( 0 ) == 'node' ) && ( arg( 1 ) == 'book' || arg( 1 ) == '1056' ) ) {
+    // print 'sdfasdf';
+    $variables['theme_hook_suggestions'][] = 'booking_page';
+  }
+}
+
+
+function axcelerate_theme( $existing, $type, $theme, $path ) {
+  if ( $type == 'module' ) {
+    return array(
+      'booking_block_theme' => array(
+        'variables' => array( 'var_name'=>NULL ),
+        'template' => 'booking_block_theme'
+      ),
+      'booking_page_theme' => array(
+        'variables' => array( 'var_name'=>NULL ),
+        'template' => 'booking_page_theme'
+      ),
+      'booking_block_current' => array(
+        'variables' => array( 'var_name'=>NULL ),
+        'template' => 'booking_block_current'
+      ),
+      'booking_page' =>  array(
+        'template' => 'booking-page',
+        'render element' => 'page'
+      ),
+    );
+  }
+
+
+  return array(); //will raise fatal error if void
+}
+
+
+function axcelerate_booking_form_form() {
+  $form = array();
+  $form['state'] = array(
+    '#type' => 'select',
+    '#title' => t( 'State' ),
+    '#options' => array(
+      0=> 'Select State',
+      'QLD' => 'QLD',
+      'NSW' => 'NSW',
+      'VIC' => 'VIC',
+      'WA' => 'WA' ),
+    '#default_value' => '',
+    '#attributes' => array( 'id' => 'axcelerateState' ),
+  );
+
+
+  $form['location'] = array(
+    '#type' => 'select',
+    '#title' => t( 'Location' ),
+    '#options' => array( 0=> '---' ),
+    '#default_value' => '',
+    '#attributes' => array( 'id' => 'axcelerateLocation' ),
+    '#validated' => TRUE,
+  );
+
+  $form['course'] = array(
+    '#type' => 'select',
+    '#title' => t( 'Course' ),
+    '#options' => array( 0=> '---' ),
+    '#attributes' => array( 'id' => 'axcelerateCourse' ),
+    '#validated' => TRUE,
+  );
+
+  $form['date'] = array(
+    '#type' => 'textfield',
+    '#title' => t( 'Date' ),
+    '#default_value' => '',
+    '#size' => 60,
+    '#maxlength' => 128,
+    '#required' => TRUE,
+    '#attributes' => array( 'id' => 'axcelerateCourseDate' ),
+  );
+
+
+  $form['courseid'] = array(
+    '#type' => 'hidden',
+    '#title' => t( 'CourseID' ),
+    '#default_value' => '',
+    '#size' => 60,
+    '#maxlength' => 128,
+    '#required' => TRUE,
+    '#attributes' => array( 'id' => 'axcelerateCourseID' ),
+  );
+
+  $form['submit'] = array( '#type' => 'submit', '#value' => t( 'Search' ) );
+  $form['#submit'][] = 'axcelerate_booking_form_form_submit';
+  $cssPath = drupal_get_path( 'module', 'axcelerate' ).'/css/axcelerate.css';
+  drupal_add_css( $cssPath );
+
+  return $form;
+
+}
+
+function axcelerate_booking_form_form_submit( $form, &$form_state ) {
+  $vals = $form_state['values'];
+  unset( $vals['submit'] );
+  unset( $vals['form_build_id'] );
+  unset( $vals['form_token'] );
+  unset( $vals['form_id'] );
+  unset( $vals['op'] );
+  if ( !isset( $_SESSION['axcelerate'] ) ) {
+    $_SESSION['axcelerate'] = array();
+  }
+  $_SESSION['axcelerate'] = array();
+
+  $_SESSION['axcelerate'] = array_merge( $_SESSION['axcelerate'], $vals );
+
+  //drupal_goto('axcelerate/book-redirect');
+  drupal_goto( 'axcelerate/book/1' );
+  // exit;
+}
+
+
+
+
+
+function axcelerate_authentication_headers() {
+  $_WSTOKEN = '75FD969E-89F4-497D-9EA18299CE0361C9';
+  $_APITOKEN = '7C511127-809C-40D7-A9847FD02DFAE93D';
+  $headers = array( 'wstoken' => $_WSTOKEN, 'apitoken' => $_APITOKEN );
+
+  return $headers;
+
+}
+
+
+
+function axcelerate_get_course($returnAsObject = false, $courseID = false) {
+	
+	if(isset($_GET['campaign'])){
+	  	$campaign = $_GET['campaign'];
+	} else {
+	  	$campaign = false;
+	}
+	if(isset($_GET['cid'])){
+			$courseID = $_GET['cid'];
+	}
+	if(isset($_GET['cal'])){
+			$courseID = $_GET['cid'];
+			$url = axcelerate_get_url().'/api/course/calendar/?type=all';
+		    $headers = array();
+		    $headers += axcelerate_authentication_headers();
+		    $options = array(
+		      'headers' => $headers,
+		      'method' => 'GET',
+		      'data' => NULL,
+		      'max_redirects' => 3,
+		      'timeout' => 30.0,
+		      'context' => NULL,
+		    );
+		
+		    $data = drupal_http_request( $url, $options );
+		    $data = (array) json_decode( $data->data );
+			$courses_list = axcelerate_obj_to_array( $data );
+			
+			$courseJSONdetails = array();
+			foreach($courses_list as &$coursedetails){
+				//var_dump($coursedetails);
+				die();
+				$coursenewdetails = array( array(
+										'start' => $coursedetails['start'],
+										'end' => $coursedetails['end'],
+										'allDay' => $coursedetails['allDay'],
+										'id' => $coursedetails['id'],
+										'title' => $coursedetails['location'].' - '.$coursedetails['title'],
+										'url' => '/enrol-now/?cid='.$coursedetails['courseID'],
+										'courseID' => $coursedetails['courseID']
+									));
+				//$courseJSONdetails = $courseJSONdetails.$coursenewdetails;								
+				$courseJSONdetails = array_merge($coursenewdetails,$courseJSONdetails);
+				
+			}
+			//var_dump($courseJSONdetails);
+			echo json_encode($courseJSONdetails);
+			//var_dump($data);
+			die();
+	}
+	if(!$courseID){
+		
+	  $url = axcelerate_get_url().'/api/courses?displayLength=100&type=w';
+	  $headers = array();
+	  $headers += axcelerate_authentication_headers();
+	  $options = array(
+	    'headers' => $headers,
+	    'method' => 'GET',
+	    'data' => NULL,
+	    'max_redirects' => 3,
+	    'timeout' => 30.0,
+	    'context' => NULL,
+	  );
+	
+	  $data = drupal_http_request( $url, $options );
+	  $data = (array) json_decode( $data->data );
+	  $courses_list = axcelerate_obj_to_array( $data );
+	
+	  $new_course = 0;
+	
+	  foreach ( $courses_list as $course ) {
+	      if( !axcelerate_course_check($course['ID']) ){
+	        echo "-- new course (".$course['ID'].") --\n";
+	        axcelerate_course_create($course); 
+	        $new_course++; 
+	      } 
+	  }
+
+	  return $new_course;
+	} else {
+		
+		if(isset($_GET['cid'])){
+			$courseID = $_GET['cid'];
+		}
+		
+		$node = node_load($courseID);
+	    $_SESSION['axcelerate']['course_instance'] = $node->field_instance_id['und'][0]['value'];
+	    $location = taxonomy_term_load($node->field_location['und'][0]['tid']);
+		//var_dump($location);
+		$locationData = $location->field_address['und'][0]['safe_value'];
+		if($locationData==""){
+			$locationData = $location->name;
+		}
+		
+		
+		if($node->title){
+			if($campaign=="lesmills"){
+				$courseCost = number_format($node->field_cost['und'][0]['value'] ,2)-5;
+			} else {
+				$courseCost = number_format($node->field_cost['und'][0]['value'] ,2);
+			}
+			$coursedata = array(
+								'courseName'=>$node->title,
+								'courseDate'=>date('d M Y',strtotime($node->field_course_instance_start_date['und'][0]['value'])),
+								'courseTimings'=>''.date('h:i a',strtotime($node->field_course_instance_start_date['und'][0]['value'])).' - '. date('h:i a',strtotime($node->field_course_instance_finish_dat['und'][0]['value'])),
+								'courseLocation'=>$locationData,
+								'courseTotalCost'=>$courseCost
+						  );
+						  
+			if($returnAsObject){
+				return $coursedata;
+			} else {
+				echo json_encode($coursedata);
+			}
+		} else {
+			if($returnAsObject){
+				return false;
+			} else {
+				echo "false";
+			}
+		}
+
+
+	}
+}
+
+function axcelerate_get_instance() {
+	
+  $new_course_instance = 0;
+  $instances = views_get_view_result( 'dnd_list_course_for_instances' );
+  
+  $courseRef = array();
+  foreach ( $instances as $k => $v ) {
+    //print_r($v);
+    $courseID = $v->field_field_course_id[0]['raw']['value'];
+    $courseType = $v->field_field_course_type[0]['raw']['value'];
+    $nid = $v->nid;
+    $courseRef[$courseID] = $nid;
+  }
+	
+  $returnRows = array();
+  foreach ( $instances as $k => $v ) {
+    $courseID = $v->field_field_course_id[0]['raw']['value'];
+    $courseType = $v->field_field_course_type[0]['raw']['value'];
+    $url = axcelerate_get_url()."/api/course/instances?type=$courseType&id=$courseID";
+    $headers = array();
+    $headers += axcelerate_authentication_headers();
+    $options = array(
+      'headers' => $headers,
+      'method' => 'GET',
+      'data' => NULL,
+      'max_redirects' => 3,
+      'timeout' => 5.0,
+      'context' => NULL,
+    );
+	
+    $data = drupal_http_request( $url, $options );
+	
+    $data = (array) json_decode( $data->data );
+    $courses_instance_list = axcelerate_obj_to_array( $data );
+	
+    if ( count( $courses_instance_list )) {
+    	
+      foreach ( $courses_instance_list as $course_instance ) {
+  
+        
+        if ( $course_instance['ENROLMENTOPEN'] == '' ) {
+          $course_instance['ENROLMENTOPEN'] = 0;
+        }
+
+        $course_instance['COURSE_ID'] = $courseRef[$course_instance['ID']];
+        $course_instance_nid = axcelerate_course_instance_check($course_instance['INSTANCEID']);
+		
+        if( $course_instance_nid == 0 ){
+          echo "-- new course instance (".$course_instance['INSTANCEID'].") --\n";
+          axcelerate_course_instance_create($course_instance);
+		  
+          $new_course_instance++;
+        }else{
+          echo "-- update course instance (".$course_instance['INSTANCEID'].") --\n";
+          axcelerate_course_instance_update($course_instance_nid, $course_instance);
+		  
+        }
+
+
+      }
+    }
+  }
+
+  return $new_course_instance;
+
+}
+
+function axcelerate_location_get($name){
+  $term = taxonomy_get_term_by_name($name);
+
+  $term = array_values($term);
+
+  if(count($term) > 0){
+  	//die($term[0]);
+  	if($term[0]=="21"){
+  		$tr = 4;
+  	} else {
+  		if($term[0]=="24"){
+	  		$tr = 11;
+	  	} else {
+	  		$tr = $term[0];
+	  	}
+
+  	}
+      return $tr;
+  }else{
+    echo "-- new location (".$name.") --\n";
+    $location           = (object) NULL;
+    $location->vid      = 2;
+    $location->name     = $name;
+
+    taxonomy_term_save($location);
+    return $location;
+  }
+
+  
+}
+
+
+function axcelerate_course_check($course_source_id){
+    $course = db_select('field_data_field_course_id','cid')
+            ->fields('cid')
+            ->condition('field_course_id_value',$course_source_id,'=')
+            ->execute();
+
+    if( $course->rowCount() >= 1 ){
+        $result = true;
+    }else{
+        $result = false;
+    }
+    return $result;
+}
+
+function axcelerate_course_create($c){
+    $course           = (object) NULL;
+    $course->type     = 'axcelerate_course';
+    $course->uid      = 0;
+    $course->created  = strtotime("now");
+    $course->changed  = strtotime("now");
+    $course->status   = 1;
+    $course->comment  = 0;
+    $course->promote  = 0;
+    $course->moderate = 0;
+    $course->sticky   = 0;
+    $course->language = 'und';
+
+    $course->title                                      = $c['NAME'];
+    $course->field_course_code['und'][0]['value']       = $c['CODE'];
+    $course->field_course_id['und'][0]['value']         = intval($c['ID']);
+    $course->field_course_type['und'][0]['value']       = $c['TYPE'];
+    $course->field_course_delivery['und'][0]['value']   = $c['DELIVERY'];
+    $course->field_body['und'][0]['value']              = $c['SHORTDESCRIPTION'];
+
+    node_save($course);
+}
+
+function axcelerate_course_instance_check($course_instance_source_id){
+  $course_instance = db_select('field_data_field_instance_id','iid')
+          ->fields('iid')
+          ->condition('field_instance_id_value',$course_instance_source_id,'=')
+          ->execute();
+
+  if( $course_instance->rowCount() >= 1 ){
+    while($ci = $course_instance->fetchAssoc()){
+      $result = $ci['entity_id'];
+    }
+  }else{
+      $result = 0;
+  }
+  return $result;  
+}
+
+function axcelerate_course_instance_create($i){
+      $location = axcelerate_location_get($i['LOCATION']);
+
+      $instance           = (object) NULL;
+      $instance->type     = 'axcelerate_course_instance';
+      $instance->uid      = 0;
+      $instance->created  = strtotime("now");
+      $instance->changed  = strtotime("now");
+      $instance->status   = 1;
+      $instance->comment  = 0;
+      $instance->promote  = 0;
+      $instance->moderate = 0;
+      $instance->sticky   = 0;
+      $instance->language = 'und';
+
+      $instance->title                                                    = $i['NAME'];
+      $instance->field_course_instance_course['und'][0]['nid']            = intval($i['COURSE_ID']);
+      $instance->field_course_instance_start_date['und'][0]['value']      = $i['STARTDATE'];
+      $instance->field_course_instance_finish_dat['und'][0]['value']      = $i['FINISHDATE'];
+      $instance->field_instance_id['und'][0]['value']                     = intval($i['INSTANCEID']);
+      $instance->field_enrollment_open['und'][0]['value']                 = $i['ENROLMENTOPEN'];
+      $instance->field_cost['und'][0]['value']                            = $i['COST'];
+      $instance->field_location['und'][0]['tid']                          = $location->tid;
+
+      node_save($instance);
+     
+}
+
+function axcelerate_course_instance_update($cid,$i){
+	
+  $instance = node_load($cid);
+
+  $instance->title                                                    = $i['NAME'];
+  $instance->field_course_instance_course['und'][0]['nid']            = intval($i['COURSE_ID']);
+  $instance->field_course_instance_start_date['und'][0]['value']      = $i['STARTDATE'];
+  $instance->field_course_instance_finish_dat['und'][0]['value']      = $i['FINISHDATE'];
+  $instance->field_instance_id['und'][0]['value']                     = intval($i['INSTANCEID']);
+  $instance->field_enrollment_open['und'][0]['value']                 = $i['ENROLMENTOPEN'];
+  $instance->field_cost['und'][0]['value']                            = $i['COST'];
+
+  node_save($instance);
+  
+}
+
+function axcelerate_manual(){
+	
+  $new_course           = axcelerate_get_course();
+  $new_course_instance  = axcelerate_get_instance();
+
+
+  echo "-> ".$new_course." courses added\n";
+  echo "-> ".$new_course_instance." courses instances added\n";
+}
+
+function axcelerate_cron(){
+	
+  axcelerate_manual();
+}
+
+
+function axcelerate_payment() {
+
+  $url = axcelerate_get_url()."/api/payment";
+  //$headers = array();
+  $headers = array( 'Content-Type' => 'application/x-www-form-urlencoded' );
+  $headers += axcelerate_authentication_headers();
+  $postData = array(
+    'paymentAmount'=>'1',
+    'contactID'=>'1136620',
+    'payerID'=>'1136620',
+    'instanceID'=>'108699',
+    'type'=>'w',
+    'nameOnCard'=>'bruno',
+    'cardNumber'=>'12341234',
+    'cardCCV'=>'2134',
+    'expiryMonth'=>'23423',
+    'expiryYear'=>'2341',
+  );
+  $postQuery = http_build_query( $postData, '', '&' );
+  $options = array(
+    'headers' => $headers,
+    'method' => 'POST',
+    'data' => $postQuery ,
+    'max_redirects' => 3,
+    'timeout' => 30.0,
+    'context' => NULL,
+  );
+  $data = drupal_http_request( $url, $options );
+  print_r( $data );
+}
+
+
+function axcelerate_save_contact( $contactVars ) {
+
+  $url = axcelerate_get_url()."/api/contact";
+  //$headers = array();
+  $headers = array( 'Content-Type' => 'application/x-www-form-urlencoded' );
+  $headers += axcelerate_authentication_headers();
+  $postQuery = http_build_query( $contactVars, '', '&' );
+  $options = array(
+    'headers' => $headers,
+    'method' => 'POST',
+    'data' => $postQuery ,
+    'max_redirects' => 3,
+    'timeout' => 30.0,
+    'context' => NULL,
+  );
+  $data = drupal_http_request( $url, $options );
+  return json_decode( $data->data );
+  //  print_r($data);
+
+}
+
+
+function axcelerate_enroll( $contactVars ) {
+
+  $url = axcelerate_get_url()."/api/course/enrol";
+  //$headers = array();
+  $headers = array( 'Content-Type' => 'application/x-www-form-urlencoded' );
+  $headers += axcelerate_authentication_headers();
+  $postQuery = http_build_query( $contactVars, '', '&' );
+  $options = array(
+    'headers' => $headers,
+    'method' => 'POST',
+    'data' => $postQuery ,
+    'max_redirects' => 3,
+    'timeout' => 30.0,
+    'context' => NULL,
+  );
+  $data = drupal_http_request( $url, $options );
+  return json_decode( $data->data );
+  //  print_r($data);
+
+}
+
+
+function axcelerate_transact( $contactVars ) {
+
+  $url = axcelerate_get_url()."/api/accounting/transaction/";
+  //$headers = array();
+  $headers = array( 'Content-Type' => 'application/x-www-form-urlencoded' );
+  $headers += axcelerate_authentication_headers();
+  $postQuery = http_build_query( $contactVars, '', '&' );
+  $options = array(
+    'headers' => $headers,
+    'method' => 'POST',
+    'data' => $postQuery ,
+    'max_redirects' => 3,
+    'timeout' => 30.0,
+    'context' => NULL,
+  );
+  $data = drupal_http_request( $url, $options );
+  return json_decode( $data->data );
+  //  print_r($data);
+
+}
+
+
+
+function axcelerate_test() {
+
+  $contactVars = array(
+    'givenName'=>'1',
+    'surname'=>'1136620',
+    'title'=>'1136620',
+    'emailAddress'=>'kfhgslghdslkdgsj@kjhlshfgkdjf.com',
+  );
+
+  axcelerate_save_contact( $contactVars );
+
+}
+
+
+function axcelerate_drill( $arg1, $arg2, $arg3 = null, $arg4 = null ) {
+  if(isset($_GET['campaign'])){
+  	$campaign = $_GET['campaign'];
+  } else {
+  	$campaign = false;
+  }
+  switch ( $arg1 ) {
+  case 'stage1':
+    $query = db_select( 'taxonomy_term_data', 't' );
+    $query->fields( 't', array( 'tid', 'name' ) );
+    $query->join( 'field_revision_field_state', 's', 's.entity_id = t.tid' );
+    $query->fields( 's', array( 'field_state_value' ) );
+    $query->condition( "field_state_value", $arg2 );
+    $query->condition( "vid", 2 );
+	if($campaign=="lesmills"){
+		$query->condition( "tid", array(7,4,10,23), 'IN' );
+	}
+	$query->condition( "tid", array(11,19), 'NOT IN' );
+    $query->orderBy( 'name', 'ASC' );
+    $result = $query->execute();
+    //print "<option value=\"$v\">$d</option>";
+    while ( $record = $result->fetchAssoc() ) {
+      $v = $record['tid'];
+      $d = $record['name'];
+      print "<option value=\"$v\">$d</option>";
+      // print_r($record);
+    }
+    break;
+
+  case 'stage2':
+    $query = db_select( 'node', 'n' );
+    // $query->fields('n',array());
+    $query->condition( "n.type", 'axcelerate_course_instance' );
+	$query->condition( "n1.title", array("Perform CPR","Perform CPR - Evening","Apply First Aid (including CPR)"), 'NOT IN' );
+    $query->join( 'field_data_field_location', 'l', 'l.entity_id = n.nid AND l.revision_id = n.vid' );
+    //$query->join('field_data_field_location', 'l', l.revision_id n.vid');
+    // $query->fields('l',array());
+    $query->join( 'taxonomy_term_data', 't', 't.tid = l.field_location_tid' );
+    // $query->fields('t',array());
+    $query->condition( "field_location_tid", $arg3 );
+	if($campaign=="lesmills"){
+		$query->condition( "n1.nid", array(2655,2652), 'IN' );
+	}
+    $query->join( 'field_data_field_course_instance_course', 'r', 'r.entity_id = n.nid AND r.revision_id = n.vid' );
+    // $query->fields('r',array());
+    $query->join( 'node', 'n1', 'r.field_course_instance_course_nid = n1.nid' );
+    $query->fields( 'n1', array( 'nid', 'title' ) );
+    $query->groupBy( 'n1.nid' );
+
+    $result = $query->execute();
+    while ( $record = $result->fetchAssoc() ) {
+      $v = $record['nid'];
+      $d = $record['title'];
+      print "<option value=\"$v\">$d</option>";
+    }
+    break;
+  case 'stage3':
+    $query = db_select( 'node', 'n' );
+    $query->fields( 'n', array( 'nid' ) );
+    $query->condition( "n.type", 'axcelerate_course_instance' );
+	
+    $query->join( 'field_data_field_location', 'l', 'l.entity_id = n.nid AND l.revision_id = n.vid' );
+    //$query->join('field_data_field_location', 'l', l.revision_id n.vid');
+    // $query->fields('l',array());
+    $query->join( 'taxonomy_term_data', 't', 't.tid = l.field_location_tid' );
+    // $query->fields('t',array());
+    $query->condition( "field_location_tid", $arg3 );
+    $query->join( 'field_data_field_course_instance_course', 'r', 'r.entity_id = n.nid AND r.revision_id = n.vid' );
+    $query->join( 'field_revision_field_course_instance_start_date', 'd', 'd.entity_id = n.nid AND d.revision_id = n.vid' );
+    $query->fields( 'd', array( 'field_course_instance_start_date_value' ) );
+    $query->join( 'node', 'n1', 'r.field_course_instance_course_nid = n1.nid' );
+    // $query->fields('n1',array('title'));
+    $query->condition( "n1.nid", $arg4 );
+	$query->condition( "d.field_course_instance_start_date_value", date( 'Y-m-d', strtotime( 'now' ) ), ">=");
+    // $query->groupBy('n1.nid');
+    $returnArray['dates'] = array();
+    $returnArray['data'] = array();
+	
+    $result = $query->execute();
+	//var_dump($result);
+    while ( $record = $result->fetchAssoc() ) {
+    	//var_dump($record['field_course_instance_start_date_value']);
+      $returnArray['dates'][$record['nid']] = date( 'd-m-Y', strtotime( $record['field_course_instance_start_date_value'] ) );
+      $returnArray['data'][] = date( 'Y-m-d', strtotime( $record['field_course_instance_start_date_value'] ) );
+    }
+    // $returnArray = array(12=> '2014-10-10',10 =>'2014-10-08',55=>'2014-10-05');
+    // $returnArray = array('2014-10-10','2014-10-08','2014-10-05');
+    print json_encode( $returnArray );
+    break;
+
+
+
+
+
+
+  }
+  exit;
+  //  print $arg1;
+  return $arg1;
+
+}
+
+
+function axcelerate_obj_to_array( $in ) {
+  foreach ( $in as $k => $v ) {
+    $in[$k] = (array) $v;
+  }
+
+  return $in;
+}
+
+
+function uc_nab_transact_charge( $order_id, $amount, $data ) {
+  global $user;
+
+
+  // Get the next message ID.
+  $message_id = variable_get( 'uc_nab_xml_message_id', 1 );
+  variable_set( 'uc_nab_xml_message_id', $message_id + 1 );
+
+  // Build the post XML from the data array.
+  $post_data = uc_nab_transact_xml( 'Payment', $data, $message_id );
+  //print $post_data;
+  // Build the URL where we'll send the request.
+  //$url = 'https://transact.nab.com.au/'. variable_get('uc_nab_xml_mode', 'test') .'/xmlapi/payment';
+  if($GLOBALS['nabSandbox']){
+  	$url = "https://transact.nab.com.au/test/xmlapi/payment";
+  } else {
+  	$url = "https://transact.nab.com.au/xmlapi/payment";
+  }
+
+  // Get the response of our payment request.
+  if ( extension_loaded( 'opensslx' ) ) {
+    $response = drupal_http_request( $url, array( 'Content-Type' => 'text/xml' ), 'POST', $post_data );
+    $response = $response->data;
+  }
+  // if openssl extension is not loaded we use CURL
+  elseif ( extension_loaded( 'curl' ) ) {
+    $ch = curl_init( $url );
+
+    curl_setopt( $ch, CURLOPT_POST, 1 );
+    curl_setopt( $ch, CURLOPT_POSTFIELDS, $post_data );
+    curl_setopt( $ch, CURLOPT_RETURNTRANSFER, true );
+
+    $response = curl_exec( $ch );
+    curl_close( $ch );
+  }
+
+  // Include the XML parser for PHP 4 compatibility.
+  //module_load_include('php', 'uc_store', 'includes/simplexml');
+
+  // Create the XML object and parse the response string.
+  $xml = simplexml_load_string( $response );
+  //print_r($xml);
+  // Check to make sure the response parses and payment passed properly.
+  if ( isset( $xml->Status->statusCode ) && $xml->Status->statusCode != '000' ) {
+    $approval = 'No';
+    $responsecode = $xml->Status->statusCode;
+    $responsetext = $xml->Status->statusDescription;
+  }
+  elseif ( isset( $xml->Payment->TxnList->Txn->approved ) ) {
+    $approval = $xml->Payment->TxnList->Txn->approved;
+    $responsecode = $xml->Payment->TxnList->Txn->responseCode;
+    $responsetext = $xml->Payment->TxnList->Txn->responseText;
+    $charged = $xml->Payment->TxnList->Txn->amount / 100;
+    $txnid = $xml->Payment->TxnList->Txn->txnID;
+  }
+  else {
+    // Otherwise supply some default values.
+    $approval = 'No';
+    $responsecode = 'x';
+
+    // If $response is set, we made a request, error was in the response
+    if ( isset( $response ) ) {
+      $responsetext = t( 'Failed to parse the XML API request or response.' );
+      // Log the trouble string to the watchdog.
+      watchdog( 'uc_nab_transact', 'Failed XML parse response:<br/>@xml', array( '@xml' => $response ), WATCHDOG_ERROR );
+    }
+    else {
+      $responsetext = t( 'Failed to make the request.' );
+      // Log the trouble string to the watchdog.
+      watchdog( 'uc_nab_transact', 'Failed to make the request: "openssl" or "curl" PHP extensions are needed.', array(), WATCHDOG_ERROR );
+    }
+  }
+
+  if ( $approval != 'Yes' ) {
+    $message = t( 'Credit card declined: !amount', array( '!amount' => $amount ) );
+
+    $result = array(
+      'success' => FALSE,
+      'comment' => t( 'Credit card payment declined: @text', array( '@text' => $responsetext ) ),
+      'message' => t( 'Credit card payment declined: @text', array( '@text' => $responsetext ) ),
+      'uid' => $user->uid,
+    );
+  }
+  else {
+    $message = t( 'Credit card charged: !amount', array( '!amount' => $charged ) )
+      .'<br />'. t( 'NAB Transact Txn ID: @txnid', array( '@txnid' => $txnid ) );
+
+    $result = array(
+      'success' => TRUE,
+      'comment' => t( 'NAB Transact Txn ID: @txnid<br/>Approval code: @code', array( '@txnid' => $txnid, '@code' => $responsecode ) ),
+      'message' => t( 'NAB Transact Txn ID: @txnid<br/>Approval code: @code', array( '@txnid' => $txnid, '@code' => $responsecode ) ),
+      'data' => array( 'TxnID' => $txnid ),
+      'uid' => $user->uid,
+    );
+  }
+
+  $message .= '<br />'. t( 'Response code: @code - @text', array( '@code' => $responsecode, '@text' => $responsetext ) );
+
+
+  return $result;
+}
+
+function uc_nab_transact_xml( $type, $data, $message_id ) {
+  if ( $type !== 'Payment' && $type !== 'Echo' ) {
+    return;
+  }
+
+  $xml = '<?xml version="1.0" encoding="UTF-8"?><NABTransactMessage>';
+
+  // element: MessageInfo
+  //$xml .= uc_nab_transact_message_info($message_id);
+
+  // element: MerchantInfo
+  $xml .= uc_nab_transact_merchant_info();
+
+  // element: RequestType
+  $xml .= '<RequestType>'. $type .'</RequestType>';
+
+  // element: Payment
+  if ( $type == 'Payment' ) {
+    $xml .= uc_nab_transact_payment_xml( $data );
+  }
+
+  $xml .= '</NABTransactMessage>';
+
+  return $xml;
+}
+
+
+function uc_nab_transact_message_info( $message_id ) {
+  return '<MessageInfo><messageID>'. substr( md5( $message_id ), 0, 30 )
+    .'</messageID><messageTimestamp>'. uc_nab_transact_timestamp()
+    .'</messageTimestamp><timeoutValue>60</timeoutValue>'
+    .'<apiVersion>xml-4.2</apiVersion></MessageInfo>';
+}
+
+
+function uc_nab_transact_timestamp( $time = NULL ) {
+  if ( empty( $time ) ) {
+    $time = time();
+  }
+  // Return a formatted GMT timestamp.
+  return date( 'YdmHis000000+000', $time );
+}
+
+function uc_nab_transact_merchant_info() {
+
+	if($GLOBALS['nabSandbox']){
+		//Sanbox Details
+		$merchantID   = "ABC0001";
+		$merchantpass = "changeit";
+	} else {
+		//Live Details
+		$merchantID   = "D3P0010";
+		$merchantpass = "ciA5oPNZ";
+	}
+	
+	$merchantInfo = '<MerchantInfo><merchantID>'.$merchantID.'</merchantID><password>'.$merchantpass.'</password></MerchantInfo>';
+	return $merchantInfo;
+}
+
+function uc_nab_transact_payment_xml( $data ) {
+  $xml = '<Payment><TxnList count="1"><Txn ID="1">';
+
+  // Create elements from array
+  foreach ( $data as $key => $value ) {
+    if ( is_array( $value ) ) {
+      $xml .= '<'. $key .'>';
+      // Create elements from nested array
+      foreach ( $value as $arr_key => $arr_value ) {
+        $xml .= '<'. $arr_key .'>'. $arr_value .'</'. $arr_key .'>';
+      }
+      $xml .= '</'. $key .'>';
+    }
+    else {
+      $xml .= '<'. $key .'>'. $value .'</'. $key .'>';
+    }
+  }
+
+  $xml .= '</Txn></TxnList></Payment>';
+
+  return $xml;
+}
+
+?>

@@ -1,0 +1,10 @@
+
+.mpft-related-post-ui select option.mp-icon-post-type {
+  background: none !important;
+}
+
+.mpft-related-post-ui .ui-multiselect li.ui-state-default.mp-icon-post-type {
+  background-position: 8px 5px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}

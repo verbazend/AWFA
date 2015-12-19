@@ -1,0 +1,591 @@
+/* -- Post Summary and Post UI -- */
+
+.mpft-image-summary .mp-thumb,
+.mpft-image-ui .mp-thumb {
+  margin-left: 1px;
+  float: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.mpft-image-ui .mp-thumb {
+  padding: 5px;
+}
+
+.mpft-image-ui .mp-thumb.empty {
+  padding: 0px;
+}
+
+.mpft-image-summary .mp-thumb img,
+.mpft-image-ui .mp-thumb img {
+  max-width: 100%;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.mpft-image-ui .mp-thumb:focus {
+  -moz-box-shadow: 1px 1px 7px rgba(100,147,221,0.9); 
+  -webkit-box-shadow: 1px 1px 7px rgba(100,147,221,0.9);
+  box-shadow: 1px 1px 7px rgba(100,147,221,0.9);
+}
+
+.mpft-image-summary .mp-thumb img,
+.mpft-image-ui .mp-thumb img {
+  display: block;
+}
+
+.mpft-image-summary .no-image,
+.mpft-image-ui .no-image {
+  display: none;
+  border: 1px solid #D6D6D6;
+  padding: 3px 3px 3px 3px;
+  margin: 0 !important;
+  color: #777;
+  text-align: center;
+}
+
+.mpft-image-summary .mp-thumb.empty,
+.mpft-image-ui .thumb.empty {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #DDD;
+  padding: 0px;
+}
+
+.mpft-image-ui .thumb {
+  text-decoration: none;
+}
+
+
+/*
+.mpft-image-summary .empty .no-image,
+.mpft-image-ui .empty .no-image {
+  display: block;
+}
+*/
+
+
+/* -- Summary -- */
+
+.mpft-image-summary .mp-thumb {
+  margin-top: 2px;
+}
+
+.mpft-image-summary .no-image {
+  width: 82px;
+  height: 61px;
+  font-size: 10px;
+}
+
+/* -- Dialogs -- */
+
+.mpft-image-attributes-dialog {
+  display: none;
+}
+
+.mpft-image-attributes-dialog .pad {
+  padding-top: 10px;
+}
+
+.mpft-image-attributes-dialog label {
+  width: 100px;
+}
+
+.mpft-image-attributes-dialog input.text {
+  width: 400px;
+}
+
+/* -- Post UI -- */
+
+.mpft-image-ui {
+  padding-bottom: 10px;
+  /*min-width: 580px;*/
+}
+
+.mpft-image-ui .mp-thumb {
+  margin-top: 2px;
+  margin-left: 0px;
+}
+
+.mpft-image-ui .mp-thumb img {
+
+}
+
+.mpft-image-ui .thumbs {
+  float: left;
+  width: 180px;
+  margin-right: 8px;
+  position: relative;
+  margin-bottom: 4px;
+}
+
+.mpft-image-ui .no-image {
+  width: 130px;
+  height: 100px;
+  font-size: 11px;
+}
+
+.mpft-image-ui .thumbs.portrait {
+  width: 110px;
+}
+
+.mpft-image-ui .thumbs.square {
+  width: 140px;
+}
+
+
+
+.mpft-image-ui .thumbs .mp-thumb a {
+  min-height: 80px;
+}
+
+.mpft-image-ui .thumbs.square .mp-thumb a {
+  min-width: 120px;
+  min-height: 120px;
+}
+
+.mpft-image-ui .thumbs.landscape .mp-thumb a {
+  min-width: 160px;
+  min-height: 80px;
+}
+
+.mpft-image-ui .thumbs.portrait .mp-thumb a {
+  min-width: 90px;
+  min-height: 120px;
+}
+
+
+.mpft-image-ui .drop-area {
+  display: none;
+  position: absolute;
+  z-index: 50;
+  width: 84px;
+  padding: 15px 10px 0 10px;
+  height: 58px;
+  color: #3F7CB7;
+  background: #FFF;
+  text-align: center;
+  line-height: 1.25em;
+  font-weight: bold;
+  left: 35px;
+  top: 31px;
+  font-size: 11px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: 0px 0px 2px rgba(0,0,0,0.4); 
+  -webkit-box-shadow: 0px 0px 2px rgba(0,0,0,0.4); 
+  box-shadow: 0px 0px 2px rgba(0,0,0,0.4); 
+}
+
+.mpft-image-ui .thumbs.portrait .drop-area {
+  padding: 8px 4px 8px 4px;
+  width: 70px;
+  height: auto;
+  top: 41px;
+  left: 12px;
+}
+
+.mpft-image-ui .thumbs.square .drop-area {
+  left: 12px;
+  top: 16px;
+}
+
+.mpft-image-ui .drop-area.qq-upload-drop-area-active {
+  background: #39933D;
+  color: #FFF;
+  text-shadow: none;
+}
+
+.mpft-image-ui .thumbs .summary-thumb {
+  display: none;
+}
+
+.mpft-image-ui .thumbs ul.ui-controls li {
+  float: left;
+  padding-left: 6px;
+}
+
+.mpft-image-ui .thumbs ul.ui-controls li:first-child {
+  padding-left: 4px;
+}
+
+.mpft-image-ui .info-controls {
+  float: left;
+  min-width: 340px;
+  overflow: hidden;
+  margin-left: 0px;
+}
+
+
+.mpft-image-ui .info-controls h5 {
+  margin-bottom: 4px;
+  margin-left: -6px;
+  margin-top: 3px;
+  font-size: 11px;
+  overflow: hidden;
+}
+
+.mpft-image-ui .info-controls h5 a {
+  background-image: url(images/icon-zoom-in.png);
+  background-size: 32px auto;
+  float: left;
+}
+
+.mpft-image-ui ul.prop {
+  overflow: hidden;
+}
+
+.mpft-image-ui ul.prop li {
+  background: url(images/bevel-dot.png) 0 5px no-repeat;
+  background-size: 8px 8px;
+  padding: 1px 12px 1px 19px;
+  float: left;
+  font-size: 11px;
+}
+
+.mpft-image-ui .qq-upload-button {
+  width: 108px; 
+}
+
+.mpft-image-ui ul.prop button.attributes {
+  margin-top: -5px;
+  padding-top: 1px;
+  background-image: url(images/icon-attributes.png);
+  background-size: 32px auto;
+}
+
+.mpft-image-ui ul.prop button.attributes:hover,
+.mpft-image-ui ul.prop button.attributes:focus {
+  background-position: 0 -36px;
+}
+
+
+.mpft-image-ui ul.prop li:first-child {
+  background: none;
+  padding-left: 4px;
+}
+
+.mpft-image-ui ul.prop li.attributes {
+  padding-left: 8px;
+}
+
+.mpft-image-ui .choose-label {
+  display: none;
+}
+
+.mpft-image-ui .choose-controls,
+.mpft-image-ui .from-url-ui {
+  background: url(images/bevel-h.png) repeat-x;
+  padding-top: 10px;
+  margin-top: 4px;
+  clear: left;
+  
+}
+
+.admin-color-classic .mpft-image-ui .choose-controls,
+.admin-color-classic .mpft-image-ui .from-url-ui {
+  background: url(images/classic-bevel-h.png) repeat-x;
+}
+
+
+
+.mpft-image-ui .info-controls .choose-controls h5 {
+  margin-left: 4px;
+  margin-right: 8px;
+  margin-top: 4px;
+  float: left;
+  line-height: 1.2em;
+  margin-bottom: 8px;
+}
+
+.mpft-image-ui .info-controls .choose-controls .buttons button {
+  margin: 0 0 8px 6px;
+  float: left;
+}
+
+.mpft-image-ui .info-controls .choose-controls .buttons {
+  float: left;
+  width: 290px;
+  margin-left: -6px;
+}
+
+
+
+.mpft-image-ui .upload-progress,
+.mpft-image-ui .download-progress {
+  margin-top: 8px;
+  margin-left: 4px;
+  display: none;
+}
+
+
+.mpft-image-ui .upload-progress .name {
+  display: block;
+  margin-bottom: 7px;
+  margin-left: 2px;
+  font-size: 11px;
+}
+
+.mpft-image-ui .name-controls {
+  overflow: hidden;
+}
+
+.mpft-image-ui .name-controls h5 {
+  float: left;
+}
+
+.mpft-image-ui .name-controls ul.controls {
+  margin-left: 2px;
+}
+
+.mpft-image-ui .name-controls ul.controls li {
+  float: left;
+  list-style: none;
+  background: url(images/bevel-v.png) no-repeat 0 4px;
+  margin-top: 4px;
+  padding: 0 0px 0 4px;
+}
+
+.mpft-image-ui .name-controls ul.controls li button {
+  line-height: 1.1em;
+  padding-top: 3px;
+  text-indent: 29px;
+  height: 21px;
+}
+
+.mpft-image-ui .name-controls ul.controls li button.clear {
+  background-image: url(images/icon-clear.png);
+  background-size: 32px auto;
+  padding-top: 2px;
+  font-size: 11px;
+  margin-top: -1px;
+}
+
+.mpft-image-ui .name-controls ul.controls li button.clear:hover,
+.mpft-image-ui .name-controls ul.controls li button.clear:focus {
+  background-position: 0 -36px;
+}
+
+
+/* -- from URL interface -- */
+
+.mpft-image-ui .from-url-ui {
+  padding-left: 4px;
+}
+
+.mpft-image-ui .from-url-ui label {
+  font-size: 11px;
+  display: block;
+  float: left;
+  margin: 3px 6px 0 0;
+  width: 90px;
+}
+
+.mpft-image-ui .from-url-ui input {
+  width: 390px;
+  font-size: 11px;
+  font-family: "consolas", "andale mono", "lucida console", monospace;
+}
+
+.mpft-image-ui .from-url-ui button {
+  margin-right: 6px;
+}
+
+.mpft-image-ui .from-url-ui .buttons {
+  padding-top: 7px;
+  padding-left: 94px;
+}
+
+
+/* -- visibility for default state -- */
+
+.mpft-image-ui .media-library-progress {
+  display: none;
+}
+
+.mpft-image-ui .from-url-ui {
+  display: none;
+}
+
+
+/* -- visibility for empty state -- */
+
+.mpft-image-ui .empty .mp-thumb.preview img {
+  display: none;
+}
+
+.mpft-image-ui .empty .replace-label {
+  display: none;
+}
+
+.mpft-image-ui .empty .choose-label {
+  display: block;
+}
+
+.mpft-image-ui .empty .name-controls {
+  display: none;
+}
+
+.mpft-image-ui .empty .prop {
+  display: none;
+}
+
+/* -- visibility for downloading state (from url) -- */
+
+.mpft-image-ui .downloading .choose-controls,
+.mpft-image-ui .downloading .name-controls,
+.mpft-image-ui .downloading .prop,
+.mpft-image-ui .downloading .from-url-ui,
+.mpft-image-ui .downloading .fetching-info-message {
+  display: none;
+}
+
+.mpft-image-ui .downloading .download-progress {
+  display: block;
+}
+
+/* -- visibility for uploading state -- */
+
+.mpft-image-ui .uploading .upload-progress {
+  display: block;
+}
+
+.mpft-image-ui .uploading .choose-controls,
+.mpft-image-ui .uploading .name-controls,
+.mpft-image-ui .uploading .prop,
+.mpft-image-ui .uploading .fetching-info-message {
+  display: none;
+}
+
+.mpft-image-ui .fetching .fetching-info-message {
+  display: block;
+}
+
+.mpft-image-ui .fetching .uploading-message {
+  display: none;
+}
+
+.mpft-image-ui .fetching .downloading-message {
+  display: none;
+}
+
+
+/* -- visibility for media library fetch -- */
+
+.mpft-image-ui .media-library .media-library-progress {
+  display: block;
+}
+
+.mpft-image-ui .media-library .choose-controls,
+.mpft-image-ui .media-library .name-controls,
+.mpft-image-ui .media-library .prop,
+.mpft-image-ui .media-library .fetching-info-message {
+  display: none;
+}
+
+.mpft-image-ui .fetching .fetching-info-message {
+  display: block;
+}
+
+.mpft-image-ui .fetching .fetching-message {
+  display: none;
+}
+
+
+/* -- visibility for from url -- */
+
+.mpft-image-ui .from-url .from-url-ui {
+  display: block;
+}
+
+.mpft-image-ui .from-url .choose-controls {
+  display: none;
+}
+
+/* -- styles for the main column -- */
+
+.mpft-image-ui .empty .choose-controls,
+.mpft-image-ui .empty .from-url-ui {
+  background: none;
+  padding-top: 0px; 
+}
+  
+#wpbody-content .mpft-image-ui h5 span.filename {
+  padding: 0;
+}
+
+
+
+
+
+#side-info-column .mpft-image-ui {
+  min-width: 256px;
+}
+
+#side-info-column .mpft-image-ui .empty .choose-controls {
+  background: url(images/bevel-h.png) repeat-x;
+  padding-top: 0px; 
+}
+
+.admin-color-classic #side-info-column .mpft-image-ui .empty .choose-controls {
+  background: url(images/classic-bevel-h.png) repeat-x;
+}
+
+#side-info-column .mpft-image-ui .info-controls {
+  clear: left;
+  min-width: 0;
+  width: 256px;
+  margin-left: 0px;
+}
+
+#side-info-column .mpft-image-ui .mp-thumb {
+  margin-bottom: 10px;
+}
+
+#side-info-column .mpft-image-ui ul.prop li {
+  clear: left;
+  padding-left: 4px;
+  background: none;
+}
+
+#side-info-column .mpft-image-ui .choose-controls .buttons button,
+#side-info-column .mpft-image-ui .choose-controls .buttons .qq-upload-button {
+  clear: left;
+  margin-left: 0;
+}
+
+#side-info-column .progress-bar {
+  width: 180px;
+}
+
+
+/* 2x */
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5), 
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+
+  .mpft-image-ui .name-controls ul.controls li button.clear {
+    background-image: url(images/icon-clear.2x.png);
+  }
+
+  .mpft-image-ui .info-controls h5 a {
+    background-image: url(images/icon-zoom-in.2x.png);
+  }
+
+  .mpft-image-ui ul.prop button.attributes {
+    background-image: url(images/icon-attributes.2x.png);
+  }
+
+  .mpft-image-ui ul.prop li {
+    background-image: url(images/bevel-dot.2x.png);
+  }
+
+
+}
+
+

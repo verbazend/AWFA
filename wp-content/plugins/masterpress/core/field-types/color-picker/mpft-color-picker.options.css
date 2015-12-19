@@ -1,0 +1,66 @@
+input#mpft-color-picker-default-value {
+  background-image: none;
+  margin-bottom: 10px;
+  width: 130px;
+  font-size: 14px;
+  font-family: "Consolas", "Lucida Console", monospace;
+  margin-right: 0;
+  height: 26px;
+}
+
+#mpft-color-picker-colorpreview {
+  width: 16px;
+  background: #FFF;
+  height: 16px;
+  border-left: none;
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  display: block;
+  cursor: text;
+}
+
+
+#mpft-color-picker-options .iris-picker .iris-square-inner,
+#mpft-color-picker-options .iris-picker .iris-slider {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  border-radius: 0;
+  border: 1px solid #CCC;
+}
+
+#mpft-color-picker-options .iris-picker .iris-square {
+  margin-right: 9%;
+}
+
+#fw-mpft-color-picker-default-value {
+  position: relative;
+  height: 200px;
+}
+
+#fw-mpft-color-picker-default-value .input-wrap {
+  position: relative;
+  width: 132px;
+}
+
+#fw-mpft-color-picker-default-value .iris-picker {
+  position: absolute;
+  top: 40px;
+}
+
+#mpft-color-picker-colorpreview.focus {
+  border-color: #666;
+}
+
+#mpft-color-picker-colorpreview span {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+#mpft-color-picker-colorpicker {
+  clear: left;
+  float: left;
+}
+

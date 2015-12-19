@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<title>Australia Wide First Aid Web Badge</title>
+		
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="script.js"></script>
+		
+		
+	</head>
+	<body>
+	
+		<div class="blurb">
+			
+			If you've been invited to link to us by one of our friendly customer service reps simply copy the embed code that corresponds with the most appropriate graphic for your website and paste it into the location you wish to display the badge.
+		
+		</div>
+	
+		<div class="input">
+			<input type="text" name="name" id="name" value="My Company"><br/>
+			<input type="radio" class="scheme" name="scheme" id="light" value="light" checked>
+			<label for="light">Light</label>
+			<input type="radio" class="scheme" name="scheme" id="dark" value="dark">
+			<label for="dark">Dark</label>
+			<input type="checkbox" class="background" name="background" id="transparent" value="transparent">
+			<label for="transparent">Transparent Background</label>
+		</div>
+		
+		<div class="container">
+			<input type="radio" class="badge-select" name="badge-select" id="badge-one" value="badge-one">
+			<label for="badge-one">
+				<div class="badge one selected">
+					<img src="images/badge-1.png" class="badge-img">
+					<span class="name"></span>
+					<span class="label">First Aid Certified</span>
+				</div>
+			</label>
+		</div>
+		
+		<div class="container">
+			<input type="radio" class="badge-select" name="badge-select" id="badge-two" value="badge-two">
+			<label for="badge-two">
+				<div class="badge two">
+					<img src="images/badge-2.png" class="badge-img">
+					<span class="name"></span>
+					<span class="label">First Aid Certified</span>
+				</div>
+			</label>
+		</div>
+		
+		<div class="container">		
+			<input type="radio" class="badge-select" name="badge-select" id="badge-three" value="badge-three">
+			<label for="badge-three">
+				<div class="badge three">
+				<table><tr><td>
+					<img src="images/badge-3.png" class="badge-img">
+				</td><td>
+					<span class="name"></span>
+					<span class="label">First Aid Certified</span>
+				</td></tr></table>
+				</div>
+			</label>
+		</div>
+		
+		<div class="container">		
+			<input type="radio" class="badge-select" name="badge-select" id="badge-four" value="badge-four">
+			<label for="badge-four">		
+				<div class="badge four">
+				<table><tr><td>
+					<img src="images/badge-4.png" class="badge-img">
+				</td><td>
+					<span class="name"></span>
+					<span class="label">First Aid Certified</span>
+				</td></tr></table>
+				</div>
+			</label>
+		</div>
+		
+		<textarea class="output" disabled></textarea>
+		
+	</body>
+</html>

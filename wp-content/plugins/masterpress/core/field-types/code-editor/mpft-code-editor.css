@@ -1,0 +1,53 @@
+.mpft-code-editor-summary .summary {
+  font-family: "consolas", "menlo", "andale mono", "lucida console", monospace !important;
+}
+
+
+/* -- Post UI -- */
+
+.mpft-code-editor-ui .CodeMirror {
+  border: 1px solid #CCC;
+  text-shadow: none;
+  font-size: 13px;
+  line-height: 1.4em;
+  font-family: "consolas", "menlo", "andale mono", "lucida console", monospace !important;
+}
+
+.mpft-code-editor-ui .CodeMirror * {
+  font-family: "consolas", "menlo", "andale mono", "lucida console", monospace !important;
+}
+
+.mpft-code-editor-ui .modeselect-wrap {
+  border: 1px solid #CCCCCC;
+  border-top: none;
+  background: #EEEEEE;
+  padding: 8px 12px;
+  font-size: 11px;
+  overflow: hidden;
+  margin-right: 1px;
+}
+
+.mpft-code-editor-ui .modeselect-wrap label {
+  float: left;
+  margin-top: 2px;
+  margin-right: 8px;
+  color: #666;margin-left: 20px;
+}
+
+.mpft-code-editor-ui .modeselect-wrap select {
+  font-size: 11px;
+  float: left;
+}
+
+.mpft-code-editor-ui .CodeMirror-scroll {
+  height: auto;
+  overflow-y: auto;
+  overflow-x: auto;
+  width: 100%
+}
+
+.mpft-code-editor-ui .editor-ui-with-modeselect .CodeMirror {
+  border-bottom: none;
+}
+
+

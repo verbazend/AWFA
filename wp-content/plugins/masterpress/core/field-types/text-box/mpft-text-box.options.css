@@ -1,0 +1,23 @@
+#mpft-text-box-options input.text {
+  width: 60px;
+}
+
+
+#mpft-text-box-status-wrap {
+  clear: left;
+  padding-top: 2px;
+}
+
+#mpft-text-box-status-wrap label {
+  font-size: 11px;
+  color: #666;
+  margin-left: 6px;
+  margin-top: 4px;
+}
+
+
+#mpft-text-box-options #mpft-text-box-default-value {
+  width: 200px;
+}
+
+

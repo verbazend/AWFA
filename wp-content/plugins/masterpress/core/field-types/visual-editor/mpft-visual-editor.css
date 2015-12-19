@@ -1,0 +1,118 @@
+
+.mpft-visual-editor-ui textarea {
+  width: 100%;
+  height: 300px;
+  padding: 8px;
+  font-family: "Consolas", "Menlo", "Andale Mono", "Lucida Console", monospace !important; 
+  margin-right: 0;
+  resize: vertical;
+}
+
+.mpft-visual-editor-ui .textarea-wrap {
+  background: #F4F4F4;
+  border: 1px solid #CCC;
+  padding: 6px;
+  margin-top: 2px;
+}
+  
+.mp-field .mpft-visual-editor-ui table.mceLayout {
+  border: 1px solid #CCC;
+} 
+
+.mp-field .mpft-visual-editor-ui table.mceLayout iframe {
+  background: #FFF;
+}
+
+#post-body .mp-field .mpft-visual-editor-ui .mceStatusbar a.mceResize {
+  top: 0px;
+  margin-right: 0;
+}
+
+.mpft-visual-editor-ui .mceEditor {
+  display: block;
+  clear: left;
+}
+
+.mpft-visual-editor-ui .editor-ui {
+  position: relative;
+  padding-top: 4px;
+}
+   
+.mpft-visual-editor-ui ul.editor-tabs {
+  height: 23px;
+  line-height: 1.1em;
+  position: relative;
+  width: 100%;
+}
+
+.mpft-visual-editor-ui ul.editor-tabs li {
+  position: relative;
+  top: 1px;
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+
+.mpft-visual-editor-ui ul.editor-tabs .tab-button {
+  background: #E9E9E9;
+  cursor: pointer;
+  font-size: 11px;
+  line-height: 1.1em;
+  text-indent: 0;
+  border: 1px solid #CCCCCC;
+  height: 18px;
+  width: 48px;
+  text-align: center;
+  padding-top: 5px;
+  -webkit-border-top-left-radius: 4px;
+  -webkit-border-top-right-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  -moz-border-radius-topright: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.mpft-visual-editor-ui td.mceToolbar {
+  padding: 5px 0px;
+  background: #eee !important;
+  background-image: -webkit-gradient(linear,left bottom,left top,from(#e5e5e5),to(#f4f4f4)) !important;
+  background-image: -webkit-linear-gradient(bottom,#e5e5e5,#f4f4f4) !important;
+  background-image: -moz-linear-gradient(bottom,#e5e5e5,#f4f4f4) !important;
+  background-image: -o-linear-gradient(bottom,#e5e5e5,#f4f4f4) !important;
+  background-image: linear-gradient(to top,#e5e5e5,#f4f4f4) !important;
+}
+
+
+.mpft-visual-editor-ui ul.editor-tabs .tab-button.current {
+  height: 19px;
+  border-bottom: none;
+  background: #F4F4F4;
+}
+
+.ie8 .mpft-visual-editor-ui ul.editor-tabs .tab-button.current {
+  background: #eeeeee;
+}
+
+.mpft-visual-editor-ui ul.editor-tabs.readonly .tab-button.visual.current {
+  background: #FFF;
+}
+
+.mpft-visual-editor-ui ul.editor-tabs .tab-button:hover {
+  background-color: #F9F9F9;
+}
+
+.mpft-visual-editor-ui ul.editor-tabs .tab-button.current:hover {
+  background: #F4F4F4;
+}
+
+.mpft-visual-editor-ui .CodeMirror {
+  border: 1px solid #CCC;
+  text-shadow: none;
+  font-size: 13px;
+  line-height: 1.4em;
+  font-family: "consolas", "menlo", "andale mono", "lucida console", monospace !important;
+}
+
+.mpft-visual-editor-ui .CodeMirror * {
+  font-family: "consolas", "menlo", "andale mono", "lucida console", monospace !important;
+}

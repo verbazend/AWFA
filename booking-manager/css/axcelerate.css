@@ -1,0 +1,121 @@
+.non-staged-booking-page{
+font-family: "GillSansMT", Arial, Helvetica, sans-serif;
+color:white;
+ 
+}
+
+.non-staged-booking-page #main-wrapper {
+  background-color: #920333 !important;
+  position:relative;
+  top:-20px;
+}
+
+.non-staged-booking-page .form-type-select{
+  margin-bottom:3px !important;
+}
+
+.non-staged-booking-page #main-wrapper select {
+background: transparent;
+background-image: url(dropBack.jpg);
+width: 260px;
+/* width: 259px; */
+height: 28px;
+padding-left: 5px;
+padding-top: 6px;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 11px;
+border: 0;
+border-radius: 0;
+-webkit-appearance: none !important;
+-moz-appearance: none !important;
+appearance: none !important;
+overflow: hidden;
+cursor: pointer;
+outline: none !important;
+display: inline-block;
+}
+
+.non-staged-booking-page #main-wrapper #axcelerateCourseDate {
+ background-image: url(dropBack.jpg);
+ width: 255px;
+ font-size: 11px;
+border: 0;
+padding:0;
+padding-left:5px;
+height: 28px;
+}
+
+.non-staged-booking-page #main-wrapper #edit-submit{
+ background-image: url(searchButton.jpg);
+ border:0 !important;
+  text-indent: -1000em;
+  cursor: pointer; /* hand-shaped cursor */
+  cursor: hand; /* for IE 5.x */
+  width:153px;
+  height:30px;
+ 
+}
+
+.staged-booking-page {
+font-family: "GillSansMT", Arial, Helvetica, sans-serif;
+color:black;
+}
+
+.staged-booking-page #main-wrapper {
+  background-color: white !important;  
+}
+
+.staged-booking-page #main-wrapper h1 , .page-axcelerate-book #main-wrapper h2 {
+ color:  #d71443 ;
+}
+
+.staged-booking-page #main-wrapper #content{
+    
+   width: 620px !important;
+}
+
+.staged-booking-page #main-wrapper #sidebar-second{
+  width: 340px !important;  
+}
+
+.staged-booking-page #edit-submit{
+ background-image: url(submit.jpg);
+ background-position:-2px -2px;
+  border:0 !important;
+  text-indent: -1000em;
+  cursor: pointer; /* hand-shaped cursor */
+  cursor: hand; /* for IE 5.x */
+  width:95px;
+  height:30px;
+}
+
+
+.staged-booking-page #page-wrapper {
+    background-color:white;
+}
+
+
+
+#block-axcelerate-booking-block-current h3{
+ color:  #d71443 ;
+ text-transform:capitalize;
+ font-size:16px;
+ font-weight:700;
+}
+
+#block-axcelerate-booking-block-current span{
+    font-weight:700;
+}
+
+#block-block-1 table td{
+    width:168px !important;
+    text-align:center; 
+    vertical-align:middle;
+    padding:0;
+    background-color:white;
+    
+}
+
+#block-block-2{
+    background-color:white;
+}

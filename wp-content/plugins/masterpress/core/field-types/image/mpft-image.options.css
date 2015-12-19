@@ -1,0 +1,17 @@
+
+#mpft-image-options .file-type {
+  height: 16px;
+  width: 20px;
+}
+
+#mpft-image-allowed_maxsize {
+  width: 60px;
+}
+
+
+#mpft-image-options .f-allowed-types .fwi {
+  width: 200px;
+  float: left;
+  padding-bottom: 4px;
+}
+

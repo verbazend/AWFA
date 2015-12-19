@@ -1,0 +1,30 @@
+/* Loosely based on the Sunburst Textmate theme */
+
+.CodeMirror .cm-s-sunburst { background: #212933; color: #f8f8f8; }
+.CodeMirror .cm-s-sunburst .CodeMirror-selected { background: #577A98 !important; background: rgba(59,116,155,0.6) !important; text-shadow: 0 1px 0 #000; }
+.CodeMirror .cm-s-sunburst .CodeMirror-gutter { background: #EEE; border-right: 1px solid #212933; }
+.CodeMirror .cm-s-sunburst .CodeMirror-gutter-text { color: #999; text-shadow: 0 1px 0 #FFF }
+.CodeMirror .cm-s-sunburst .CodeMirror-cursor { border-left: 1px solid white !important; }
+
+.CodeMirror .cm-s-sunburst.cm-s-sunburst span.cm-comment { color: #b5b5b2; }
+.CodeMirror .cm-s-sunburst.cm-s-sunburst span.cm-atom { color: #479bd4; }
+.CodeMirror .cm-s-sunburst.cm-s-sunburst span.cm-number, .CodeMirror .cm-s-sunburst span.cm-attribute { color: #9dcafc; }
+.CodeMirror .cm-s-sunburst.cm-s-sunburst span.cm-keyword { color: #e79b7a; }
+.CodeMirror .cm-s-sunburst.cm-s-sunburst span.cm-string { color: #75bc5c; }
+.CodeMirror .cm-s-sunburst.cm-s-sunburst span.cm-strong { color: #ecc97a; }
+
+.CodeMirror .cm-s-sunburst.cm-s-sunburst span.cm-header { color: #ecc97a; }
+
+
+
+.CodeMirror .cm-s-sunburst.cm-s-sunburst span.cm-meta { color: #FFF; }
+.CodeMirror .cm-s-sunburst span.cm-variable-2 {
+  color: #599EFF;
+}
+.CodeMirror .cm-s-sunburst span.cm-tag { color: #eccb7c; }
+.CodeMirror .cm-s-sunburst span.cm-variable-3, .CodeMirror .cm-s-sunburst span.cm-def { color: white; }
+.CodeMirror .cm-s-sunburst span.cm-error { color: #FF79F0; }
+.CodeMirror .cm-s-sunburst span.cm-bracket { color: #8da6ce; }
+.CodeMirror .cm-s-sunburst span.cm-comment { color: #6900a1; }
+.CodeMirror .cm-s-sunburst span.cm-builtin, .CodeMirror .cm-s-sunburst span.cm-special { color: #ff9e59; }
+.CodeMirror .cm-s-sunburst span.cm-word { color: #E0D79A; }

@@ -1,0 +1,4 @@
+name = Axcelerate
+description = Provides a gap patch betweeb feeds and axcelerate
+core = 7.x
+

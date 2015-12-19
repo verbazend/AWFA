@@ -1,0 +1,142 @@
+/*
+ * jQuery Dynatable plugin 0.3.1
+ *
+ * Copyright (c) 2014 Steve Schwartz (JangoSteve)
+ *
+ * Dual licensed under the AGPL and Proprietary licenses:
+ *   http://www.dynatable.com/license/
+ *
+ * Date: Tue Jan 02 2014
+ */
+#couponListWrapper span, #couponListWrapper select, #couponListWrapper input, #couponListWrapper label, #couponListWrapper .btn {
+	font-size:14px;
+}
+#couponListWrapper th a {
+  color: #fff;
+  font-size:14px;
+}
+#couponListWrapper th a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+#couponListWrapper th {
+	background-color:#34495e;
+}
+#couponListWrapper td {
+	font-size:14px;
+}
+.dynatable-search {
+  float: right;
+  margin-bottom: 10px;
+}
+
+.dynatable-pagination-links {
+  float: right;
+}
+
+.dynatable-record-count {
+  display: block;
+  padding: 5px 0;
+}
+
+.dynatable-pagination-links span,
+.dynatable-pagination-links li {
+  display: inline-block;
+}
+
+.dynatable-page-link,
+.dynatable-page-break {
+  display: block;
+  padding: 5px 7px;
+}
+
+.dynatable-page-link {
+  cursor: pointer;
+}
+
+.dynatable-active-page,
+.dynatable-disabled-page {
+  cursor: text;
+}
+.dynatable-active-page:hover,
+.dynatable-disabled-page:hover {
+  text-decoration: none;
+}
+
+.dynatable-active-page {
+  background: #71AF5A;
+  border-radius: 5px;
+  color: #fff;
+}
+.dynatable-active-page:hover {
+  color: #fff;
+}
+.dynatable-disabled-page,
+.dynatable-disabled-page:hover {
+  background: none;
+  color: #999;
+}
+.couponListWrapper table {
+	width:100%;
+}
+
+#couponListWrapper .btn {
+	padding:5px 7px;
+}
+
+#couponListWrapper {
+	background-color:#e6e6e6;
+	border:1px solid #a0a0a0;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+#couponListWrapper tr:nth-child(even) {
+	background-color:#ffffff;
+}
+#couponListWrapper tr:nth-child(odd) {
+	background-color:#f5f5f5;
+}
+#dynatable-search-couponList {
+	margin-right:5px;
+	margin-top:0px;
+	margin-bottom:0px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-right-radius: 10px;
+}
+#dynatable-search-couponList input {
+	border-style:solid;
+	background-color:#f5f5f5;
+	border-color:#ececec;
+	
+}
+.dynatable-per-page {
+	margin-left:5px;
+	margin-top:3px;
+}
+#dynatable-record-count-couponList {
+	margin-left:5px;
+	margin-right:5px;
+}
+.dynatable-page-link, .dynatable-page-break {
+	padding:0px 5px;
+	font-size:14px;
+}
+.dynatable-active-page {
+	background: #1abc9c;
+	border-radius: 5px;
+	color: #fff;
+}
+#couponDetails input {
+	width:100%;
+	border:1px solid #f0f0f0;
+}
+
+#couponDetails table tr {
+	border-bottom:1px solid #ccc;
+}
+#couponDetails table td {
+	padding-top:5px;
+	padding-bottom:5px;	
+}

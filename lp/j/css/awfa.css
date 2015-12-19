@@ -1,0 +1,393 @@
+/* CSS Document */
+.techeffect #home{
+	background-image:url('/lp/images/babyfeet.jpg');
+}
+.techeffect .home-quote .slabtext{
+	text-align:center;
+	font-family:"century gothic", "open sans", Geneva, sans-serif;
+	text-transform:none;
+	margin:0 0 40px;
+	text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.65);
+}
+.techeffect .home-quote .slabtext div{
+	line-height: 60px;
+}
+.techeffect .home-quote .slabtext span{
+	font-size: 0.6em;
+	font-weight: 100;
+}
+
+.techeffect .main-menu a{
+	text-transform:none;
+	font:400 14.5px Montserrat, Geneva, sans-serif;
+	color:#f4f5f6;
+}
+.techeffect .main-menu a:hover,
+.techeffect .main-menu .active a,
+.techeffect .main-menu a.external{
+	color:#ce1443 !important;
+}
+
+.techeffect .title h1{
+	background:none;
+	border:0 none;
+	box-shadow:none;
+	font:400 50px Montserrat, Geneva, sans-serif;
+	color:#ce1443;
+	padding:0;
+	margin:0 0 0.75em;
+	text-transform:none;
+}
+.techeffect .subtitle{
+	font:400 22px Montserrat, Geneva, sans-serif;
+}
+.techeffect #about .subtitle{
+	color:#626262;	
+}
+.techeffect #about .subtitle strong{
+	color:#3a6281;	
+}
+
+.techeffect #about .whatwedo{
+	background:url('../images/blueticks.png') repeat-x 50% 0 #204664;	
+	padding-bottom: 45px;
+}
+.techeffect #about .whatwedo h2{
+	font:400 26px Montserrat, Geneva, sans-serif;
+	color:#ffffff;
+	margin:0 0 16px;
+}
+.techeffect #about .whatwedo .subtitle{
+	color:#679ac2;	
+	padding: 0 100px;
+}
+.techeffect #about .whatwedo .service-features h3{
+	color:#679ac2;
+}
+.techeffect #about .whatwedo .service-features p{
+	color:#eaecee;	
+}
+
+.techeffect #about .achievements h2{
+	font:400 36px Montserrat, Geneva, sans-serif;
+	color:#52595c;
+	margin:0 0 16px;
+}
+.techeffect #about .milestone-count{
+	font:400 40px Montserrat, Geneva, sans-serif;
+	color:#ce1443;	
+	text-transform: lowercase;
+}
+.techeffect #about .milestone-details{
+	font:400 20px Montserrat, Geneva, sans-serif;	
+}
+.techeffect #about .milestone-details small{
+	font-size:11px;	
+}
+
+#parallax1 .parallax-bg{
+	background-image:url('../images/bg-whiteboard.jpg');
+}
+#parallax1 .quote{
+	font:400 29px Montserrat, Geneva, sans-serif;	
+	color:#52595c;
+}
+#parallax1 .quote i{
+	color:#205378;	
+}
+#parallax1 .quote-author{
+	font:normal 400 15px Montserrat, Geneva, sans-serif;
+	color:#1976bb;
+}
+.techeffect .client-logos img{
+	display:inline-block;
+	margin:0 14px;
+	max-width:9999px;
+}
+
+#team h3{
+	font:normal 400 28px Montserrat, Geneva, sans-serif;
+	color:#52595c;
+	margin:0 0 24px;
+}
+
+#parallax2 .parallax-bg{
+	background-image:url('../images/bg-boardroom.jpg');
+}
+.blockheader h2{
+	font:100 24px "century gothic", "open sans", Geneva, sans-serif;
+}
+.blockheader h2 span{
+	display: inline-block;
+	font-size: 39px;
+	font-weight: 700;
+	padding: 0.6em 0.8em;
+	border: 4px #ffffff solid;
+	margin: 0.4em;
+}
+
+#services{
+	padding-bottom:0;	
+}
+#services h2{
+	font:400 53px Montserrat, Geneva, sans-serif;
+	color:#ce1443;
+	margin:0;
+}
+#services .fullwidth{
+	/* background:#ec8903; */
+	background:#ce1443;
+	margin:0;
+	font-family:"Open Sans", Geneva, sans-serif;
+}
+#services .fullwidth h3{
+	font:400 30px Montserrat, Geneva, sans-serif;
+}
+#services .fullwidth h6{
+	font:400 20px Montserrat, Geneva, sans-serif;	
+}
+#services .service-box{
+	background:#ffffff;	
+	color:#515A5F;
+	z-index:1;
+	min-height: 420px;
+	padding: 0;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+#services .service-box img{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.service-description {
+	padding: 10px;
+}
+#services .one-third.column:hover .service-box{
+	background:#ce1443;	
+	color:#ffffff;
+}
+#services .one-third.column{
+	position:relative;	
+}
+#services .one-third.column .fullink{
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;	
+	z-index:100;
+    background: transparent url('../transparent.png') repeat 0 0;
+}
+
+#services .service-box .service-icon{
+	color: #EB8503;
+	box-shadow: none;
+	background: none;
+	border-radius: 0;
+	border: 0 none;
+	padding: 10px;
+	font-size: 90px;
+	width: auto;
+}
+#services .fullwidth .one-third.column:hover .service-box .service-icon{
+	color: #ffffff;	
+}
+
+
+#parallax3 .parallax-bg{
+	background-image:url('../images/bg-closeup.jpg');
+}
+#parallax3 .quote{
+	font:400 34px Montserrat, Geneva, sans-serif;	
+	color:#ffffff;
+	margin: 0 26px;
+}
+#parallax3 .quote i{
+	color:#205378;
+}
+#parallax3 .quote-author{
+	font:normal 400 15px Montserrat, Geneva, sans-serif;
+	color:#eff1ff;
+}
+
+.techeffect #portfolio-wrap .one-third{
+	width:25%;	
+}
+
+#solution_wrap{
+	width:102%;	
+}
+#solution_wrap .solution{
+	width:25%;
+	height:275px;
+	position:relative;
+	text-align:center;
+	display:block;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	float:left;
+}
+#solution_wrap .solution img{
+	display:inline-block;
+	margin:0;
+}
+#solution_wrap .solution .wrap{
+	position:absolute;
+	font:400 22px Montserrat, Geneva, sans-serif;	
+	color:#818181;
+	height:100%;
+	left:0;
+	right:3px;
+	padding:0;
+	margin:0;
+	background:url('../images/grey-noise.png') no-repeat 50% 50% #f0f0f0;
+}
+#solution_wrap .solution:hover .wrap{
+	background:#f9f9f9;
+	color:#EB8503;
+}
+#solution_wrap .solution .wrap div{
+	position:absolute;
+	bottom:70px;
+	width:100%;
+}
+
+#solution_wrap .solution a{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;	
+}
+
+#parallax4 .parallax-bg{
+	background-image:url('/lp/images/dandy.jpg');
+}
+
+.techeffect #contact .title h1{
+	font-size:46px;
+}
+
+
+.techeffect #contact-wrapper{
+	float:right;
+	width:450px;	
+	max-width:100%;
+}
+.techeffect #contact-input{
+	float:none;
+	width:450px;	
+	max-width:100%;
+}
+.techeffect #contact-textarea{
+	float: none;
+	width: 93% !important;
+	margin-left: 5px;	
+}
+.techeffect #contact-submit input[type="submit"]{
+	width: 95%;
+	float: left;
+	margin-top:20px;
+	background-color:#d48844;
+}
+.techeffect #contact-locations{
+	float:left;
+	text-align:left;
+	margin-left:100px;
+	font:normal 400 20px/30px Montserrat, Geneva, sans-serif;
+	color:#626262;
+}
+.techeffect .copyright{
+	background:#a5a5a5;
+}
+
+ @media only screen and (max-width: 767px) {
+	#solution_wrap{
+		width:100%;
+	}
+	#solution_wrap .solution{
+		width:100%;
+		height:auto;
+	}
+	#solution_wrap .solution .wrap{
+		right:0;
+		position:relative;
+	}
+	#solution_wrap .solution .wrap div{
+		position:relative;	
+		bottom:0;
+		padding:20px 0;
+	}
+
+ }
+ 
+ 
+#footer{
+	 display:inline-block;
+	 margin-top:40px;
+}
+
+#footer #footer_nav {
+	text-align:left;
+}
+
+#footer #footer_nav ul {
+	float:left;
+	list-style: none;
+	padding:0px 35px 0px 0px;
+	font:400 16px/26px "Open Sans", Geneva, sans-serif;
+}
+#footer #footer_nav ul h4{
+	font:400 18px/20px "Open Sans", Geneva, sans-serif;
+	text-transform:uppercase;
+}
+#footer #footer_nav ul a{
+	color:#d2d2d2;	
+}
+#footer #footer_nav ul h4 a{
+	color:#ffffff;
+}
+#footer #footer_nav ul a:hover{
+	color:#FFD699;
+}
+
+::-moz-selection {
+ background: #ce1443 !important;
+}
+::selection {
+	background: #ce1443 !important;
+}
+
+ul.main-menu{
+	padding-left:0 !important;	
+}
+
+@media only screen and (max-width: 1200px) {
+	nav .container .four.columns{
+		width:160px !important;	
+	}
+}
+@media only screen and (max-width: 959px) and (min-width: 768px){
+	nav .container .four.columns{
+		width:70px !important;	
+	}
+	.techeffect #contact-locations{
+		font-size:17px;
+	}
+}
+
+.termsandconditions {
+	font-size:0.8em;
+	text-align:left;
+	padding-top:40px;
+	border-top:1px solid #CCC;
+}
+
+.termsandconditions ul {
+	list-style-type:disc;
+}
+
+.termsandconditions ul ul {
+	list-style-type:circle;
+}

@@ -1,0 +1,62 @@
+#mpft-related-post-options .post_count-f input.text,
+#mpft-related-post-options .maxwidth-f input.text {
+  width: 60px;
+}
+
+#mpft-related-post-options label.checkbox {
+  margin-right: 0px;
+}
+
+#mpft-related-post-options .f-post-types .fwi {
+  margin-right: 20px;
+  float: left;
+  padding-bottom: 4px;
+}
+
+
+#mpft-related-post-options textarea#mpft-related-post-taxonomy_query,
+#mpft-related-post-options textarea#mpft-related-post-meta_query {
+  width: 580px;
+  height: 60px;
+}
+
+
+#mpft-related-post-options .f-post-types .fwi {
+  padding-bottom: 10px;
+}
+
+#mpft-related-post-options .f-post-types .fwi label {
+  padding-left: 22px;
+  margin-left: 8px;
+  background-repeat: no-repeat;
+  background-position: 0 3px;
+  margin-top: 0;
+  padding-top: 4px;
+}
+
+
+#mpft-related-post-options #mpft-related-post-results_input_length {
+  width: 60px;
+}
+
+/* Properties Grid */
+
+#mpft-related-post-options .results-row-item-prop-f .fw {
+  float: none;
+  padding-left: 0;
+}
+
+#mpft-related-post-options .results-row-item-prop-f .fw p.note {
+  padding: 0;
+}
+
+
+#mpft-related-post-options #mpft-related-post-post-types {
+  width: 400px;
+}
+
+/* -- Field Dialogs -- */
+
+#mpft-related-post-options .dialog {
+  display: none;
+}

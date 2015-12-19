@@ -1,0 +1,163 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+  <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" style="width: 100% !important;-webkit-text-size-adjust: none;margin: 0;padding: 0;background-color: #FAFAFA">
+    	<center>
+        	<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="backgroundTable" style="height: 100% !important;margin: 0;padding: 0;width: 100% !important;background-color: #FAFAFA"><tr><td align="center" valign="top" style="border-collapse: collapse">
+                        <!-- // Begin Template Preheader \\ -->
+                        <table border="0" cellpadding="10" cellspacing="0" width="600" id="templatePreheader" style="background-color: #FAFAFA"><tr><td valign="top" class="preheaderContent" style="border-collapse: collapse">
+                                
+                                	<!-- // Begin Module: Standard Preheader \ -->
+                                    <table border="0" cellpadding="10" cellspacing="0" width="100%"><tr><td valign="top" style="border-collapse: collapse">
+                                            	<div mc:edit="std_preheader_content" style="color: #707070;font-family: Arial;font-size: 10px;line-height: 100%;text-align: left">
+                                                	 Booking confirmation and information for {user.firstname} {user.lastname}'s First Aid training course.
+                                                </div>
+                                            </td>
+                                            <!-- *|IFNOT:ARCHIVE_PAGE|* -->
+											<td valign="top" width="170" style="border-collapse: collapse">
+                                            	<div mc:edit="std_preheader_links" style="color: #707070;font-family: Arial;font-size: 10px;line-height: 100%;text-align: left">
+                                                	Email not displaying correctly?<br /><a href="{emailviewlink}" target="_blank">View it in your browser</a>.
+                                                </div>
+                                            </td>
+											<!-- *|END:IF|* -->
+                                        </tr></table><!-- // End Module: Standard Preheader \ --></td>
+                            </tr></table><!-- // End Template Preheader \\ --><table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer" style="border: 0;background-color: #FDFDFD"><tr><td align="center" valign="top" style="border-collapse: collapse">
+                                    <!-- // Begin Template Header \\ -->
+                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateHeader" style="background-color: #FFF;border-bottom: 5px solid #b0163c"><tr><td class="headerContent" style="border-collapse: collapse;color: #202020;font-family: Arial;font-size: 34px;font-weight: bold;line-height: 100%;padding: 10px;text-align: right;vertical-align: middle">
+                                            	<img src="https://d1vuy4enk8v8yj.cloudfront.net/wp-content/uploads/2014/02/AWFA-Clean-Logo-e14013220184011.jpg" style="max-width: 180px;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none" id="headerImage campaign-icon" /></td>
+                                            <td class="headerContent" width="100%" style="padding-left: 10px;padding-right: 20px;border-collapse: collapse;color: #202020;font-family: Arial;font-size: 34px;font-weight: bold;line-height: 100%;padding: 10px;text-align: right;vertical-align: middle">
+                                            	<div mc:edit="Header_content">
+                                                    <h1 style="font-size: 34px;color: #202020;display: block;font-family: Arial;font-weight: bold;line-height: 100%;margin-top: 2%;margin-right: 0;margin-bottom: 1%;margin-left: 0;text-align: left">Booking Confirmation</h1>
+                                            	</div>
+                                            </td>
+                                        </tr></table><!-- // End Template Header \\ --></td>
+                            </tr><tr><td align="center" valign="top" style="border-collapse: collapse">
+                                    <!-- // Begin Template Body \\ -->
+                                	<table border="0" cellpadding="10" cellspacing="0" width="600" id="templateBody"><tr><!-- // Begin Sidebar \\  --><td valign="top" width="180" id="templateSidebar" style="border-collapse: collapse;background-color: #FDFDFD">
+                                            	<table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top" style="border-collapse: collapse">
+                                                        
+                                                            <!-- // Begin Module: Standard Content \\ -->
+                                                            <table border="0" cellpadding="20" cellspacing="0" width="100%" class="sidebarContent" style="border-right: 1px solid #DDD"><tr><td valign="top" style="padding-left: 10px;border-collapse: collapse">
+                                                                        <div mc:edit="std_content01" style="color: #505050;font-family: Arial;font-size: 13px;line-height: 150%;text-align: left">
+                                                                            <h2 style="color: #404040;display: block;font-family: Arial;font-size: 18px;font-weight: bold;line-height: 100%;margin-top: 2%;margin-right: 0;margin-bottom: 1%;margin-left: 0;text-align: left">Booking Details</h2>
+                                                                            <br /><strong>Booking ID</strong><br />
+                                                                            {bookingID}<br /><br />
+                                                                            <strong>Paid By</strong><br />
+                                                                            {user.orginisation} {course.name}<br /><br /><br />
+                                                                            
+                                                                            <h2 style="color: #404040;display: block;font-family: Arial;font-size: 18px;font-weight: bold;line-height: 100%;margin-top: 2%;margin-right: 0;margin-bottom: 1%;margin-left: 0;text-align: left">Course Details</h2>
+                                                                            <br /><strong>Course Name</strong><br />
+                                                                            {course.name}<br /><br />
+                                                                            <strong>Course Date</strong><br />
+                                                                            {course.date}<br /><br />
+                                                                            <strong>Course Time</strong><br />
+                                                                            {course.time} <br /><sup>(Please arrive 15 minutes before start of course)</sup><br /><br />
+                                                                            <strong>Course Location</strong><br />
+                                                                            {course.location}<br />
+                                                                            [<a href="{course.maplink}" target="_blank">Show Map</a>]<br /><br /><br /><h2 style="color: #404040;display: block;font-family: Arial;font-size: 18px;font-weight: bold;line-height: 100%;margin-top: 2%;margin-right: 0;margin-bottom: 1%;margin-left: 0;text-align: left">Your Details</h2>
+                                                                            <br /><strong>Name</strong><br />
+                                                                            {user.firstname} {user.lastname}<br /><br />
+                                                                            <strong>Address</strong><br />
+                                                                            {user.address}<br />
+                                                                            {user.suburb}  {user.state}  {user.postcode}<br /><br />
+                                                                            <strong>Phone</strong><br />
+                                                                            {user.phone}<br /><br />
+                                                                            <strong>Email</strong><br />
+                                                                            {user.email}<br /><br />
+                                                                            <strong>Orginisation</strong><br />
+                                                                            {user.orginisation}<br /><br /><br /><a href="https://www.australiawidefirstaid.com.au/files/AWFAmanual-ed1-website.pdf" target="_blank"><img src="https://d1vuy4enk8v8yj.cloudfront.net/images/invoice/emanual_email_promo.png" style="max-width: 149px;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline" /></a></div>
+                                                                            
+                                                                    </td>
+                                                                </tr></table><!-- // End Module: Standard Content \\ --></td>
+                                                    </tr></table></td>
+                                            <!-- // End Sidebar \\ -->
+                                        	<td valign="top" class="bodyContent" style="border-collapse: collapse;background-color: #FDFDFD">
+                                            
+                                                <!-- // Begin Module: Standard Content \\ -->
+                                                <table border="0" cellpadding="10" cellspacing="0" width="100%"><tr><td valign="top" style="padding-left: 0;border-collapse: collapse">
+                                                            <div style="color: #505050;font-family: Arial;font-size: 14px;line-height: 110%;text-align: left">
+                                                            	** Important Notice: You will receive an amended invoice for the correct discounted amount. Your Credit Card has only been charged the discounted amount. **<br><br>
+                                                            	Hi {user.firstname},<br /><br />
+                                                            	Thank you for choosing Australia Wide First Aid; the leaders in Innovative First Aid Solutions.<br /><br />
+                                                            	We would like to confirm your booking details into the following First Aid course (shown to the side). Please take the time to ensure this information is correct,
+                                                            	as these details will be used for your Certification.<br /><br />
+                                                            	You are required to read the e-manual before commencing your course, and you will find the link below in this email.
+                                                            	In addition you are required to bring your Unique Student Identifier (USI) with you to the course. If you do not have a USI, you can obtain one from www.usi.gov.au
+                                                            	<br /><br /><br /><h2 class="h2" style="color: #404040;display: block;font-family: Arial;font-size: 18px;font-weight: bold;line-height: 100%;margin-top: 2%;margin-right: 0;margin-bottom: 1%;margin-left: 0;text-align: left">What to bring</h2>
+                                                            		<ol>
+                                                            			<li>Unique Student Identifier (USI) (Mandatory)</li>
+                                                            			<li>Positive Attitude and a clear mind</li>
+                                                            			<li>Pen - Black or Blue (No Gel pens or pencils)</li>
+                                                            			<li>Notepad</li>
+                                                            			<li>Clothing - Comfortable modest clothing</li>
+                                                            			<li>Food and drinks are available near venue</li>
+                                                            		</ol>
+                                                            		<br /><br /><h2 class="h2" style="color: #404040;display: block;font-family: Arial;font-size: 18px;font-weight: bold;line-height: 100%;margin-top: 2%;margin-right: 0;margin-bottom: 1%;margin-left: 0;text-align: left">How to contact us</h2>
+                                                            	In the event you need to contact Australia Wide First Aid to amend your booking details, contact us via:<br /><ul><li><strong>Phone</strong><br />
+	                                                            		1300 336 613<br>(Mon-Fri, 8AM to 6PM) &amp; (Sat 8AM to 12PM)<br /><br /></li>
+	                                                            	<li><strong>Email</strong><br />
+	                                                            	bookings@australiawidefirstaid.com.au <br />(for all booking amendments)<br /><br />
+	                                                            	accounts@australiawidefirstaid.com.au <br />(for all accounts amendments)<br /><br /></li>
+	                                                            	<li><strong>Live Chat</strong><br />
+	                                                            	[<a href="{livechatURL}" target="_blank">Start Live Chat</a>]<br /><br /></li>
+	                                                            	<li><strong>Social Media</strong><br />
+	                                                            	<a href="https://www.facebook.com/AustraliaWideFirstAid" target="_blank">Facebook</a><br /><br /></li>
+                                                            	</ul><br /><h2 class="h2" style="color: #404040;display: block;font-family: Arial;font-size: 18px;font-weight: bold;line-height: 100%;margin-top: 2%;margin-right: 0;margin-bottom: 1%;margin-left: 0;text-align: left">Useful Information</h2>
+                                                            	<ul><li><strong>Student Handbook</strong><br />
+		                                                            	<a href="http://www.australiawidefirstaid.com.au/files/AWFA-Student-Handbook-November-2013.pdf" target="_blank">Student Handbook</a> (No printing required)<br /><br /></li>
+		                                                           	<li><strong>First Aid e-Manual</strong><br />
+		                                                            	<a href="https://www.australiawidefirstaid.com.au/files/AWFAmanual-ed1-website.pdf" target="_blank">First Aid e-Manual</a> (No printing required; Please read prior to course commencement)<br /><br /></li>
+		                                                            <li><strong>Terms &amp; Conditions</strong><br />
+		                                                            	<a href="http://www.australiawidefirstaid.com.au/terms-conditions.html" target="_blank">Terms and Conditions</a> (No printing required)<br /></li>
+		                                                        </ul><br /><br />
+                                                            	{user.firstname}, in choosing Australia Wide First Aid as your preferred First Aid training provider,
+                                                            	we trust your learning experience with us on {course.date_nb} is a rewarding one.<br /><br />
+                                                            	Warm regards,<br /><br /><strong>Customer Service Team</strong><br />
+																National Operations Centre<br />
+																Australia Wide First Aid<br /><br />
+																152 Brisbane Street<br />
+																Ipswich QLD 4305<br />
+																1300 33 66 13<br /><br /><br /></div>
+														</td>
+                                                    </tr></table><!-- // End Module: Standard Content \\ --></td>
+                                        </tr></table><!-- // End Template Body \\ --></td>
+                            </tr><tr><td align="center" valign="top" style="border-collapse: collapse">
+                                    <!-- // Begin Template Footer \\ -->
+                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateFooter" style="background-color: #FAFAFA;border-top: 3px solid #b0163c"><tr><td valign="top" class="footerContent" style="border-collapse: collapse">
+                                            
+                                                <!-- // Begin Module: Standard Footer \\ -->
+                                                <table border="0" cellpadding="10" cellspacing="0" width="100%"><tr><td colspan="2" valign="middle" id="social" style="border-collapse: collapse;background-color: #FFF;border: 0">
+                                                            
+                                                        </td>
+                                                    </tr><tr><td valign="top" width="330" style="border-collapse: collapse">
+                                                            <div mc:edit="std_footer" style="color: #707070;font-family: Arial;font-size: 11px;line-height: 125%;text-align: left">
+																<em>Copyright &copy; 2015 Australia Wide First Aid, All rights reserved.</em>
+																<br /><br /><strong>Our mailing address is:</strong>
+																<br />
+																Australia Wide First Aid<br />
+																National Operations Centre<br />
+																152 Brisbane Street<br />
+																Ipswich QLD 4305<br /><br /><strong>Phone:</strong> 1300 33 66 13<br /><strong>Email:</strong> contact@australiawidefirstaid.com.au<br /><br /><br /><img src="https://d1vuy4enk8v8yj.cloudfront.net/wp-content/uploads/2014/02/AWFA-Clean-Logo-e14013220184011.jpg" style="max-width: 180px;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline" id="headerImage campaign-icon" /></div>
+                                                        </td>
+                                                        <td valign="top" width="210" id="monkeyRewards" style="border-collapse: collapse">
+                                                            <div style="color: #707070;font-family: Arial;font-size: 11px;line-height: 125%;text-align: left">
+	                                                            	<div style="color: #707070;font-family: Arial;font-size: 11px;line-height: 125%;text-align: left">
+	                                                                <a href="https://www.australiawidefirstaid.com.au/"><img src="https://d1vuy4enk8v8yj.cloudfront.net/images/invoice/social_icons.png" style="max-width: 226px;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline" id="headerImage campaign-icon" /></a>
+	                                                                <br /><br /><br /></div>
+                                                            	
+                                                                You have received this email becouse you or someone using your email address has enrolled
+                                                                in a course through australiawidefirstaid.com.au. Please disregard and delete this email if you are not
+                                                                the intended recipient.<br /><br />
+                                                                This e-mail, including any attachments to it, may contain confidential and/or personal information.
+                                                                If you have received this e-mail in error, you must not copy, distribute, or disclose it,
+                                                                use or take any action based on the information contained within it.
+                                                                Please notify the sender immediately by return e-mail of the error and then delete the original e-mail. 
+                                                            </div>
+                                                        </td>
+                                                    </tr></table><!-- // End Module: Standard Footer \\ --></td>
+                                        </tr></table><!-- // End Template Footer \\ --></td>
+                            </tr></table><br /></td>
+                </tr></table></center>
+    </body>
+</html>

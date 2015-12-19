@@ -1,0 +1,264 @@
+
+.mpft-video-summary .host {
+  display: block;
+  background: url(images/bevel-h.png) repeat-x top left;
+  overflow: hidden;
+  padding-top: 10px;
+}
+
+.mpft-video-summary .host span {
+  background-repeat: no-repeat;
+  padding-left: 22px;
+  line-height: 16px;
+  display: block;
+}
+
+.mpft-video-summary .host span span {
+  padding: 0;
+  display: inline;
+}
+
+.mpft-video-summary .host span span.duration {
+  padding-left: 10px;
+  font-family: "consolas", "andale mono", "lucida console", monospace;
+}
+
+.mpft-video-summary .title {
+  display: block;
+  padding-top: 0px;
+  padding-bottom: 6px;
+  font-weight: bold;
+}
+
+.mpft-video-summary .youtube {
+  background-image: url(images/icon-youtube.png);
+  background-size: 16px 16px;
+}
+
+.mpft-video-summary .vimeo {
+  background-image: url(images/icon-vimeo.png);
+  background-size: 16px 16px;
+}
+
+.mpft-video-summary .summary-content {
+  overflow: hidden;
+}
+
+.mpft-video-summary .summary-info {
+  width: 170px;
+  margin-left: 14px;
+  float: left;
+  padding-top: 2px;
+}
+
+.mpft-video-ui .state {
+
+}
+
+.mpft-video-ui .error-message {
+  display: none;
+}
+
+.mpft-video-ui input.url {
+  width: 99%;
+  min-width: 39px;
+  padding: 6px 6px 5px 6px;
+  font-family: "consolas", "andale mono", "lucida console", monospace;
+}
+
+.mpft-video-ui .summary-content {
+  display: none;
+}
+
+.mpft-video-ui .url-info {
+  width: 380px;
+  overflow: hidden;
+  float: left;
+  padding-top: 0px;
+}
+
+.mpft-video-ui .mp-thumb {
+  margin-right: 14px;
+  margin-top: 0;
+}
+
+.mpft-video-ui .mp-thumb .no-image {
+  width: 118px;
+  height: 88px;
+}
+
+.mpft-video-summary .mp-thumb {
+  margin-top: 2px;
+  float: left;
+  margin-right: 0;
+}
+
+.mpft-video-ui .f-url {
+  padding-top: 2px;
+}
+
+.mpft-video-ui .f-url label {
+  padding-left: 20px;
+  margin-top: 0;
+  padding-bottom: 5px;
+  background: url(images/icon-globe.png) no-repeat -7px -8px;
+  background-size: 32px auto;
+}
+
+
+.mpft-video-ui .info {
+  padding-top: 2px;
+  background-color: transparent;
+  border: none;
+}
+
+.mpft-video-ui .fetching-info-message {
+  display: none;
+  margin-top: 8px;
+}
+
+.mpft-video-ui div.title {
+  background: url(images/bevel-h.png) repeat-x bottom left;
+  padding: 6px 0 10px 2px;
+  overflow: hidden;
+  position: relative;
+}
+
+.mpft-video-ui div.title a {
+  margin-top: 2px;
+  font-size: 11px;
+  font-weight: bold;
+  display: block;
+  color: #555;
+  text-decoration: none;
+  padding-left: 22px;
+  background-repeat: no-repeat;
+  float: left;
+  background-size: 16px 16px;
+}
+
+.mpft-video-ui .title a:hover,
+.mpft-video-ui .title a:focus {
+  color: #D52E21;
+}
+
+
+.mpft-video-ui .title a.youtube {
+  background-image: url(images/icon-youtube.png);
+}
+
+.mpft-video-ui .title a.vimeo {
+  background-image: url(images/icon-vimeo.png);
+}
+
+.mpft-video-ui .prop-wrap {
+  overflow: hidden;
+  padding-top: 4px;
+}
+
+.mpft-video-ui button.refresh {
+  position: absolute;
+  right: -4px;
+  top: 6px;
+  width: 24px;
+  height: 26px;
+  text-indent: -9999px;
+  background: url(images/icon-refresh.png) 4px -6px no-repeat;
+  background-size: 32px auto;
+}
+
+.mpft-video-ui button.refresh:hover,
+.mpft-video-ui button.refresh:focus {
+  background-position: 4px -38px !important;
+}
+
+
+.mpft-video-ui ul.prop {
+  float: left;
+  overflow: hidden;
+  padding-top: 6px;
+}
+
+.mpft-video-ui ul.prop li {
+  background: url(images/bevel-dot.png) 0 5px no-repeat;
+  background-size: 8px 8px;
+  padding: 1px 12px 1px 19px;
+  float: left;
+  font-size: 11px;
+}
+
+.mpft-video-ui ul.prop li.duration {
+  font-family: "consolas", "andale mono", "lucida console", monospace;
+  font-size: 12px;
+}
+
+.mpft-video-ui ul.prop li:first-child {
+  background: none;
+  padding-left: 4px;
+}
+
+
+
+/* UI States */
+
+.mpft-video-ui .empty .prop-wrap,
+.mpft-video-ui .empty .title {
+  display: none;
+}
+
+
+.mpft-video-ui .fetching .fetching-info-message {
+  display: block;
+}
+
+.mpft-video-ui .fetching .title,
+.mpft-video-ui .fetching .prop-wrap {
+  display: none;
+}
+
+.mpft-video-ui .mp-error .error-message {
+  display: block;
+}
+
+.mpft-video-ui .mp-error .url {
+  color: #C21A1A;
+}
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5), 
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+
+  .mpft-video-ui .f-url label {
+    background-image: url(images/icon-globe.2x.png);
+  }
+
+  .mpft-video-ui .title a.youtube {
+    background-image: url(images/icon-youtube.2x.png);
+  }
+
+  .mpft-video-ui .title a.vimeo {
+    background-image: url(images/icon-vimeo.2x.png);
+  }
+
+  .mpft-video-summary .youtube {
+    background-image: url(images/icon-youtube.2x.png);
+  }
+
+  .mpft-video-summary .vimeo {
+    background-image: url(images/icon-vimeo.2x.png);
+  }
+  
+  .mpft-video-ui ul.prop li {
+    background-image: url(images/bevel-dot.2x.png);
+  }
+
+
+  .mpft-video-ui button.refresh {
+    background-image: url(images/icon-refresh.2x.png);
+  }
+
+
+}

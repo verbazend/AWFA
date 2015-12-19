@@ -1,0 +1,467 @@
+
+.mpft-audio-summary .summary {
+  padding-top: 4px;
+}
+
+.mpft-audio-summary span.name,
+.mpft-audio-summary span.type-size {
+  display: block;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.mpft-audio-summary span.type-size {
+  border-top: 1px solid #ddd;
+  padding-top: 6px;
+  margin-top: 6px;
+  line-height: 1.8em;
+}
+
+.mpft-audio-summary span.name {
+  font-weight: bold;
+}
+
+/* -- Post UI -- */
+
+.mpft-audio-ui {
+  line-height: 1.1em;
+}
+
+.mpft-audio-ui .summary {
+  display: none;
+}
+
+.mpft-audio-ui .choose-label {
+  display: none;
+}
+
+.mpft-audio-ui .choose-controls,
+.mpft-audio-ui .from-url-ui {
+  background: url(images/bevel-h.png) repeat-x;
+  padding-top: 10px;
+  margin-top: 4px;
+  padding-left: 6px; 
+  clear: left;
+  overflow: hidden;
+  max-width: 580px;
+  min-width: 350px;
+}
+
+.mpft-audio-ui div.mejs-playpause-button {
+  margin-right: 4px;
+}
+
+.mpft-audio-ui .mejs-playpause-button button {
+  margin-left: 10px;
+  margin-right: 0px;
+}
+
+.mpft-audio-ui .choose-controls h5 {
+  margin-left: 4px;
+  margin-right: 2px;
+  margin-top: 4px;
+  float: left;
+  line-height: 1.2em;
+  font-size: 11px;
+}
+
+.mpft-audio-ui .choose-controls .buttons button {
+  margin: 0 0 8px 6px;
+  float: left;
+}
+
+.mpft-audio-ui .choose-controls .buttons {
+  float: left;
+  width: 290px;
+}
+
+.mpft-audio-ui .qq-upload-button {
+  width: 108px; 
+}
+
+.mpft-audio-ui .file-info {
+  background: url(images/file-info.png) repeat-x;
+  border: 1px solid #9DB3C6;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #FFF;
+  max-width: 580px;
+  overflow: hidden;
+  margin-bottom: 2px;
+  position: relative;
+}
+
+.mpft-audio-ui .file-info:hover {
+  background-position: 0 -36px;
+}
+
+.mpft-audio-ui .file-controls .player {
+  float: left;
+  margin-right: 10px;
+}
+
+.mpft-audio-ui .file-controls .player-na {
+  display: none;
+}
+
+.mpft-audio-ui .file-info ul.prop {
+  float: right;
+  padding: 0;
+  margin: 1px 0;
+  line-height: 1.1em;
+}
+
+.mpft-audio-ui .file-info ul.prop li {
+  font-size: 11px;
+  line-height: 1.1em;
+  margin: 0;
+  background: url(images/prop-li.png) repeat-y;
+  padding: 10px 20px 0 20px;
+  float: left;
+  height: 23px;
+}
+
+.mpft-audio-ui .file-info:focus,
+.mpft-audio-ui .file-info:hover {
+  border-color: #7BA9D3;
+  color: #497395;
+}
+
+.mpft-audio-ui .file-info h4.name,
+.mpft-audio-ui .upload-progress-well span.name {
+  padding-top: 10px;
+  height: 25px;
+  float: left;
+  margin-left: 10px;
+}
+
+
+.mpft-audio-ui .file-info h4.name i,
+.mpft-audio-ui .upload-progress-well span.name i {
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: text-top;
+  height: 16px;
+  width: 22px;
+  margin-top: -2px;
+}
+
+.mpft-audio-ui .file-info h4.name {
+  color: #497395;
+}
+
+.mpft-audio-ui .drop-area {
+  display: none;
+  position: absolute;
+  line-height: 1.1em;
+  height: 20px;
+  width: 527px;
+  padding: 7px 10px 0 34px;
+  color: #3F7CB7;
+  background: url(images/hand.png) #FFF no-repeat 7px 6px;
+  font-weight: bold;
+  left: 4px;
+  top: 4px;
+  font-size: 11px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.mpft-audio-ui .drop-area.qq-upload-drop-area-active {
+  background-color: #00a513;
+  color: #FFF;
+  text-shadow: none;
+}
+
+.mpft-audio .mejs-container {
+  background: #777;
+  text-shadow: none;
+  border: 1px solid #555;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+
+.mpft-audio .mejs-time {
+  text-shadow: 0 -1px 0 #000;
+}
+
+.mpft-audio .mejs-controls {
+  background: none;
+}
+
+/* -- File Controls -- */
+
+.mpft-audio-ui .file-controls {
+  margin: 8px 0 0 0;
+  padding-bottom: 1px;
+  height: 35px;
+}
+
+.mpft-audio-ui  .mejs-time-rail .mejs-time-loaded {
+  background-color: #425f7a;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(66, 95, 122)), to(rgb(177, 202, 226)));
+  background-image: -webkit-linear-gradient(top, rgb(66, 95, 122), rgb(177, 202, 226));
+  background-image: -moz-linear-gradient(top, rgb(66, 95, 122), rgb(177, 202, 226));
+  background-image: -o-linear-gradient(top, rgb(66, 95, 122), rgb(177, 202, 226));
+  background-image: -ms-linear-gradient(top, rgb(66, 95, 122), rgb(177, 202, 226));
+  background-image: linear-gradient(top, rgb(66, 95, 122), rgb(177, 202, 226));
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#425f7a', EndColorStr='#b1cae2');
+}
+
+.mpft-audio-ui .file-controls ul {
+  margin-left: 2px;
+  margin-bottom: 2px;
+}
+  
+.mpft-audio-ui .file-controls ul li {
+  float: left;
+  list-style: none;
+  background: url(images/bevel-v.png) no-repeat 0 4px;
+  margin-top: 4px;
+  padding: 0 0px 0 4px;
+}
+
+.mpft-audio-ui .file-controls ul li:first-child {
+  background: none;
+  padding-left: 2px;
+}
+
+.mpft-audio-ui .file-controls ul li button {
+  line-height: 1.1em;
+  padding-top: 3px;
+  text-indent: 29px;
+  height: 21px;
+}
+
+.mpft-audio-ui .file-controls ul li button.view {
+  background-image: url(images/icon-view.png);
+}
+
+.mpft-audio-ui .file-controls ul li button.clear {
+  background-image: url(images/icon-clear.png);
+  background-size: 32px auto;
+  padding-top: 2px;
+}
+
+.mpft-audio-ui .upload-progress {
+  display: none;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.mpft-audio-ui .download-progress {
+  margin-top: 8px;
+  margin-left: 4px;
+  display: none;
+}
+
+.mpft-audio-ui .upload-progress .progress-message {
+  margin-left: 11px;
+}
+
+.mpft-audio-ui .upload-progress-well {
+  background: url(images/upload-progress-well.png);
+  border: 1px solid #B2B8BC;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  text-decoration: none;
+  cursor: default;
+  max-width: 580px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.mpft-audio-ui .upload-progress-well span.name {
+  width: 230px;
+  overflow: hidden;
+}
+
+.mpft-audio-ui .upload-progress-well span.name i {
+  background-image: url(images/document.png);
+}
+
+.mpft-audio-ui .upload-progress-well .progress-bar-with-val {
+  margin-top: 7px;
+}
+
+.mpft-audio-ui .upload-progress-well .progress-bar-with-val .val {
+  font-size: 11px;
+  line-height: 20px;
+  margin-left: 4px;
+  float: left;
+}
+
+/* -- from URL interface -- */
+
+.mpft-audio-ui .from-url-ui {
+  padding-left: 4px;
+}
+
+.mpft-audio-ui .from-url-ui label {
+  font-size: 11px;
+  display: block;
+  float: left;
+  margin: 3px 6px 0 0;
+  width: 90px;
+  text-align: right;
+}
+
+.mpft-audio-ui .from-url-ui input {
+  width: 390px;
+  font-size: 11px;
+  font-family: "consolas", "andale mono", "lucida console", monospace;
+}
+
+.mpft-audio-ui .from-url-ui button {
+  margin-right: 6px;
+}
+
+.mpft-audio-ui .from-url-ui .buttons {
+  padding-top: 6px;
+  padding-left: 94px;
+}
+
+
+/* -- visibility for default state -- */
+
+.mpft-audio-ui .from-url-ui {
+  display: none;
+}
+
+.mpft-audio-ui .media-library-progress {
+  display: none;
+}
+
+
+/* -- visibility for from url -- */
+
+.mpft-audio-ui .from-url .from-url-ui {
+  display: block;
+}
+
+.mpft-audio-ui .from-url .choose-controls {
+  display: none;
+}
+
+
+/* -- visibility for downloading state (from url) -- */
+
+.mpft-audio-ui .downloading .choose-controls,
+.mpft-audio-ui .downloading .file-controls,
+.mpft-audio-ui .downloading .prop,
+.mpft-audio-ui .downloading .from-url-ui,
+.mpft-audio-ui .downloading .fetching-info-message {
+  display: none;
+}
+
+.mpft-audio-ui .downloading .download-progress {
+  display: block;
+}
+
+
+/* -- visibility for media library fetch -- */
+
+.mpft-audio-ui .media-library .media-library-progress {
+  display: block;
+}
+
+.mpft-audio-ui .media-library .choose-controls,
+.mpft-audio-ui .media-library .file-controls,
+.mpft-audio-ui .media-library .prop,
+.mpft-audio-ui .media-library .fetching-info-message {
+  display: none;
+}
+
+.mpft-audio-ui .fetching .fetching-info-message {
+  display: block;
+}
+
+.mpft-audio-ui .fetching .fetching-message {
+  display: none;
+}
+
+
+/* -- Post UI States -- */
+
+.mpft-audio-ui .empty .file-info {
+  background: #DADADA;
+  border-color: #B1B1B1;
+  cursor: default;
+  margin-bottom: 10px;
+}
+
+.mpft-audio-ui .empty .file-info ul.prop {
+  display: none;
+}
+
+
+.mpft-audio-ui .empty .file-info h4.name i {
+  background-image: url(images/document-not-supplied.png);
+  color: #808080;
+}
+
+.mpft-audio-ui .empty .replace-label {
+  display: none;
+}
+
+.mpft-audio-ui .empty .choose-label {
+  display: block;
+}
+
+.mpft-audio-ui .uploading .file-info,
+.mpft-audio-ui .uploading .choose-controls {
+  display: none;
+}
+
+.mpft-audio-ui .uploading .upload-progress {
+  display: block;
+}
+
+
+.mpft-audio-ui .fetching-info-message {
+  display: none;
+}
+
+.mpft-audio-ui .fetching .fetching-info-message {
+  display: block;
+}
+
+.mpft-audio-ui .fetching .uploading-message {
+  display: none;
+}
+
+.mpft-audio-ui .fetching .downloading-message {
+  display: none;
+}
+
+.mpft-audio-ui .uploading .file-controls,
+.mpft-audio-ui .empty .file-controls {
+  display: none;
+}
+
+
+
+/* 2x */
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5), 
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+
+
+  .mpft-audio-ui .file-controls ul li button.clear {
+    background-image: url(images/icon-clear.2x.png);
+  }
+
+}
+
+

@@ -1,0 +1,129 @@
+/* -- Summary -- */
+
+.mpft-color-picker-summary .summary {
+  padding-left: 0;
+}
+
+.mpft-color-picker-summary .color-info {
+  overflow: hidden;
+  padding-top: 2px;
+}
+
+.mpft-color-picker-summary .color-info .value {
+  float: left;
+  font-family: "consolas", "menlo", "andale mono", "lucida console", monospace;
+  display: block;
+  font-size: 14px;
+  line-height: 32px;
+  display: block;
+  text-transform: uppercase;
+}
+
+.mpft-color-picker-summary .color-info .well-wrap {
+  float: left;
+  margin-right: 8px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 4px;
+  background: #FFF;
+  border: 1px solid #CCC;
+  border-left-color: #D4D4D4;
+  border-top-color: #D4D4D4;
+  -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.1); 
+  -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.1); 
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.1); 
+}
+
+.mpft-color-picker-summary .color-info .well {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.mpft-color-picker-ui .fw {
+  overflow: hidden;
+}
+
+/* -- UI -- */
+
+.mpft-color-picker-ui .color-info {
+  display: none; /* this is copied into the summary */
+}
+
+.mpft-color-picker-ui input.text {
+  background-image: none;
+  margin-bottom: 10px;
+  width: 130px;
+  padding-top: 5px;
+  padding-left: 5px;
+  font-size: 14px;
+  font-family: "Consolas", "Lucida Console", monospace;
+  margin-right: 0;
+  height: 26px;
+}
+
+.mpft-color-picker-ui .input-wrap {
+  position: relative;
+  float: left;
+  height: 200px;
+}
+
+.mpft-color-picker-ui .readonly .input-wrap {
+  height: auto;
+}
+
+.mpft-color-picker-ui a.iris-square-value {
+  outline: none;
+}
+
+.mpft-color-picker-ui .iris-picker {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  border-color: #CDCDCD;
+}
+
+.mpft-color-picker-ui .iris-picker .iris-square-inner,
+.mpft-color-picker-ui .iris-picker .iris-slider {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  border-radius: 0;
+  border: 1px solid #CCC;
+}
+
+.mpft-color-picker-ui .iris-picker .iris-square {
+  margin-right: 9%;
+}
+
+.mpft-color-picker-ui .colorpreview {
+  right: 0px;
+  top: 0px;
+  position: absolute;
+  width: 24px;
+  background: #FFF;
+  height: 24px;
+  float: left;
+  display: block;
+  cursor: text;
+}
+
+.mpft-color-picker-ui .colorpreview.readonly {
+  border-color: #EEE;
+  cursor: default;
+}
+
+
+.mpft-color-picker-ui .colorpreview {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #FAFAFA;
+  margin: 4px;
+}
+
+.mpft-color-picker-ui .colorpicker {
+  clear: left;
+  float: left;
+}

@@ -1,0 +1,18 @@
+<?php // Resize the image and link to full size ?>
+
+<a href="<?{{echo}} {{sf}}->url ?>"><?{{echo}} {{sf}}->resize("w=400"); }}?></a>
+
+<?php // Output a responsive version of the image ?>
+
+<a href="<?{{echo}} {{sf}}->url ?>"><?{{echo}} {{sf}}->resize("w=600")->fluid; }}?></a>
+
+
+<h2>Image Info</h2>
+
+<ul>
+  <li>Size: <?{{echo}} {{sf}}->size }} ?></li>
+  <li>Dimensions (W &times; H): <?{{echo}} {{sf}}->width }} ?> &times; <?{{echo}} {{sf}}->height }} ?></li>
+  
+  
+  
+</dl>

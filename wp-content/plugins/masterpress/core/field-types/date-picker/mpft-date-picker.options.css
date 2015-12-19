@@ -1,0 +1,21 @@
+#mpft-date-picker-options #control {
+
+}
+
+#mpft-date-picker-options .format-note {
+  margin-left: 185px;
+  font-size: 11px;
+  color: #666;
+  margin-top: 0;
+}
+
+
+#mpft-date-picker-options button.ui-datepicker-trigger {
+  font-size: 12px !important;
+  padding: 6px;
+  margin-top: 2px;
+}
+
+
+
+

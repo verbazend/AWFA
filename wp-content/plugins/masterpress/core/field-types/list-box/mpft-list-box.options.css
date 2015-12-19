@@ -1,0 +1,22 @@
+#mpft-list-box-options #mpft-list-box-values {
+  width: 580px;
+  height: 120px;
+  min-height: 120px;
+  resize: vertical;
+}
+
+#mpft-list-box-options input.text {
+  width: 60px;
+  padding: 5px 4px 4px;
+}
+
+
+#mpft-list-box-options #mpft-list-box-default-value {
+  width: 400px;
+  height: 120px;
+}
+
+#mpft-list-box-options #mpft-list-box-default-value-controls {
+  padding-top: 6px;
+}
+

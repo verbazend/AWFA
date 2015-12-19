@@ -1,0 +1,215 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+  <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" style="width: 100% !important;-webkit-text-size-adjust: none;margin: 0;padding: 0;background-color: #FAFAFA">
+    	<center>
+        	<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="backgroundTable" style="height: 100% !important;margin: 0;padding: 0;width: 100% !important;background-color: #FAFAFA"><tr><td align="center" valign="top" style="border-collapse: collapse">
+                        <!-- // Begin Template Preheader \\ -->
+                        <table border="0" cellpadding="10" cellspacing="0" width="600" id="templatePreheader" style="background-color: #FAFAFA"><tr><td valign="top" class="preheaderContent" style="border-collapse: collapse">
+                                
+                                	<!-- // Begin Module: Standard Preheader \ -->
+                                    <table border="0" cellpadding="10" cellspacing="0" width="100%"><tr><td valign="top" style="border-collapse: collapse">
+                                            	<div mc:edit="std_preheader_content" style="color: #707070;font-family: Arial;font-size: 10px;line-height: 100%;text-align: left">
+                                                	 Invoice and Booking confirmation for {user.firstname} {user.lastname}'s First Aid training course.
+                                                </div>
+                                            </td>
+                                            <!-- *|IFNOT:ARCHIVE_PAGE|* -->
+											<td valign="top" width="170" style="border-collapse: collapse">
+                                            	<div mc:edit="std_preheader_links" style="color: #707070;font-family: Arial;font-size: 10px;line-height: 100%;text-align: left">
+                                                	Email not displaying correctly?<br /><a href="{emailviewlink}" target="_blank">View it in your browser</a>.
+                                                </div>
+                                            </td>
+											<!-- *|END:IF|* -->
+                                        </tr></table><!-- // End Module: Standard Preheader \ --></td>
+                            </tr></table><!-- // End Template Preheader \\ --><table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer" style="border: 0;background-color: #FDFDFD"><tr><td align="center" valign="top" style="border-collapse: collapse">
+                                    <!-- // Begin Template Header \\ -->
+                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateHeader" style="background-color: #FFF;border-bottom: 5px solid #b0163c"><tr><td class="headerContent" style="border-collapse: collapse;color: #202020;font-family: Arial;font-size: 34px;font-weight: bold;line-height: 100%;padding: 10px;text-align: right;vertical-align: middle">
+                                            	<img src="https://d1vuy4enk8v8yj.cloudfront.net/wp-content/uploads/2014/02/AWFA-Clean-Logo-e14013220184011.jpg" style="max-width: 180px;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none" id="headerImage campaign-icon" /></td>
+                                            <td class="headerContent" width="100%" style="padding-left: 10px;padding-right: 20px;border-collapse: collapse;color: #202020;font-family: Arial;font-size: 34px;font-weight: bold;line-height: 100%;padding: 10px;text-align: right;vertical-align: middle">
+                                            	<div mc:edit="Header_content">
+                                                    <h1 style="font-size: 34px;color: #202020;display: block;font-family: Arial;font-weight: bold;line-height: 100%;margin-top: 2%;margin-right: 0;margin-bottom: 1%;margin-left: 0;text-align: left">Manual Invoice Notice</h1>
+                                            	</div>
+                                            </td>
+                                        </tr></table><!-- // End Template Header \\ --></td>
+                            </tr><tr><td align="center" valign="top" style="border-collapse: collapse">
+                                    <!-- // Begin Template Body \\ -->
+                                	<table border="0" cellpadding="10" cellspacing="0" width="600" id="templateBody">
+                                            <!-- // End Sidebar \\ -->
+                                        	<td valign="top" class="bodyContent" style="border-collapse: collapse;background-color: #FDFDFD">
+                                            
+                                                <!-- // Begin Module: Standard Content \\ -->
+                                                <table border="0" cellpadding="10" cellspacing="0" width="100%"><tr><td valign="top" style="padding-left: 0;border-collapse: collapse">
+                                                            <div style="color: #505050;font-family: Arial;font-size: 14px;line-height: 110%;text-align: left">
+                                                            	
+                                                            	<span>Hello,<br>
+                                                            		<br>
+                                                            		Please be advised the below enrolment(s) have a discount that needs to be manually invoiced.<br><br>
+                                                            	</span>
+                                                            	
+                                                            	<h2>Items to be Invoiced</h2>
+                                                            	<br>
+                                                            	<table style="width:100%;">
+                                                            		<tr style="font-size:13px;">
+                                                            			<th style="text-align:left;">Description</th>
+                                                            			<th style="text-align:left;">Normal Price</th>
+                                                            			<th style="text-align:left;">Discounted Price</th>
+                                                            		</tr>
+                                                            		{invoiceItemsRow}
+                                                            		
+                                                            		<tr style="font-size:5px;">
+                                                            			<td colspan="3">&nbsp;</td>
+                                                            		</tr>
+                                                            		<tr style="font-size:5px;">
+                                                            			<td colspan="3" style="text-align:right; border-top:1px solid #000;">&nbsp;</td>
+                                                            		</tr>
+                                                            		
+                                                            		<tr style="font-size:13px;">
+                                                            			<td style="text-align:right; "><b>Total Due:</b></td>
+                                                            			<td>${order.totalNormal}</td>
+                                                            			<td>${order.Total}</td>
+                                                            		</tr>
+                                                            		<tr style="font-size:5px;">
+                                                            			<td colspan="3">&nbsp;</td>
+                                                            		</tr>
+                                                            		<tr style="font-size:5px;">
+                                                            			<td colspan="3" style="text-align:right; border-top:3px solid #000;">&nbsp;</td>
+                                                            		</tr>
+                                                            		
+                                                            		<tr style="font-size:13px;">
+                                                            			<td colspan="2" style="text-align:right; "><b>Normal Cost:</b></td>
+                                                            			<td>${order.totalNormal}</td>
+                                                            		</tr>
+                                                            		<tr style="font-size:13px;">
+                                                            			<td colspan="2" style="text-align:right; "><b>Amount Discounted:</b></td>
+                                                            			<td>${order.amountDiscounted}</td>
+                                                            		</tr>
+                                                            		<tr style="font-size:13px;">
+                                                            			<td colspan="2" style="text-align:right; "><b>Sub Total:</b></td>
+                                                            			<td>${order.subTotal}</td>
+                                                            		</tr>
+                                                            		<tr style="font-size:5px;">
+                                                            			<td colspan="3">&nbsp;</td>
+                                                            		</tr>
+                                                            		<tr style="font-size:13px;">
+                                                            			<td colspan="2" style="text-align:right; "><b>Amount Paid:</b></td>
+                                                            			<td>${order.amountPaid}</td>
+                                                            		</tr>
+                                                            		<tr style="font-size:5px;">
+                                                            			<td colspan="3">&nbsp;</td>
+                                                            		</tr>
+                                                            		<tr style="font-size:13px;">
+                                                            			<td colspan="2" style="text-align:right; "><b>Balance Due:</b></td>
+                                                            			<td>${order.balanceDue}</td>
+                                                            		</tr>
+                                                            	</table>
+                                                            	<br><br>
+                                                            	<h3>Amount to Invoice: ${amountToInvoice}</h3>
+                                                            	<br>
+                                                            	<h2>Enrolment Details</h2>
+                                                            	<div>Specific details about the course the trainee(s) have selected.</div>
+                                                            	<br>
+                                                            	<table style="width:100%;">
+                                                            		<tr style="font-size:13px;">
+                                                            			<th width="30%" style="text-align:left;">Event ID</th>
+                                                            			<td style="text-align:left;">{eventID}</th>
+                                                            		</tr>
+                                                            		<tr style="font-size:13px;">
+                                                            			<th width="30%" style="text-align:left;">Course Name</th>
+                                                            			<td style="text-align:left;">{courseName}</td>
+                                                            		</tr>
+                                                            		<tr style="font-size:13px;">
+                                                            			<th width="30%" style="text-align:left;">Course Date/Time</th>
+                                                            			<td style="text-align:left;">{courseDateTime}</td>
+                                                            		</tr>
+                                                            		<tr style="font-size:13px;">
+                                                            			<th width="30%" style="text-align:left;">Course Location</th>
+                                                            			<td style="text-align:left;">{courseLocation}</td>
+                                                            		</tr>
+                                                            		<tr style="font-size:13px;">
+                                                            			<th width="30%" style="text-align:left;">&nbsp;</th>
+                                                            			<td style="text-align:left;"></td>
+                                                            		</tr>
+                                                            		<tr style="font-size:13px;">
+                                                            			<th width="30%" style="text-align:left;">Total Trainees for Invoice</th>
+                                                            			<td style="text-align:left;">{totalTrainees}</td>
+                                                            		</tr>
+                                                            		<tr style="font-size:13px;">
+                                                            			<th width="30%" style="text-align:left;">Course Normal Cost</th>
+                                                            			<td style="text-align:left;">{courseNormalCost}</td>
+                                                            		</tr>
+                                                            		<tr style="font-size:13px;">
+                                                            			<th width="30%" style="text-align:left;">&nbsp;</th>
+                                                            			<td style="text-align:left;"></td>
+                                                            		</tr>
+                                                            		<tr style="font-size:13px;">
+                                                            			<th width="30%" style="text-align:left;">Discount Code</th>
+                                                            			<td style="text-align:left;">{couponCode}</td>
+                                                            		</tr>
+                                                            		<tr style="font-size:13px;">
+                                                            			<th width="30%" style="text-align:left;">Discount Name</th>
+                                                            			<td style="text-align:left;">{couponName}</td>
+                                                            		</tr>
+                                                            		<tr style="font-size:13px;">
+                                                            			<th width="30%" style="text-align:left;">Discount Applied</th>
+                                                            			<td style="text-align:left;">{couponDiscount}</td>
+                                                            		</tr>
+                                                            		
+                                                            		
+                                                            	</table>
+                                                            	
+                                                            	<br><br><br><br>
+                                                            	<h2>Trainee Details</h2>
+                                                            	<br>
+                                                            	{traineeDetails}
+                                                            	
+                                                            	
+                                                            	<br /><br />
+                                                            	Warm regards,<br /><br /><strong>Customer Service Team</strong><br />
+																National Operations Centre<br />
+																Australia Wide First Aid<br /><br />
+																152 Brisbane Street<br />
+																Ipswich QLD 4305<br />
+																1300 33 66 13<br /><br /><br /></div>
+														</td>
+                                                    </tr></table><!-- // End Module: Standard Content \\ --></td>
+                                        </tr></table><!-- // End Template Body \\ --></td>
+                            </tr><tr><td align="center" valign="top" style="border-collapse: collapse">
+                                    <!-- // Begin Template Footer \\ -->
+                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateFooter" style="background-color: #FAFAFA;border-top: 3px solid #b0163c"><tr><td valign="top" class="footerContent" style="border-collapse: collapse">
+                                            
+                                                <!-- // Begin Module: Standard Footer \\ -->
+                                                <table border="0" cellpadding="10" cellspacing="0" width="100%"><tr><td colspan="2" valign="middle" id="social" style="border-collapse: collapse;background-color: #FFF;border: 0">
+                                                            
+                                                        </td>
+                                                    </tr><tr><td valign="top" width="330" style="border-collapse: collapse">
+                                                            <div mc:edit="std_footer" style="color: #707070;font-family: Arial;font-size: 11px;line-height: 125%;text-align: left">
+																<em>Copyright &copy; 2015 Australia Wide First Aid, All rights reserved.</em>
+																<br /><br /><strong>Our mailing address is:</strong>
+																<br />
+																Australia Wide First Aid<br />
+																National Operations Centre<br />
+																152 Brisbane Street<br />
+																Ipswich QLD 4305<br /><br /><strong>Phone:</strong> 1300 33 66 13<br /><strong>Email:</strong> contact@australiawidefirstaid.com.au<br /><br /><br /><img src="https://d1vuy4enk8v8yj.cloudfront.net/wp-content/uploads/2014/02/AWFA-Clean-Logo-e14013220184011.jpg" style="max-width: 180px;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline" id="headerImage campaign-icon" /></div>
+                                                        </td>
+                                                        <td valign="top" width="210" id="monkeyRewards" style="border-collapse: collapse">
+                                                            <div style="color: #707070;font-family: Arial;font-size: 11px;line-height: 125%;text-align: left">
+	                                                            	<div style="color: #707070;font-family: Arial;font-size: 11px;line-height: 125%;text-align: left">
+	                                                                <a href="https://www.australiawidefirstaid.com.au/"><img src="https://d1vuy4enk8v8yj.cloudfront.net/images/invoice/social_icons.png" style="max-width: 226px;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;display: inline" id="headerImage campaign-icon" /></a>
+	                                                                <br /><br /><br /></div>
+                                                            	
+                                                                You have received this email becouse you or someone using your email address has enrolled
+                                                                in a course through australiawidefirstaid.com.au. Please disregard and delete this email if you are not
+                                                                the intended recipient.<br /><br />
+                                                                This e-mail, including any attachments to it, may contain confidential and/or personal information.
+                                                                If you have received this e-mail in error, you must not copy, distribute, or disclose it,
+                                                                use or take any action based on the information contained within it.
+                                                                Please notify the sender immediately by return e-mail of the error and then delete the original e-mail. 
+                                                            </div>
+                                                        </td>
+                                                    </tr></table><!-- // End Module: Standard Footer \\ --></td>
+                                        </tr></table><!-- // End Template Footer \\ --></td>
+                            </tr></table><br /></td>
+                </tr></table></center>
+    </body>
+</html>

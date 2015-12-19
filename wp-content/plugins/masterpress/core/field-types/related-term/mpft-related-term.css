@@ -1,0 +1,18 @@
+
+.mpft-related-term-ui select option.mp-icon-term {
+  background: none !important;
+}
+
+.mpft-related-term-ui .ui-multiselect li.ui-state-default.mp-icon-term {
+  background-position: 8px 5px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+.mpft-related-term-ui .ui-multiselect li.ui-state-default.mp-icon-term {
+  background-position: 4px 2px;
+}
+
+.mpft-related-term-ui .ui-multiselect li.ui-state-default.mp-icon-term {
+  background-position: 4px 2px;
+}

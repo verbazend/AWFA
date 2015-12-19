@@ -1,0 +1,13 @@
+.mpft-spinner-summary .value-summary {
+  font-family: "consolas", "menlo", "andale mono", "luicda console", monospace;
+  font-size: 13px;
+}
+
+.mpft-spinner-summary span.negative {
+  color: red;
+}
+
+
+.mpft-spinner-ui input.negative {
+  color: red;
+}

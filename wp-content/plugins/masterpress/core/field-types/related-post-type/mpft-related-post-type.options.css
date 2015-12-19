@@ -1,0 +1,27 @@
+#mpft-related-post-type-options .maxwidth-f input.text {
+  width: 60px;
+}
+
+#mpft-related-post-type-options label.checkbox {
+  margin-right: 0px;
+}
+
+#mpft-related-post-type-options .f-post-types .fwi {
+  margin-right: 20px;
+  float: left;
+  padding-bottom: 4px;
+}
+
+
+#mpft-related-post-type-options .f-post-types .fwi {
+  padding-bottom: 10px;
+}
+
+#mpft-related-post-type-options .f-post-types .fwi label {
+  padding-left: 22px;
+  margin-left: 8px;
+  background-repeat: no-repeat;
+  background-position: 0 3px;
+  margin-top: 0;
+  padding-top: 4px;
+}

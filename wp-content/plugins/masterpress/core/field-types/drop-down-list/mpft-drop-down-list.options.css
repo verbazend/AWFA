@@ -1,0 +1,24 @@
+#mpft-drop-down-list-options #mpft-drop-down-list-values {
+  width: 580px;
+  height: 120px;
+  min-height: 120px;
+  resize: vertical;
+}
+
+#mpft-drop-down-list-options #mpft-drop-down-list-prompting-label {
+  min-width: 300px;
+}
+
+
+#mpft-drop-down-list-options #mpft-drop-down-list-default-value {
+  min-width: 300px;
+}
+
+#mpft-drop-down-list-maxwidth {
+  width: 60px;
+}
+
+
+
+
+

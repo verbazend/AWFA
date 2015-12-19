@@ -1,0 +1,16 @@
+#mpft-text-box-multiline-options input.text {
+  width: 60px;
+}
+
+
+#mpft-text-box-multiline-status-wrap {
+  clear: left;
+  padding-top: 2px;
+}
+
+#mpft-text-box-multiline-status-wrap label {
+  font-size: 11px;
+  color: #666;
+  margin-left: 6px;
+  margin-top: 4px;
+}

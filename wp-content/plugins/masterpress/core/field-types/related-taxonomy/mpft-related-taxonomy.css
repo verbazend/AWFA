@@ -1,0 +1,18 @@
+
+.mpft-related-taxonomy-ui select option.mp-icon-taxonomy {
+  background: none !important;
+}
+
+.mpft-related-taxonomy-ui .ui-multiselect li.ui-state-default.mp-icon-taxonomy {
+  background-position: 8px 5px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+.mpft-related-taxonomy-ui .ui-multiselect li.ui-state-default.mp-icon-taxonomy {
+  background-position: 4px 2px;
+}
+
+.mpft-related-taxonomy-ui .ui-multiselect li.ui-state-default.mp-icon-taxonomy {
+  background-position: 4px 2px;
+}

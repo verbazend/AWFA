@@ -1,0 +1,55 @@
+#mpft-audio-allowed_maxsize {
+  width: 60px;
+}
+
+#mpft-audio-options .f-allowed-types .fwi {
+  width: 270px;
+  float: left;
+  padding-bottom: 4px;
+}
+
+#mpft-audio-options .file-type {
+  height: 16px;
+  width: 20px;
+}
+
+#mpft-audio-allowed-types-wrap {
+  height: 490px;
+  overflow: auto;
+  padding: 6px 6px;
+  background: #FCFCFC;
+  border: 1px solid #ccc;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#mpft-audio-allowed-types-wrap .file-category {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+#mpft-audio-allowed-types-wrap .file-category h5 {
+  text-transform: uppercase;
+  font-size: 10px;
+  margin: 0px 0 6px 6px;
+  
+}
+
+#mpft-audio-allowed-types-wrap .file-category .controls {
+  overflow: hidden;
+  margin: 8px 0;
+  padding-top: 4px;
+}
+
+#mpft-audio-allowed_field {
+  width: 580px;
+  resize: vertical;
+  height: 60px;
+  min-height: 60px;
+}
+
+#allowed-field-note {
+  padding-bottom: 10px;
+}

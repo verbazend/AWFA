@@ -1,0 +1,30 @@
+.mpft-checkbox-ui {
+  padding-bottom: 2px !important;
+}
+
+.mpft-checkbox-summary h4.checked,
+.mp-set-summary:hover .mpft-checkbox-summary h4.checked {
+  background-image: url(images/icon-checked.png);
+}
+
+.mpft-checkbox-ui input.checkbox {
+  margin-top: 0px;
+  margin-left: 1px;
+}
+
+.mac.firefox .mpft-checkbox-ui label.checkbox {
+  margin-top: 4px;
+}
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5), 
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+
+  .mpft-checkbox-summary h4.checked,
+  .mp-set-summary:hover .mpft-checkbox-summary h4.checked {
+    background-image: url(images/icon-checked.2x.png);
+  }
+
+}

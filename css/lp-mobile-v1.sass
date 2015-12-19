@@ -1,0 +1,240 @@
+@import mobile
+@import media-queries
+
+.ui-body
+  padding: 10px
+  border: none
+  @include tablet-portrait-and-up
+    margin: 10px
+    padding-bottom: 40px
+    border: 1px solid #DDD
+#content
+  padding: 0
+
+.clear
+  clear: both
+h1
+  font-size: 18px
+  margin-bottom: 0
+  @include tablet-portrait-and-up
+    font-size: 26px
+    margin: 20px 0 20px 0 !important
+h2
+  font-size: 14px !important
+  margin-top: 4px
+.homecta
+  background-color: #DDD
+  padding: 5px
+  margin: 10px 0 10px 0
+  -webkit-border-radius: 8px
+  -webkit-border-radius: 8px
+  -moz-border-radius: 8px
+  -moz-border-radius: 8px
+  border-radius: 8px
+  border-radius: 8px
+
+.description
+  .right
+    float: right
+    margin: 0 0 10px 10px
+
+ul
+  font-size: 14px
+.course
+  padding: 0 20px 0 20px
+  p
+    font-size: 14px
+    text-align: center
+    @include tablet-portrait-and-up
+      font-size: 16px
+    //width: 90%
+#course-info
+  @include tablet-portrait-and-up
+    background: white url(../images/mobile_images/become-certified-in-first-aid-training-tablet.jpg) right bottom no-repeat !important
+  @include mobile-only
+    background: white url(../images/mobile_images/become-certified-in-first-aid-training-mobile-bg4.jpg) right top no-repeat !important
+.benefits
+  width: 66%
+  float: left
+  padding-top: 0 !important
+  img
+    margin: 10px 0px 0px 10px
+    @include mobile-only
+      width: 180px
+  ul.ticks
+    z-index: 51
+    margin: 0
+    padding: 0 0 0 30px
+    font-size: 14px
+    @include tablet-portrait-and-up
+      font-size: 16px
+    ul
+      padding-left: 15px
+.price
+  @include tablet-portrait-and-up
+    height: 205px
+    background: white url(../images/mobile_images/price-peg.png) top center no-repeat !important
+  position: relative
+  margin-left: 2%
+  width: 30%
+  float: left
+.location
+  font-size: 14px
+  @include tablet-portrait-and-up
+    position: absolute
+    bottom: 0
+  width: 100%
+  margin: 0 auto
+  text-align: center
+
+.faq
+  padding: 20px
+
+.cta
+  text-align: center
+  h4
+    margin: 0 0 10px 0
+  p
+    margin: 0 0 10px 0
+  .secure
+    font-size: 14px
+  #datepicker
+    margin: 0 auto
+    width: 300px
+    background-position: center
+    background-repeat: no-repeat
+    
+  ul
+    list-style: none
+    margin: 0
+    padding: 0
+  .last
+    margin-top: 10px
+  label
+    display: block
+    margin-top: 10px
+    margin-bottom: 5px
+  input
+    width: 100%
+    height: 34px
+    font-size: 16px
+  select
+    width: 100%
+    font-size: 14px !important
+    padding: 5px
+    font-size: 16px
+    line-height: 1
+    border: 1
+    border-radius: 0
+    height: 34px
+  .ui-datepicker
+    width: 100%
+    font-size: 14px
+    // @include tablet-only
+    // font-size: 10px
+
+  a.ui-state-default
+    background-color: green !important
+    background-image: none  !important
+    color: white !important
+    border: none !important
+    text-align: center !important
+    text-shadow: none
+    -webkit-border-radius: 4px
+    -webkit-border-radius: 4px
+    -moz-border-radius: 4px
+    -moz-border-radius: 4px
+    border-radius: 4px
+    border-radius: 4px
+  
+  .ui-widget-header
+    background-image: none !important
+    background-color: white !important
+    .ui-icon
+      background-image: url("images/ui-icons_008000_256x240.png")
+
+.price-circle
+  z-index: 50
+  position: relative
+  color: white
+  margin: 0 auto
+  text-align: center
+  background-color: #CE1440
+  text-shadow: none
+  width: 90px
+  height: 90px
+  line-height: 30px
+  -webkit-border-radius: 45px
+  -webkit-border-radius: 45px
+  -moz-border-radius: 45px
+  -moz-border-radius: 45px
+  border-radius: 45px
+  border-radius: 45px
+  span
+    font-size: 40px
+    font-weight: bold
+    text-shadow: none !important
+  .only
+    padding-top: 8px
+    font-size: 25px
+
+table.gadget
+  width: 100% !important
+  font-size: 12px !important
+
+.Flexible-container
+  position: relative
+  padding-bottom: 70%
+  padding-top: 30px
+  height: 0
+  overflow: hidden
+  iframe, object, embed
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+
+.Flexible-container iframe,   
+.Flexible-container object,  
+.Flexible-container embed
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+.ui-body-a, .ui-overlay-a
+  background-color: white
+.ui-icon-lp-location
+  background-image: url(../images/mobile_images/location-marker.png)
+.ui-btn-up-e
+  color: white !important
+  font-weight: normal !important
+  text-shadow: none !important
+  background-color: #CE1440 !important
+  background: rgb(39,140,11)
+  border: none !important
+  background: -moz-linear-gradient(top,  rgba(39,140,11,1) 0%, rgba(64,173,34,1) 48%, rgba(41,154,11,1) 100%)
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(39,140,11,1)), color-stop(48%,rgba(64,173,34,1)), color-stop(100%,rgba(41,154,11,1)))
+  background: -webkit-linear-gradient(top,  rgba(39,140,11,1) 0%,rgba(64,173,34,1) 48%,rgba(41,154,11,1) 100%)
+  background: -o-linear-gradient(top,  rgba(39,140,11,1) 0%,rgba(64,173,34,1) 48%,rgba(41,154,11,1) 100%)
+  background: -ms-linear-gradient(top,  rgba(39,140,11,1) 0%,rgba(64,173,34,1) 48%,rgba(41,154,11,1) 100%)
+  background: linear-gradient(to bottom,  rgba(39,140,11,1) 0%,rgba(64,173,34,1) 48%,rgba(41,154,11,1) 100%)
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#278c0b', endColorstr='#299a0b',GradientType=0 )
+.ui-btn-hover-e
+  color: white !important
+  font-weight: normal !important
+  text-shadow: none !important
+  border: none !important
+  background: rgb(46,158,12)
+  background: -moz-linear-gradient(top,  rgba(46,158,12,1) 0%, rgba(75,201,40,1) 48%, rgba(46,158,12,1) 100%)
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(46,158,12,1)), color-stop(48%,rgba(75,201,40,1)), color-stop(100%,rgba(46,158,12,1)))
+  background: -webkit-linear-gradient(top,  rgba(46,158,12,1) 0%,rgba(75,201,40,1) 48%,rgba(46,158,12,1) 100%)
+  background: -o-linear-gradient(top,  rgba(46,158,12,1) 0%,rgba(75,201,40,1) 48%,rgba(46,158,12,1) 100%)
+  background: -ms-linear-gradient(top,  rgba(46,158,12,1) 0%,rgba(75,201,40,1) 48%,rgba(46,158,12,1) 100%)
+  background: linear-gradient(to bottom,  rgba(46,158,12,1) 0%,rgba(75,201,40,1) 48%,rgba(46,158,12,1) 100%)
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e9e0c', endColorstr='#2e9e0c',GradientType=0 )
+
+  
+.ui-icon-lp-padlock
+  background-image: url(/images/mobile_images/padlock.png)

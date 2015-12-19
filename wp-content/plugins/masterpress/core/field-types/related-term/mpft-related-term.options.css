@@ -1,0 +1,52 @@
+
+#mpft-related-term-options .post_count-f input.text,
+#mpft-related-term-options .maxwidth-f input.text {
+  width: 60px;
+}
+
+
+#mpft-related-term-options label.checkbox {
+  margin-right: 0px;
+}
+
+#mpft-related-term-options .f-taxonomies .fwi {
+  margin-right: 20px;
+  float: left;
+  padding-bottom: 4px;
+}
+
+
+#mpft-related-term-options .f-taxonomies .fwi {
+  padding-bottom: 10px;
+}
+
+#mpft-related-term-options .f-taxonomies .fwi label {
+  padding-left: 22px;
+  margin-left: 8px;
+  background-repeat: no-repeat;
+  background-position: 0 3px;
+  margin-top: 0;
+  padding-top: 4px;
+}
+
+#mpft-related-term-options #mpft-related-term-results_input_length {
+  width: 60px;
+}
+
+/* Properties Grid */
+
+#mpft-related-term-options .results-row-item-prop-f .fw {
+  float: none;
+  padding-left: 0;
+}
+
+#mpft-related-term-options .results-row-item-prop-f .fw p.note {
+  padding: 0;
+}
+
+
+/* -- Field Dialogs -- */
+
+#mpft-related-term-options .dialog {
+  display: none;
+}

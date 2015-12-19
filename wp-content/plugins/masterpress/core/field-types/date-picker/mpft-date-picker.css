@@ -1,0 +1,46 @@
+/* -- Summary -- */
+
+.mpft-date-picker-summary .summary {
+  padding-left: 1px;
+  padding-top: 4px;
+}
+
+.mpft-date-picker-summary .mp-cal .cal-day {
+  padding-bottom: 12px;
+}
+
+  
+
+/* -- Post UI -- */
+
+
+.mpft-date-picker-ui input.picker {
+  width: 140px;
+}
+
+.mpft-date-picker-ui .ui-datepicker,
+.ui-datepicker {
+  font-size: 11px;
+  z-index: 100 !important;
+}
+
+.mpft-date-picker-ui .wrap-pickers {
+  overflow: hidden;
+}
+
+.mpft-date-picker-ui .wrap-picker {
+  float: left;
+}
+
+.mpft-date-picker-ui .wrap-picker-start {
+  margin-right: 10px;
+}
+
+.mpft-date-picker-ui .summary {
+  display: none;
+}
+
+.mpft-date-picker-ui label.picker {
+  display: block;
+  padding: 4px 1px;
+}

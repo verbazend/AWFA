@@ -1,0 +1,18 @@
+#mpft-radio-button-list-options #mpft-radio-button-list-values {
+  width: 580px;
+  height: 120px;
+  min-height: 120px;
+  resize: vertical;
+}
+
+#mpft-radio-button-list-options #mpft-radio-button-list-allow-unselect {
+  margin-right: 4px;
+}
+
+#mpft-radio-button-list-options .preview .fwi {
+  margin-right: 10px;
+  float: left;
+  padding-bottom: 4px;
+}
+
+

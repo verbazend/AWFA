@@ -1,0 +1,6345 @@
+# Copyright (C) 2013 MasterPress
+# This file is distributed under the same license as the MasterPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: MasterPress 1.0.1.b3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/masterpress\n"
+"POT-Creation-Date: 2013-05-28 00:33:23+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: _i18n/pomo/sample/app.php:56
+msgid "Welcome %s!"
+msgstr ""
+
+#: _i18n/pomo/sample/app.php:60
+msgid "A string with low priority!"
+msgstr ""
+
+#: _i18n/pomo/sample/app.php:62
+msgid "Bye\n"
+msgstr ""
+
+#: core/api/meow/meow-field-set-collection.php:546
+msgid "No field named %s at index %s"
+msgstr ""
+
+#: core/api/meow/meow-field-set-collection.php:610
+msgid "no method or property named %s"
+msgstr ""
+
+#: core/api/meow/meow-field-set.php:109 core/api/meow/meow-field-set.php:120
+msgid "No field named %s"
+msgstr ""
+
+#: core/api/meow/meow-field.php:198
+msgid "field value is blank or invalid"
+msgstr ""
+
+#: core/api/meow/meow-field.php:228
+msgid "no method or property could be found for %s"
+msgstr ""
+
+#: core/api/meow/meow-field.php:251
+msgid "invalid resource"
+msgstr ""
+
+#: core/api/meow/meow-field.php:271
+msgid "No property named %s"
+msgstr ""
+
+#: core/api/meow/meow.php:163 core/api/woof/woof.php:2011
+msgid "There is no current object"
+msgstr ""
+
+#: core/api/meow/meow.php:210
+msgid "Cannot find the field set named '%s'"
+msgstr ""
+
+#: core/api/meow/meow.php:394
+msgid "The REST API is not available in this site"
+msgstr ""
+
+#: core/api/woof/woof-collection.php:476
+msgid "Can't get first item. Collection is empty"
+msgstr ""
+
+#: core/api/woof/woof-collection.php:534
+msgid ""
+"This collection has no element at index %d, which is outside the bounds of "
+"this collection"
+msgstr ""
+
+#: core/api/woof/woof-file.php:148
+msgid "Unknown File Type"
+msgstr ""
+
+#: core/api/woof/woof-file.php:158
+msgid "Unknown Type"
+msgstr ""
+
+#: core/api/woof/woof-file.php:394
+msgid "Office and Productivity"
+msgstr ""
+
+#: core/api/woof/woof-file.php:395
+msgid "Text / Data Files"
+msgstr ""
+
+#: core/api/woof/woof-file.php:396
+msgid "Design and Creative"
+msgstr ""
+
+#: core/api/woof/woof-file.php:397
+msgid "Archive Files"
+msgstr ""
+
+#: core/api/woof/woof-file.php:398
+msgid "Audio and Music"
+msgstr ""
+
+#: core/api/woof/woof-file.php:399
+msgid "Image Files"
+msgstr ""
+
+#: core/api/woof/woof-file.php:400
+msgid "Video Files"
+msgstr ""
+
+#: core/api/woof/woof-file.php:401
+msgid "Camera RAW Files"
+msgstr ""
+
+#: core/api/woof/woof-image.php:36
+msgid "File &#8220;%s&#8221; doesn&#8217;t exist?"
+msgstr ""
+
+#: core/api/woof/woof-image.php:39
+msgid "The GD image library is not installed."
+msgstr ""
+
+#: core/api/woof/woof-image.php:46
+msgid "File &#8220;%s&#8221; is not an image."
+msgstr ""
+
+#: core/api/woof/woof-image.php:108
+msgid "Could not read image size"
+msgstr ""
+
+#: core/api/woof/woof-image.php:144
+msgid "Resize path invalid"
+msgstr ""
+
+#: core/api/woof/woof-image.php:1051
+msgid "No EXIF data was found in this image"
+msgstr ""
+
+#: core/api/woof/woof-image.php:1217
+msgid "Cannot resize the image, as the image cache folder at %s does not exist"
+msgstr ""
+
+#: core/api/woof/woof-image.php:1270
+msgid "image path has not been set"
+msgstr ""
+
+#: core/api/woof/woof-image.php:1277
+msgid "Image could not be loaded"
+msgstr ""
+
+#: core/api/woof/woof-image.php:1329 core/field-types/image/mpft-image.php:320
+#: core/field-types/image/mpft-image.php:354
+#: core/field-types/image/mpft-image.php:642
+#: core/field-types/image/mpft-image.php:679
+msgid "( no image )"
+msgstr ""
+
+#: core/api/woof/woof-post-type.php:424
+msgid ""
+"To perform a query without specifying a taxonomy, you must provide a single "
+"WOOF_Term or a collection of WOOF_Term objects"
+msgstr ""
+
+#: core/api/woof/woof-post.php:115
+msgid "Cannot generate thumbnail - no featured image has been set"
+msgstr ""
+
+#: core/api/woof/woof-post.php:205
+msgid "No comments"
+msgstr ""
+
+#: core/api/woof/woof-post.php:209
+msgid "1 comment"
+msgstr ""
+
+#: core/api/woof/woof-post.php:213
+msgid "%d comments"
+msgstr ""
+
+#: core/api/woof/woof-post.php:718
+msgid "There are no related posts"
+msgstr ""
+
+#: core/api/woof/woof-post.php:857
+msgid "There is no next post"
+msgstr ""
+
+#: core/api/woof/woof-post.php:914
+msgid "There is no previous post"
+msgstr ""
+
+#: core/api/woof/woof-post.php:982
+msgid "This post has no parent"
+msgstr ""
+
+#: core/api/woof/woof-post.php:986
+msgid ""
+"The post has no parent, as the post type %s it is based on is not "
+"hierarchical"
+msgstr ""
+
+#: core/api/woof/woof-post.php:1119
+msgid "There is no class by the name of %s"
+msgstr ""
+
+#: core/api/woof/woof-post.php:1360
+msgid "By '%s'"
+msgstr ""
+
+#: core/api/woof/woof-post.php:1381
+msgid "With the %s '%s'"
+msgstr ""
+
+#: core/api/woof/woof-silent.php:11 core/api/woof/woof-wrap.php:193
+msgid "Property '%s' does not exist"
+msgstr ""
+
+#: core/api/woof/woof-silent.php:15 core/api/woof/woof-wrap.php:379
+msgid "Method '%s' does not exist"
+msgstr ""
+
+#: core/api/woof/woof-silent.php:144
+msgid "no item at offset %s"
+msgstr ""
+
+#: core/api/woof/woof-term.php:357
+msgid "There is no next term"
+msgstr ""
+
+#: core/api/woof/woof-term.php:405
+msgid "There is no previous term"
+msgstr ""
+
+#: core/api/woof/woof-user.php:160
+msgid "No avatar found"
+msgstr ""
+
+#: core/api/woof/woof.php:1230
+msgid "Taxonomy %s does not exist"
+msgstr ""
+
+#: core/api/woof/woof.php:1415
+msgid "There is no attachment with ID %s"
+msgstr ""
+
+#: core/api/woof/woof.php:1453
+msgid "The post type named %s does not exist"
+msgstr ""
+
+#: core/api/woof/woof.php:1621
+msgid "There is no %s term named %s"
+msgstr ""
+
+#: core/api/woof/woof.php:1632
+msgid "There is no %s term with slug %s"
+msgstr ""
+
+#: core/api/woof/woof.php:1733
+msgid "There is no %s term for the ID %s"
+msgstr ""
+
+#: core/api/woof/woof.php:1754
+msgid "There is no term with ID %s"
+msgstr ""
+
+#: core/api/woof/woof.php:1977
+msgid "There is no page at path %s"
+msgstr ""
+
+#: core/api/woof/woof.php:2087
+msgid "Cannot find %s with id or slug '%s'"
+msgstr ""
+
+#: core/api/woof/woof.php:2156
+msgid "There is no current post"
+msgstr ""
+
+#: core/api/woof/woof.php:2170
+msgid "There is no active taxonomy"
+msgstr ""
+
+#: core/api/woof/woof.php:2180 core/api/woof/woof.php:2187
+msgid "There is no active %s"
+msgstr ""
+
+#: core/api/woof/woof.php:2197
+msgid "There is no active term"
+msgstr ""
+
+#: core/api/woof/woof.php:2225
+msgid "There is no active user - no users are currently logged in"
+msgstr ""
+
+#: core/api/woof/woof.php:2245
+msgid "There is no current author"
+msgstr ""
+
+#: core/api/woof/woof.php:2944
+msgid "There is no role with id '%s'"
+msgstr ""
+
+#: core/api/woof/woof.php:3048
+msgid "There was no %s at URL %s"
+msgstr ""
+
+#: core/api/woof/woof.php:3052
+msgid "Cannot cache %s from URL %s, as the content directory %s does not exist"
+msgstr ""
+
+#: core/api/woof/woof.php:3128 core/api/woof/woof.php:3149
+msgid "The theme image at images/%s does not exist"
+msgstr ""
+
+#: core/api/woof/woof.php:3289
+msgid "There is no user for the ID %s"
+msgstr ""
+
+#: core/api/woof/woof.php:3298
+msgid "There is no user for the id %s"
+msgstr ""
+
+#: core/api/woof/woof.php:3306
+msgid "There is no user for the email %s"
+msgstr ""
+
+#: core/api/woof/woof.php:3314
+msgid "There is no user for the login %s"
+msgstr ""
+
+#: core/api/woof/woof.php:3456
+msgid "No taxonomies for %s"
+msgstr ""
+
+#: core/api/woof/woof.php:3846
+msgid "Page %d of %d"
+msgstr ""
+
+#: core/api/woof/woof.php:3850
+msgid "First Page"
+msgstr ""
+
+#: core/api/woof/woof.php:3851
+msgid "&laquo; First"
+msgstr ""
+
+#: core/api/woof/woof.php:3855
+msgid "Previous Page"
+msgstr ""
+
+#: core/api/woof/woof.php:3856
+msgid "&lsaquo; Previous"
+msgstr ""
+
+#: core/api/woof/woof.php:3860
+msgid "Next Page"
+msgstr ""
+
+#: core/api/woof/woof.php:3861
+msgid "Next &rsaquo;"
+msgstr ""
+
+#: core/api/woof/woof.php:3865
+msgid "Last Page"
+msgstr ""
+
+#: core/api/woof/woof.php:3866
+msgid "Last &raquo;"
+msgstr ""
+
+#: core/controller/mpc-field.php:63
+msgid "field type options could not be loaded"
+msgstr ""
+
+#: core/controller/mpc-files.php:23 core/controller/mpc-files.php:48
+msgid "you do not have permission to upload"
+msgstr ""
+
+#: core/controller/mpc-files.php:162
+msgid "You do not have permission to upload files"
+msgstr ""
+
+#: core/controller/mpc-files.php:193
+msgid "You do not have permission to upload"
+msgstr ""
+
+#: core/controller/mpc-files.php:365
+msgid "No files were uploaded."
+msgstr ""
+
+#: core/controller/mpc-files.php:375
+msgid "Sorry, the file is too large. The maximum size allowed is %s bytes"
+msgstr ""
+
+#: core/controller/mpc-files.php:385
+msgid ""
+"Sorry, you cannot upload a file of this type. Files must have an extension "
+"in the following list: %s."
+msgstr ""
+
+#: core/controller/mpc-files.php:410
+msgid "Could not save uploaded file."
+msgstr ""
+
+#: core/controller/mpc-files.php:411
+msgid "The upload was cancelled, or a server error has occurred."
+msgstr ""
+
+#: core/controller/mpc-masterplan.php:16
+msgid "Masterplan - <small>Powered by %s</small>"
+msgstr ""
+
+#: core/controller/mpc-masterplan.php:95
+msgid ""
+"Your MasterPress installation is storing certain content in folders which "
+"are <a href=\"%s\">no longer the default locations in version 1.0.1.</"
+"a><br><br>To migrate to the new location: %s"
+msgstr ""
+
+#: core/controller/mpc-masterplan.php:99
+msgid ""
+"Click the migrate links button below to update your custom field database "
+"entries to point to the new location:<br>%s"
+msgstr ""
+
+#: core/controller/mpc-masterplan.php:101
+msgid ""
+"It appears you've moved your MasterPress content folder from the old <span "
+"class=\"tt\">wp-content/mp</span> location without running the necessary "
+"database migration.<br><br>%s"
+msgstr ""
+
+#: core/controller/mpc-masterplan.php:153
+msgid "%d database records were migrated to the new content path"
+msgstr ""
+
+#: core/controller/mpc-masterplan.php:510
+#: core/controller/mpc-masterplan.php:514
+msgid "The Masterplan is no longer valid. Please try another file"
+msgstr ""
+
+#: core/controller/mpc-masterplan.php:823
+msgid ""
+"The Masterplan could not be interpreted correctly. Please upload an "
+"alternative file."
+msgstr ""
+
+#: core/controller/mpc-masterplan.php:827
+msgid ""
+"The Masterplan is not valid, as it does not contain a masterplan.json file. "
+"Please upload an alternative file."
+msgstr ""
+
+#: core/controller/mpc-masterplan.php:834
+msgid ""
+"The Masterplan file is missing, which may mean it did not upload correctly. "
+"Please make the folder %s writable"
+msgstr ""
+
+#: core/controller/mpc-masterplan.php:1210
+msgid "You need to select at least one item to export"
+msgstr ""
+
+#: core/controller/mpc-masterplan.php:1221
+msgid ""
+"Your Masterplan cannot be exported as a working folder could not be created. "
+"Please create a folder at %s and ensure that it is writeable with "
+"permissions 755"
+msgstr ""
+
+#: core/controller/mpc-masterplan.php:1229
+msgid "Please specify a filename"
+msgstr ""
+
+#: core/controller/mpc-masterplan.php:1269
+msgid ""
+"Your Masterplan backup cannot be exported as a working folder could not be "
+"created. Please create a folder at %s and ensure that it is writable with "
+"permissions 755"
+msgstr ""
+
+#: core/controller/mpc-meta.php:52
+msgid "The version could not be found"
+msgstr ""
+
+#: core/controller/mpc-meta.php:57
+msgid "Cannot fetch version. No version id was supplied"
+msgstr ""
+
+#: core/controller/mpc-mpft.php:20
+msgid ""
+"The method '%s' could not be called in the PHP Field Type Class '%s'. Please "
+"check that the method exists."
+msgstr ""
+
+#: core/controller/mpc-mpft.php:24
+msgid ""
+"AJAX method '%s' could not be called as the PHP Field Type Class '%s' could "
+"not be found for type key '%s'. Please check that everything is setup "
+"correctly in this field type."
+msgstr ""
+
+#: core/controller/mpc-post-types.php:391
+msgid ""
+"Sorry, you do not have the required capability to manage post type field "
+"sets."
+msgstr ""
+
+#: core/controller/mpc-post-types.php:421
+msgid ""
+"Sorry, you do not have the required capability to edit post type field sets."
+msgstr ""
+
+#: core/controller/mpc-post-types.php:440
+msgid ""
+"Sorry, you do not have the required capability to create post type field "
+"sets."
+msgstr ""
+
+#: core/controller/mpc-post-types.php:456
+msgid ""
+"Sorry, you do not have the required capability to create post type fields."
+msgstr ""
+
+#: core/controller/mpc-post-types.php:472
+msgid ""
+"Sorry, you do not have the required capability to edit post type fields."
+msgstr ""
+
+#: core/controller/mpc-post-types.php:488
+msgid ""
+"Sorry, you do not have the required capability to delete post type field "
+"sets."
+msgstr ""
+
+#: core/controller/mpc-post-types.php:503
+msgid ""
+"Sorry, you do not have the required capability to delete post type fields."
+msgstr ""
+
+#: core/controller/mpc-post-types.php:522
+msgid ""
+"Post Types define the <em>types of content posts you can publish</em> on "
+"your site, beyond the Posts, Pages, Attachments, and Menu types that "
+"WordPress offers by default."
+msgstr ""
+
+#: core/controller/mpc-post-types.php:533
+msgid ""
+"This screen lets you create a new custom post type for your WordPress Site"
+msgstr ""
+
+#: core/controller/mpc-post-types.php:543
+msgid ""
+"Field Sets define the grouping and types of custom content fields available "
+"for this post type."
+msgstr ""
+
+#: core/controller/mpc-post.php:130 core/controller/mpc-term.php:207
+#: core/controller/mpc-user.php:77 core/view/mpv-site-content.php:39
+msgid "Manage Field Set"
+msgstr ""
+
+#: core/controller/mpc-post.php:130 core/controller/mpc-term.php:207
+#: core/controller/mpc-user.php:77
+msgid "Manage"
+msgstr ""
+
+#: core/controller/mpc-post.php:271
+msgid "Parent"
+msgstr ""
+
+#: core/controller/mpc-post.php:274
+msgid "(no parent)"
+msgstr ""
+
+#: core/controller/mpc-post.php:298 core/view/mpv-templates.php:6
+msgid "Template"
+msgstr ""
+
+#: core/controller/mpc-post.php:301
+msgid "( Default Template )"
+msgstr ""
+
+#: core/controller/mpc-post.php:317
+msgid "Loading additional fields. Please wait&hellip;"
+msgstr ""
+
+#: core/controller/mpc-post.php:321 core/controller/mpc-post.php:322
+msgid "Order"
+msgstr ""
+
+#: core/controller/mpc-post.php:375
+msgid "<b>%s</b>&nbsp;<span class=\"count\">(%d)</span>"
+msgstr ""
+
+#: core/controller/mpc-roles.php:98
+msgid "A role name must be provided"
+msgstr ""
+
+#: core/controller/mpc-roles.php:107
+msgid "Sorry a role named %s already exists. Please choose another name"
+msgstr ""
+
+#: core/controller/mpc-roles.php:339
+msgid ""
+"Sorry, you do not have the required capability to manage user role field "
+"sets."
+msgstr ""
+
+#: core/controller/mpc-roles.php:371
+msgid ""
+"Sorry, you do not have the required capability to edit user role field sets."
+msgstr ""
+
+#: core/controller/mpc-roles.php:390
+msgid ""
+"Sorry, you do not have the required capability to create user role field "
+"sets."
+msgstr ""
+
+#: core/controller/mpc-roles.php:408
+msgid ""
+"Sorry, you do not have the required capability to create user role fields."
+msgstr ""
+
+#: core/controller/mpc-roles.php:425
+msgid ""
+"Sorry, you do not have the required capability to edit user role fields."
+msgstr ""
+
+#: core/controller/mpc-roles.php:441
+msgid ""
+"Sorry, you do not have the required capability to delete user role field "
+"sets."
+msgstr ""
+
+#: core/controller/mpc-roles.php:456
+msgid ""
+"Sorry, you do not have the required capability to delete user role fields."
+msgstr ""
+
+#: core/controller/mpc-roles.php:474
+msgid "User Roles are groupings for users within your current site."
+msgstr ""
+
+#: core/controller/mpc-roles.php:486
+msgid ""
+"<em>User Role</em> Field Sets define the grouping and types of custom "
+"content fields available to <em>this specific User Role</em>."
+msgstr ""
+
+#: core/controller/mpc-settings.php:52
+msgid "MasterPress Settings"
+msgstr ""
+
+#: core/controller/mpc-settings.php:110
+msgid "Invalid licence key format"
+msgstr ""
+
+#: core/controller/mpc-settings.php:112
+msgid "must be at least 33 characters long"
+msgstr ""
+
+#: core/controller/mpc-shared-field-sets.php:23
+msgid ""
+"<em>Shared</em> Field Sets define the grouping and types of custom content "
+"fields available <em>across multiple post types</em> in your site."
+msgstr ""
+
+#: core/controller/mpc-shared-field-sets.php:33
+msgid "Sorry, you do not have the required capability to create shared fields."
+msgstr ""
+
+#: core/controller/mpc-shared-field-sets.php:50
+msgid "Sorry, you do not have the required capability to edit shared fields."
+msgstr ""
+
+#: core/controller/mpc-shared-field-sets.php:67
+msgid "Sorry, you do not have the required capability to delete shared fields."
+msgstr ""
+
+#: core/controller/mpc-site-content.php:28 masterpress.php:2357
+#: masterpress.php:2358
+msgid "Site Content"
+msgstr ""
+
+#: core/controller/mpc-site-field-sets.php:28
+msgid ""
+"<em>Site</em> Field Sets define the grouping and types of custom content "
+"fields available <em>site-wide</em>, in a <em>Site Content</em> admin menu "
+"above your post types."
+msgstr ""
+
+#: core/controller/mpc-site-field-sets.php:38
+msgid "Sorry, you do not have the required capability to create site fields."
+msgstr ""
+
+#: core/controller/mpc-site-field-sets.php:55
+msgid "Sorry, you do not have the required capability to edit site fields."
+msgstr ""
+
+#: core/controller/mpc-site-field-sets.php:72
+msgid "Sorry, you do not have the required capability to delete site fields."
+msgstr ""
+
+#: core/controller/mpc-taxonomies.php:311
+msgid ""
+"Sorry, you do not have the required capability to manage taxonomy field sets."
+msgstr ""
+
+#: core/controller/mpc-taxonomies.php:342
+msgid ""
+"Sorry, you do not have the required capability to edit taxonomy field sets."
+msgstr ""
+
+#: core/controller/mpc-taxonomies.php:361
+msgid ""
+"Sorry, you do not have the required capability to create taxonomy field sets."
+msgstr ""
+
+#: core/controller/mpc-taxonomies.php:379
+msgid ""
+"Sorry, you do not have the required capability to create taxonomy fields."
+msgstr ""
+
+#: core/controller/mpc-taxonomies.php:395
+msgid "Sorry, you do not have the required capability to edit taxonomy fields."
+msgstr ""
+
+#: core/controller/mpc-taxonomies.php:411
+msgid ""
+"Sorry, you do not have the required capability to delete taxonomy field sets."
+msgstr ""
+
+#: core/controller/mpc-taxonomies.php:426
+msgid ""
+"Sorry, you do not have the required capability to delete taxonomy fields."
+msgstr ""
+
+#: core/controller/mpc-taxonomies.php:444
+msgid ""
+"Taxonomies allow you to <em>classify posts and pages</em>, which is highly "
+"useful for presenting filtered lists of them throughout your site."
+msgstr ""
+
+#: core/controller/mpc-templates.php:75
+msgid ""
+"<strong>Warning:</strong> your theme appears to contain multiple template "
+"files with the same <b>Template Name</b>.<br />This may cause some templates "
+"to become invisible to both WordPress and MasterPress.<br />Please verify "
+"the following, and make changes to your template files as necessary:"
+msgstr ""
+
+#: core/controller/mpc-templates.php:79
+msgid ""
+"<span class=\"tt\">%s</span> is called <b>%s</b>, which is already used by "
+"<span class=\"tt\">%s</span>"
+msgstr ""
+
+#: core/controller/mpc-templates.php:298
+msgid ""
+"Sorry, you do not have the required capability to manage template field sets."
+msgstr ""
+
+#: core/controller/mpc-templates.php:329
+msgid ""
+"Sorry, you do not have the required capability to edit template field sets."
+msgstr ""
+
+#: core/controller/mpc-templates.php:348
+msgid ""
+"Sorry, you do not have the required capability to create template field sets."
+msgstr ""
+
+#: core/controller/mpc-templates.php:366
+msgid ""
+"Sorry, you do not have the required capability to create template fields."
+msgstr ""
+
+#: core/controller/mpc-templates.php:382
+msgid "Sorry, you do not have the required capability to edit template fields."
+msgstr ""
+
+#: core/controller/mpc-templates.php:398
+msgid ""
+"Sorry, you do not have the required capability to delete template field sets."
+msgstr ""
+
+#: core/controller/mpc-templates.php:413
+msgid ""
+"Sorry, you do not have the required capability to delete template fields."
+msgstr ""
+
+#: core/controller/mpc-templates.php:431
+msgid ""
+"Templates are PHP-based HTML files in your theme directory that customise "
+"the presentation of one or more Pages in your site."
+msgstr ""
+
+#: core/controller/mpc-templates.php:444
+msgid ""
+"<em>Template</em> Field Sets define the grouping and types of custom content "
+"fields available to <em>this specific Template</em>."
+msgstr ""
+
+#: core/controller/mpc.php:335
+msgid "Sorry, you do not have the required capability to delete this item."
+msgstr ""
+
+#: core/controller/mpc.php:415
+msgid ""
+"Sorry, you do not have the required capability to create an item of this "
+"type."
+msgstr ""
+
+#: core/controller/mpc.php:528
+msgid "Sorry, you do not have the required capability to edit this item."
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:27
+#: core/field-types/audio/mpft-audio.php:36
+msgid "Audio"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:46
+msgid "A file upload control for audio files"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:108
+#: core/field-types/file/mpft-file.php:92
+#: core/field-types/image/mpft-image.php:140
+msgid "Allowed File Types:"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:109
+#: core/field-types/file/mpft-file.php:93
+#: core/field-types/image/mpft-image.php:141
+msgid "Maximum Size:"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:111
+#: core/field-types/file/mpft-file.php:95
+msgid "More Allowed Types:"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:112
+#: core/field-types/file/mpft-file.php:96
+msgid ""
+"Separate file extensions that you would like to allow with commas.<br /"
+"><strong>Important:</strong> in the interests of security, take care to "
+"avoid file types that are executable on your server that may be exploitable "
+"by malicious users.<br /><br />Alternatively, you can populate the list by "
+"selecting from the list of typical field types below:"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:114
+#: core/field-types/file/mpft-file.php:98
+#: core/field-types/image/mpft-image.php:143
+msgid "File Name Handling"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:115
+#: core/field-types/file/mpft-file.php:99
+#: core/field-types/image/mpft-image.php:144
+msgid "specify how file names should be sanitized on upload"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:117
+#: core/field-types/file/mpft-file.php:101
+#: core/field-types/image/mpft-image.php:146
+msgid "Sanitize file name:"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:118
+#: core/field-types/file/mpft-file.php:102
+#: core/field-types/image/mpft-image.php:147
+msgid ""
+"Sanitization removes special characters and replaces word boundaries with "
+"the specified character"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:120
+#: core/field-types/file/mpft-file.php:104
+#: core/field-types/image/mpft-image.php:149
+msgid "Change case to:"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:136
+#: core/field-types/file/mpft-file.php:120
+#: core/field-types/image/mpft-image.php:165
+msgid "With Dashes ( - )"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:137
+#: core/field-types/file/mpft-file.php:121
+#: core/field-types/image/mpft-image.php:166
+msgid "With Underscores ( _ )"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:138
+#: core/field-types/file/mpft-file.php:122
+#: core/field-types/image/mpft-image.php:167
+msgid "None (Don't Sanitize)"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:144
+#: core/field-types/file/mpft-file.php:128
+#: core/field-types/image/mpft-image.php:172
+msgid "( MB )"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:145
+#: core/field-types/file/mpft-file.php:129
+#: core/field-types/image/mpft-image.php:173
+msgid ""
+"This value <strong>cannot exceed</strong> the maximum upload size<br />for "
+"your server, which is currently set to <strong>%s</strong>."
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:147
+#: core/field-types/file/mpft-file.php:131
+#: core/field-types/image/mpft-image.php:175
+msgid "File Restrictions"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:148
+#: core/field-types/file/mpft-file.php:132
+#: core/field-types/image/mpft-image.php:176
+msgid "restrict allowable files by type and file size"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:347
+#: core/field-types/file/mpft-file.php:362
+msgid ""
+"Clear File: Are you Sure?\n"
+"\n"
+"Note: the file will still remain on the server"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:348
+#: core/field-types/file/mpft-file.php:363
+msgid ""
+"Sorry the file could not be deleted. Try using the 'Clear' button instead"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:349
+#: core/field-types/audio/mpft-audio.php:372
+#: core/field-types/file/mpft-file.php:364
+#: core/field-types/file/mpft-file.php:387
+msgid "( no file )"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:425
+#: core/field-types/file/mpft-file.php:429
+msgid "Replace File:"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:426
+#: core/field-types/file/mpft-file.php:430
+msgid "Choose File:"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:428
+#: core/field-types/file/mpft-file.php:432
+msgid "Enter File URL:"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:430
+#: core/field-types/file/mpft-file.php:434
+msgid "View / Download"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:431
+#: core/field-types/audio/mpft-audio.php:439
+#: core/field-types/file/mpft-file.php:435
+#: core/field-types/file/mpft-file.php:443
+#: core/field-types/image/mpft-image.php:429 core/view/mpv-field-sets.php:34
+#: core/view/mpv-field-sets.php:56 core/view/mpv-field-sets.php:88
+#: core/view/mpv-field-sets.php:116 core/view/mpv-post-types.php:22
+#: core/view/mpv-post-types.php:81 core/view/mpv-post-types.php:132
+#: core/view/mpv-roles.php:25 core/view/mpv-taxonomies.php:24
+#: core/view/mpv-taxonomies.php:83 core/view/mpv-taxonomies.php:132
+msgid "Delete"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:433
+#: core/field-types/file/mpft-file.php:437
+#: core/field-types/image/mpft-image.php:421
+msgid "From Computer&hellip;"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:434
+#: core/field-types/file/mpft-file.php:438
+#: core/field-types/image/mpft-image.php:422
+msgid "From Media Library&hellip;"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:435
+#: core/field-types/file/mpft-file.php:439
+#: core/field-types/image/mpft-image.php:423
+msgid "From URL&hellip;"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:436
+#: core/field-types/file/mpft-file.php:440
+#: core/field-types/image/mpft-image.php:424
+msgid "From Existing Uploads&hellip;"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:438
+#: core/field-types/file/mpft-file.php:442
+#: core/field-types/image/mpft-image.php:428
+#: core/field-types/map/mpft-map.php:125 core/view/mpv-field-sets.php:580
+#: core/view/mpv-fields.php:537 core/view/mpv-post-types.php:474
+#: core/view/mpv-taxonomies.php:476
+msgid "Clear"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:441
+#: core/field-types/file/mpft-file.php:445
+#: core/field-types/image/mpft-image.php:431
+msgid "Download"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:442
+#: core/field-types/file/mpft-file.php:446
+#: core/field-types/image/mpft-image.php:432 core/view/mpv-field-sets.php:145
+#: core/view/mpv-field-sets.php:151 core/view/mpv-post-types.php:23
+#: core/view/mpv-role-field-sets.php:18 core/view/mpv-role-field-sets.php:25
+#: core/view/mpv-roles.php:26 core/view/mpv-shared-field-sets.php:25
+#: core/view/mpv-shared-field-sets.php:32 core/view/mpv-site-field-sets.php:25
+#: core/view/mpv-site-field-sets.php:32 core/view/mpv-taxonomies.php:25
+#: core/view/mpv-taxonomy-field-sets.php:25
+#: core/view/mpv-taxonomy-field-sets.php:32
+#: core/view/mpv-template-field-sets.php:25
+#: core/view/mpv-template-field-sets.php:32
+msgid "Cancel"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:444
+#: core/field-types/file/mpft-file.php:448
+msgid "Clear field without deleting the file"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:445
+#: core/field-types/file/mpft-file.php:449
+msgid "Clear field and delete the file"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:447
+#: core/field-types/file/mpft-file.php:451 core/view/mpv-field-sets.php:555
+#: core/view/mpv-fields.php:512 core/view/mpv-masterplan.php:1114
+#: core/view/mpv-post-types.php:456 core/view/mpv-taxonomies.php:458
+msgid "Drop file here to upload"
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:452
+#: core/field-types/file/mpft-file.php:456
+#: core/field-types/image/mpft-image.php:444
+msgid "Fetching URL from Media Library..."
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:453
+#: core/field-types/file/mpft-file.php:457
+#: core/field-types/image/mpft-image.php:445
+msgid "Uploading..."
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:454
+#: core/field-types/file/mpft-file.php:458
+msgid "Fetching File Information..."
+msgstr ""
+
+#: core/field-types/audio/mpft-audio.php:455
+#: core/field-types/file/mpft-file.php:459
+msgid "Downloading File..."
+msgstr ""
+
+#: core/field-types/checkbox/mpft-checkbox.php:13
+msgid "Checkbox"
+msgstr ""
+
+#: core/field-types/checkbox/mpft-checkbox.php:22
+msgid "Checkboxes"
+msgstr ""
+
+#: core/field-types/checkbox/mpft-checkbox.php:32
+msgid "A single checkbox, to represent an on / off toggle state"
+msgstr ""
+
+#: core/field-types/checkbox/mpft-checkbox.php:79
+msgid "Underlying value:"
+msgstr ""
+
+#: core/field-types/checkbox/mpft-checkbox.php:80
+msgid ""
+"Leave blank to simply use <span class=\"tt\">\"true\"</span> as the value."
+msgstr ""
+
+#: core/field-types/checkbox/mpft-checkbox.php:85
+msgid "Checked by default?:"
+msgstr ""
+
+#: core/field-types/checkbox/mpft-checkbox.php:88
+#: core/field-types/checkbox/mpft-checkbox.php:132
+#: core/field-types/checkbox/mpft-checkbox.php:198
+msgid "( checked )"
+msgstr ""
+
+#: core/field-types/checkbox/mpft-checkbox.php:89
+#: core/field-types/checkbox/mpft-checkbox.php:199
+#: core/field-types/checkbox/mpft-checkbox.php:262
+msgid "( not checked )"
+msgstr ""
+
+#: core/field-types/checkbox/mpft-checkbox.php:325
+#: core/view/mpv-settings.php:204
+msgid "yes"
+msgstr ""
+
+#: core/field-types/checkbox/mpft-checkbox.php:325
+#: core/view/mpv-settings.php:204
+msgid "no"
+msgstr ""
+
+#: core/field-types/checkbox-list/mpft-checkbox-list.php:16
+msgid "Checkbox List"
+msgstr ""
+
+#: core/field-types/checkbox-list/mpft-checkbox-list.php:25
+msgid "Checkbox Lists"
+msgstr ""
+
+#: core/field-types/checkbox-list/mpft-checkbox-list.php:35
+msgid "Grouped checkboxes, allowing one or more specific values to be selected"
+msgstr ""
+
+#: core/field-types/checkbox-list/mpft-checkbox-list.php:90
+#: core/field-types/drop-down-list/mpft-drop-down-list.php:93
+#: core/field-types/list-box/mpft-list-box.php:123
+#: core/field-types/radio-button-list/mpft-radio-button-list.php:86
+msgid "Choices:"
+msgstr ""
+
+#: core/field-types/checkbox-list/mpft-checkbox-list.php:91
+#: core/field-types/radio-button-list/mpft-radio-button-list.php:87
+msgid ""
+"Specify the labels for each choice on separate lines. To use a different "
+"underlying <span class=\"tt\">value</span> for any of the choices,<br /> use "
+"the form <strong><span class=\"tt\">label = value</span></strong>."
+msgstr ""
+
+#: core/field-types/checkbox-list/mpft-checkbox-list.php:93
+#: core/field-types/drop-down-list/mpft-drop-down-list.php:102
+#: core/field-types/list-box/mpft-list-box.php:126
+#: core/field-types/radio-button-list/mpft-radio-button-list.php:89
+msgid "Default State:"
+msgstr ""
+
+#: core/field-types/checkbox-list/mpft-checkbox-list.php:94
+#: core/field-types/drop-down-list/mpft-drop-down-list.php:103
+#: core/field-types/list-box/mpft-list-box.php:127
+#: core/field-types/radio-button-list/mpft-radio-button-list.php:90
+msgid "Use the preview of your control above to setup the default state"
+msgstr ""
+
+#: core/field-types/checkbox-list/mpft-checkbox-list.php:195
+#: core/field-types/list-box/mpft-list-box.php:287
+#: core/field-types/radio-button-list/mpft-radio-button-list.php:100
+#: core/field-types/radio-button-list/mpft-radio-button-list.php:225
+#: core/view/mpv.php:417 core/view/mpv.php:518 core/view/mpv.php:634
+#: core/view/mpv.php:741
+msgid "Select None"
+msgstr ""
+
+#: core/field-types/checkbox-list/mpft-checkbox-list.php:196
+#: core/field-types/list-box/mpft-list-box.php:288 core/view/mpv.php:416
+#: core/view/mpv.php:517 core/view/mpv.php:633 core/view/mpv.php:740
+msgid "Select All"
+msgstr ""
+
+#: core/field-types/code-editor/mpft-code-editor.php:32
+#: core/field-types/code-editor/mpft-code-editor.php:41
+msgid "Code Editor (CodeMirror)"
+msgstr ""
+
+#: core/field-types/code-editor/mpft-code-editor.php:51
+msgid "A syntax-colored code editor, built with CodeMirror v2"
+msgstr ""
+
+#: core/field-types/code-editor/mpft-code-editor.php:158
+#: core/other/mpft.php:771
+msgid "Minimum Height:"
+msgstr ""
+
+#: core/field-types/code-editor/mpft-code-editor.php:159
+#: core/field-types/code-editor/mpft-code-editor.php:162
+#: core/field-types/drop-down-list/mpft-drop-down-list.php:97
+#: core/field-types/list-box/mpft-list-box.php:110
+#: core/field-types/list-box/mpft-list-box.php:111
+#: core/field-types/visual-editor/mpft-visual-editor.php:108
+#: core/other/mpft.php:763 core/other/mpft.php:767 core/other/mpft.php:771
+#: core/other/mpft.php:776
+msgid "(pixels)"
+msgstr ""
+
+#: core/field-types/code-editor/mpft-code-editor.php:161
+#: core/other/mpft.php:767
+msgid "Maximum Height:"
+msgstr ""
+
+#: core/field-types/code-editor/mpft-code-editor.php:165
+msgid ""
+"The editor will automatically grow to accommodate its content up to this "
+"maximum value."
+msgstr ""
+
+#: core/field-types/code-editor/mpft-code-editor.php:169
+msgid "Show mode selector (allows mode to be changed when entering content)"
+msgstr ""
+
+#: core/field-types/code-editor/mpft-code-editor.php:172
+msgid "Syntax Mode:"
+msgstr ""
+
+#: core/field-types/code-editor/mpft-code-editor.php:179
+msgid "Theme:"
+msgstr ""
+
+#: core/field-types/code-editor/mpft-code-editor.php:369
+msgid "Syntax Mode: "
+msgstr ""
+
+#: core/field-types/code-editor/mpft-code-editor.php:415
+#: core/field-types/spinner/mpft-spinner.php:185
+#: core/field-types/text-box/mpft-text-box.php:168
+#: core/field-types/text-box-multiline/mpft-text-box-multiline.php:172
+#: core/field-types/visual-editor/mpft-visual-editor.php:273
+msgid "( no content )"
+msgstr ""
+
+#: core/field-types/color-picker/mpft-color-picker.php:35
+msgid "Color Picker"
+msgstr ""
+
+#: core/field-types/color-picker/mpft-color-picker.php:44
+msgid "Color Pickers"
+msgstr ""
+
+#: core/field-types/color-picker/mpft-color-picker.php:54
+msgid "A color picker powered by Iris"
+msgstr ""
+
+#: core/field-types/color-picker/mpft-color-picker.php:116
+msgid "Default Color:"
+msgstr ""
+
+#: core/field-types/date-picker/mpft-date-picker.php:13
+msgid "Date Picker"
+msgstr ""
+
+#: core/field-types/date-picker/mpft-date-picker.php:22
+msgid "Date Pickers"
+msgstr ""
+
+#: core/field-types/date-picker/mpft-date-picker.php:32
+msgid ""
+"A text-input control with a popup calendar for selecting a date and time"
+msgstr ""
+
+#: core/field-types/date-picker/mpft-date-picker.php:93
+msgid "Selection Mode:"
+msgstr ""
+
+#: core/field-types/date-picker/mpft-date-picker.php:97
+msgid "Single Date"
+msgstr ""
+
+#: core/field-types/date-picker/mpft-date-picker.php:97
+msgid "Start / End Date"
+msgstr ""
+
+#: core/field-types/date-picker/mpft-date-picker.php:102
+msgid "Minimum Date:"
+msgstr ""
+
+#: core/field-types/date-picker/mpft-date-picker.php:103
+msgid "Maximum Date:"
+msgstr ""
+
+#: core/field-types/date-picker/mpft-date-picker.php:104
+msgid "Default Date:"
+msgstr ""
+
+#: core/field-types/date-picker/mpft-date-picker.php:106
+msgid "Allow Time Selection?"
+msgstr ""
+
+#: core/field-types/date-picker/mpft-date-picker.php:109
+msgid ""
+"Note: for minumum, maximum, and default dates, you may also enter a number "
+"of days from today (e.g. +7) or a string of values and periods ('y' for "
+"years, 'm' for months, 'w' for weeks, 'd' for days, e.g. '-1y -1m')."
+msgstr ""
+
+#: core/field-types/date-picker/mpft-date-picker.php:111
+msgid "choose&hellip;"
+msgstr ""
+
+#: core/field-types/date-picker/mpft-date-picker.php:400
+msgid "Start Date:"
+msgstr ""
+
+#: core/field-types/date-picker/mpft-date-picker.php:401
+msgid "End Date:"
+msgstr ""
+
+#: core/field-types/date-picker/mpft-date-picker.php:482
+msgid "( no date selected )"
+msgstr ""
+
+#: core/field-types/drop-down-list/mpft-drop-down-list.php:13
+msgid "Drop-down List"
+msgstr ""
+
+#: core/field-types/drop-down-list/mpft-drop-down-list.php:22
+msgid "Drop-down Lists"
+msgstr ""
+
+#: core/field-types/drop-down-list/mpft-drop-down-list.php:32
+msgid "A select control for choosing a single specific value from a list"
+msgstr ""
+
+#: core/field-types/drop-down-list/mpft-drop-down-list.php:76
+msgid "Please select an option:"
+msgstr ""
+
+#: core/field-types/drop-down-list/mpft-drop-down-list.php:94
+#: core/field-types/list-box/mpft-list-box.php:124
+msgid ""
+"Specify the labels for each choice on separate lines. To use a different "
+"underlying <span class=\"tt\">value</span> for any of the choices,<br /> use "
+"the form <strong><span class=\"tt\">label = value</span></strong>. To create "
+"a group of choices, prefix the line you wish to use as a group label with "
+"<span class=\"tt\">--</span> (group labels are not selectable)"
+msgstr ""
+
+#: core/field-types/drop-down-list/mpft-drop-down-list.php:96
+#: core/field-types/list-box/mpft-list-box.php:107 core/other/mpft.php:763
+msgid "Maximum Width:"
+msgstr ""
+
+#: core/field-types/drop-down-list/mpft-drop-down-list.php:99
+msgid "Empty Prompting Label:"
+msgstr ""
+
+#: core/field-types/drop-down-list/mpft-drop-down-list.php:100
+msgid ""
+"Enter a prompting label to use for an empty value, displayed above the "
+"<em>Choices</em>.<br />Clear this value if you don't wish to allow an empty "
+"value."
+msgstr ""
+
+#: core/field-types/drop-down-list/mpft-drop-down-list.php:218
+#: core/field-types/list-box/mpft-list-box.php:358
+#: core/field-types/related-post/mpft-related-post.php:983
+#: core/field-types/related-post-type/mpft-related-post-type.php:378
+#: core/field-types/related-site/mpft-related-site.php:310
+#: core/field-types/related-taxonomy/mpft-related-taxonomy.php:382
+#: core/field-types/related-term/mpft-related-term.php:862
+#: core/field-types/related-user/mpft-related-user.php:649
+#: core/field-types/related-user-role/mpft-related-user-role.php:340
+msgid "-- None Selected --"
+msgstr ""
+
+#: core/field-types/drop-down-list/mpft-drop-down-list.php:265
+#: core/field-types/radio-button-list/mpft-radio-button-list.php:181
+msgid "( none selected )"
+msgstr ""
+
+#: core/field-types/file/mpft-file.php:13
+msgid "File"
+msgstr ""
+
+#: core/field-types/file/mpft-file.php:22
+msgid "Files"
+msgstr ""
+
+#: core/field-types/file/mpft-file.php:32
+msgid ""
+"A file upload control which can be restricted to allow specific file "
+"extensions"
+msgstr ""
+
+#: core/field-types/image/mpft-image.php:34 core/other/mpft-file-base.php:38
+msgid "no file path has been set"
+msgstr ""
+
+#: core/field-types/image/mpft-image.php:61
+#: core/field-types/related-post/mpft-related-post.php:185
+#: core/field-types/related-term/mpft-related-term.php:192
+#: core/field-types/related-user/mpft-related-user.php:148
+msgid "Image"
+msgstr ""
+
+#: core/field-types/image/mpft-image.php:70
+msgid "Images"
+msgstr ""
+
+#: core/field-types/image/mpft-image.php:80
+msgid ""
+"An image uploader, with thumbnail preview and the ability to generate "
+"thumbnails of any size"
+msgstr ""
+
+#: core/field-types/image/mpft-image.php:178
+msgid ""
+"The image field type is intended only for images that are displayable on a "
+"website.<br />For other image types, use the <em>file</em> field type instead"
+msgstr ""
+
+#: core/field-types/image/mpft-image.php:319
+msgid ""
+"Clear Image: Are you Sure?\n"
+"\n"
+"Note: the image file still will remain on the server"
+msgstr ""
+
+#: core/field-types/image/mpft-image.php:356
+msgid "View Image"
+msgstr ""
+
+#: core/field-types/image/mpft-image.php:406
+msgid "Replace Image:"
+msgstr ""
+
+#: core/field-types/image/mpft-image.php:407
+msgid "Choose Image:"
+msgstr ""
+
+#: core/field-types/image/mpft-image.php:409
+msgid "Attributes"
+msgstr ""
+
+#: core/field-types/image/mpft-image.php:410
+msgid "Edit HTML attributes (alternate text / title)"
+msgstr ""
+
+#: core/field-types/image/mpft-image.php:412
+msgid "Enter Image URL:"
+msgstr ""
+
+#: core/field-types/image/mpft-image.php:414
+msgid "Alternate Text:"
+msgstr ""
+
+#: core/field-types/image/mpft-image.php:415
+msgid "Title:"
+msgstr ""
+
+#: core/field-types/image/mpft-image.php:417
+msgid "Image Tag Attributes"
+msgstr ""
+
+#: core/field-types/image/mpft-image.php:419
+msgid "Replace Image&hellip;"
+msgstr ""
+
+#: core/field-types/image/mpft-image.php:434
+msgid "Clear field without deleting the image file"
+msgstr ""
+
+#: core/field-types/image/mpft-image.php:435
+msgid "Clear field AND delete the image file"
+msgstr ""
+
+#: core/field-types/image/mpft-image.php:437
+msgid "width &times; height"
+msgstr ""
+
+#: core/field-types/image/mpft-image.php:439
+msgid "Drop image<br />file here<br />to upload"
+msgstr ""
+
+#: core/field-types/image/mpft-image.php:446
+msgid "Fetching Image Information..."
+msgstr ""
+
+#: core/field-types/image/mpft-image.php:448
+msgid "Downloading Image..."
+msgstr ""
+
+#: core/field-types/list-box/mpft-list-box.php:15
+msgid "List Box"
+msgstr ""
+
+#: core/field-types/list-box/mpft-list-box.php:24
+msgid "List Boxes"
+msgstr ""
+
+#: core/field-types/list-box/mpft-list-box.php:34
+msgid ""
+"A standard HTML select-multiple control, for selecting one or more specific "
+"values from a list"
+msgstr ""
+
+#: core/field-types/list-box/mpft-list-box.php:108 core/other/mpft.php:776
+msgid "Height:"
+msgstr ""
+
+#: core/field-types/list-box/mpft-list-box.php:120
+msgid "Multiple Selections?:"
+msgstr ""
+
+#: core/field-types/list-box/mpft-list-box.php:130
+msgid "Selection Buttons:"
+msgstr ""
+
+#: core/field-types/map/mpft-map.php:30
+msgid "Map"
+msgstr ""
+
+#: core/field-types/map/mpft-map.php:34
+msgid "Maps"
+msgstr ""
+
+#: core/field-types/map/mpft-map.php:38
+msgid ""
+"A Google Maps&trade; control allowing interactive selection of a geo-"
+"coordinate"
+msgstr ""
+
+#: core/field-types/map/mpft-map.php:63
+msgid "Please enter a search term"
+msgstr ""
+
+#: core/field-types/map/mpft-map.php:72 core/field-types/map/mpft-map.php:349
+msgid "No Map"
+msgstr ""
+
+#: core/field-types/map/mpft-map.php:103
+msgid "( no location )"
+msgstr ""
+
+#: core/field-types/map/mpft-map.php:122
+msgid "( No Location Set )"
+msgstr ""
+
+#: core/field-types/map/mpft-map.php:124 core/view/mpv-meta.php:1110
+msgid "Restore"
+msgstr ""
+
+#: core/field-types/map/mpft-map.php:127
+msgid ""
+"Restore the location back to the currently stored latitude, longitude, and "
+"zoom level"
+msgstr ""
+
+#: core/field-types/map/mpft-map.php:128
+msgid "Clear the location"
+msgstr ""
+
+#: core/field-types/map/mpft-map.php:130
+msgid "Use the map to set a new location, or enter a place to search for:"
+msgstr ""
+
+#: core/field-types/map/mpft-map.php:131
+msgid "Click the map to begin location set up or search for a location below:"
+msgstr ""
+
+#: core/field-types/map/mpft-map.php:132
+msgid "Search"
+msgstr ""
+
+#: core/field-types/map/mpft-map.php:134
+msgid "Latitude:"
+msgstr ""
+
+#: core/field-types/map/mpft-map.php:135
+msgid "Longitude:"
+msgstr ""
+
+#: core/field-types/map/mpft-map.php:136
+msgid "Zoom:"
+msgstr ""
+
+#: core/field-types/map/mpft-map.php:138
+msgid "Set Location"
+msgstr ""
+
+#: core/field-types/map/mpft-map.php:272 core/field-types/map/mpft-map.php:294
+msgid "Cannot show an image - the location for this map field has not been set"
+msgstr ""
+
+#: core/field-types/radio-button-list/mpft-radio-button-list.php:13
+msgid "Radio Button List"
+msgstr ""
+
+#: core/field-types/radio-button-list/mpft-radio-button-list.php:22
+msgid "Radio Button Lists"
+msgstr ""
+
+#: core/field-types/radio-button-list/mpft-radio-button-list.php:32
+msgid ""
+"Grouped radio buttons, allowing selection of a single value from one or more "
+"specific values"
+msgstr ""
+
+#: core/field-types/radio-button-list/mpft-radio-button-list.php:96
+msgid "Allow Uncheck?:"
+msgstr ""
+
+#: core/field-types/radio-button-list/mpft-radio-button-list.php:98
+msgid "Include a button to uncheck all radio buttons in the set"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:15
+msgid "Related Post(s)"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:24
+msgid "Related Posts"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:34
+msgid "Allows selection of one or more related posts"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:90
+#: core/field-types/related-post-type/mpft-related-post-type.php:92
+msgid "Available Post Types:"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:146
+msgid "Excludes the current post being edited from the results"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:152
+#: core/field-types/related-post/mpft-related-post.php:182
+#: core/view/mpv-fields.php:56 core/view/mpv-post-types.php:6
+#: masterpress.php:2612
+msgid "Post Type"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:155
+#: core/field-types/related-term/mpft-related-term.php:167
+#: core/field-types/related-user/mpft-related-user.php:124
+msgid "Minimum Input Length"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:155
+#: core/field-types/related-term/mpft-related-term.php:167
+#: core/field-types/related-user/mpft-related-user.php:124
+msgid ""
+"Enter the number of characters required before any results are displayed."
+"<br />This is useful for large numbers of posts, where performance may "
+"become poor."
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:159
+msgid "Post Limit:"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:159
+msgid ""
+"The latest <em>n</em> posts will be retrieved, where <em>n</em> is the "
+"number provided here.<br />Leave empty to retrieve all posts."
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:163
+msgid "Taxonomy Filter:"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:166
+msgid ""
+"Query Options - <span>further specify the posts available for selection</"
+"span>"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:167
+msgid ""
+"Results Display - <span>settings for the display of the available posts</"
+"span>"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:168
+msgid ""
+"Selection Display - <span>settings for the display of the selected posts</"
+"span>"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:174
+#: core/field-types/related-term/mpft-related-term.php:179
+#: core/field-types/related-user/mpft-related-user.php:136
+msgid "Row Item Properties:"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:175
+msgid ""
+"Defines the post properties used to derive the info shown in result rows."
+"<br /><b>Note: </b>Excerpts and images will be truncated / resized "
+"automatically."
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:183
+#: core/field-types/related-post/mpft-related-post.php:360
+#: core/other/mpft.php:671 core/view/mpv-post-types.php:717
+#: core/view/mpv-templates.php:241
+msgid "Title"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:184
+#: core/field-types/related-post/mpft-related-post.php:361
+#: core/other/mpft.php:672 core/view/mpv-post-types.php:771
+#: core/view/mpv-templates.php:289
+msgid "Excerpt"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:244
+#: core/field-types/related-post/mpft-related-post.php:279
+#: core/field-types/related-post/mpft-related-post.php:314
+#: core/field-types/related-term/mpft-related-term.php:253
+#: core/field-types/related-term/mpft-related-term.php:288
+#: core/field-types/related-term/mpft-related-term.php:323
+#: core/field-types/related-user/mpft-related-user.php:206
+#: core/field-types/related-user/mpft-related-user.php:242
+#: core/field-types/related-user/mpft-related-user.php:278
+msgid "Select Field"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:346
+#: core/field-types/related-term/mpft-related-term.php:354
+#: core/field-types/related-user/mpft-related-user.php:307
+msgid "Select a Field"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:357
+#: core/field-types/related-term/mpft-related-term.php:365
+#: core/field-types/related-user/mpft-related-user.php:318
+msgid "( Built-in Fields )"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:362
+msgid "Feature Image"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:393
+#: core/field-types/related-term/mpft-related-term.php:399
+#: core/field-types/related-user/mpft-related-user.php:358
+#: core/view/mpv-post-types.php:1056 core/view/mpv-taxonomies.php:878
+#: core/view/mpv.php:261
+msgid "-- Select a Field --"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:658
+#: core/field-types/related-post/mpft-related-post.php:959
+#: core/field-types/related-term/mpft-related-term.php:790
+msgid "-- Select an Item --"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:660
+#: core/field-types/related-term/mpft-related-term.php:792
+msgid "-- Select Items --"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:741
+#: core/field-types/related-post/mpft-related-post.php:856
+#: core/field-types/related-term/mpft-related-term.php:648
+msgid "( no title )"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:1155
+msgid "No post has been set for this field"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:1165
+msgid "No post exists for this field"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:1202
+#: core/field-types/related-term/mpft-related-term.php:1130
+msgid "Related to '%s'"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:1207
+#: core/field-types/related-term/mpft-related-term.php:1135
+msgid "No %s"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:1207
+#: core/field-types/related-term/mpft-related-term.php:1135
+msgid "1 %s"
+msgstr ""
+
+#: core/field-types/related-post/mpft-related-post.php:1207
+#: core/field-types/related-term/mpft-related-term.php:1135
+msgid "%d %s"
+msgstr ""
+
+#: core/field-types/related-post-type/mpft-related-post-type.php:15
+msgid "Related Post Type(s)"
+msgstr ""
+
+#: core/field-types/related-post-type/mpft-related-post-type.php:24
+msgid "Related Post Types"
+msgstr ""
+
+#: core/field-types/related-post-type/mpft-related-post-type.php:34
+msgid ""
+"Allows selection of one or more related post types from the list of types "
+"supported in the current site"
+msgstr ""
+
+#: core/field-types/related-post-type/mpft-related-post-type.php:94
+msgid "Select the post types available for selection in the field control"
+msgstr ""
+
+#: core/field-types/related-post-type/mpft-related-post-type.php:158
+msgid ""
+"Selection Display - <span>settings for the display of the selected post "
+"types</span>"
+msgstr ""
+
+#: core/field-types/related-post-type/mpft-related-post-type.php:351
+msgid "-- Select a Post Type --"
+msgstr ""
+
+#: core/field-types/related-post-type/mpft-related-post-type.php:365
+msgid "-- Select Post Types --"
+msgstr ""
+
+#: core/field-types/related-post-type/mpft-related-post-type.php:492
+#: core/field-types/related-post-type/mpft-related-post-type.php:503
+msgid "No post type has been set for this field"
+msgstr ""
+
+#: core/field-types/related-site/mpft-related-site.php:15
+msgid "Related Site(s)"
+msgstr ""
+
+#: core/field-types/related-site/mpft-related-site.php:24
+msgid "Related Sites"
+msgstr ""
+
+#: core/field-types/related-site/mpft-related-site.php:34
+msgid ""
+"Allows selection of a related site from a list of the available sites in "
+"your Wordpress multisite network"
+msgstr ""
+
+#: core/field-types/related-site/mpft-related-site.php:89
+msgid "Check to exclude the current site from this list"
+msgstr ""
+
+#: core/field-types/related-site/mpft-related-site.php:98
+msgid ""
+"Selection Display - <span>settings for the display of the selected sites</"
+"span>"
+msgstr ""
+
+#: core/field-types/related-site/mpft-related-site.php:283
+msgid "-- Select a Site --"
+msgstr ""
+
+#: core/field-types/related-site/mpft-related-site.php:297
+msgid "-- Select Sites --"
+msgstr ""
+
+#: core/field-types/related-site/mpft-related-site.php:428
+#: core/field-types/related-site/mpft-related-site.php:439
+msgid "No site has been set for this field"
+msgstr ""
+
+#: core/field-types/related-taxonomy/mpft-related-taxonomy.php:15
+#: core/field-types/related-taxonomy/mpft-related-taxonomy.php:24
+msgid "Related Taxonomy(ies)"
+msgstr ""
+
+#: core/field-types/related-taxonomy/mpft-related-taxonomy.php:34
+msgid ""
+"Allows selection of one or more related taxonomies from the list of built-in "
+"and custom taxonomies"
+msgstr ""
+
+#: core/field-types/related-taxonomy/mpft-related-taxonomy.php:93
+#: core/field-types/related-term/mpft-related-term.php:95
+msgid "Available Taxonomies:"
+msgstr ""
+
+#: core/field-types/related-taxonomy/mpft-related-taxonomy.php:95
+msgid "Select the taxonomies available for selection in the field control"
+msgstr ""
+
+#: core/field-types/related-taxonomy/mpft-related-taxonomy.php:161
+msgid ""
+"Selection Display - <span>settings for the display of the selected "
+"taxonomies</span>"
+msgstr ""
+
+#: core/field-types/related-taxonomy/mpft-related-taxonomy.php:355
+msgid "-- Select a Taxonomy --"
+msgstr ""
+
+#: core/field-types/related-taxonomy/mpft-related-taxonomy.php:369
+msgid "-- Select Taxonomies --"
+msgstr ""
+
+#: core/field-types/related-taxonomy/mpft-related-taxonomy.php:501
+#: core/field-types/related-taxonomy/mpft-related-taxonomy.php:512
+msgid "No taxonomy has been set for this field"
+msgstr ""
+
+#: core/field-types/related-term/mpft-related-term.php:15
+#: core/field-types/related-term/mpft-related-term.php:24
+msgid "Related Term(s)"
+msgstr ""
+
+#: core/field-types/related-term/mpft-related-term.php:34
+msgid ""
+"Allows selection of one or more taxonomy terms from a list of terms attached "
+"to one or more taxonomies"
+msgstr ""
+
+#: core/field-types/related-term/mpft-related-term.php:97
+msgid ""
+"Select the taxonomies of terms available for selection in the field control"
+msgstr ""
+
+#: core/field-types/related-term/mpft-related-term.php:153
+#: core/field-types/related-term/mpft-related-term.php:369
+#: core/view/mpv-field-sets.php:674 core/view/mpv-fields.php:254
+#: core/view/mpv-post-types.php:515
+msgid "Description"
+msgstr ""
+
+#: core/field-types/related-term/mpft-related-term.php:154
+#: core/field-types/related-term/mpft-related-term.php:368
+#: core/field-types/related-user/mpft-related-user.php:114
+#: core/view/mpv-field-sets.php:508 core/view/mpv-fields.php:112
+#: core/view/mpv-post-types.php:198 core/view/mpv-roles.php:83
+#: core/view/mpv-roles.php:514 core/view/mpv-taxonomies.php:202
+msgid "Name"
+msgstr ""
+
+#: core/field-types/related-term/mpft-related-term.php:165
+#: core/field-types/related-term/mpft-related-term.php:188
+#: core/view/mpv-taxonomies.php:6 masterpress.php:2623
+msgid "Taxonomy"
+msgstr ""
+
+#: core/field-types/related-term/mpft-related-term.php:170
+msgid "Data Source - <span>specify the terms available for selection</span>"
+msgstr ""
+
+#: core/field-types/related-term/mpft-related-term.php:171
+#: core/field-types/related-user/mpft-related-user.php:126
+msgid "Control Options"
+msgstr ""
+
+#: core/field-types/related-term/mpft-related-term.php:172
+msgid ""
+"Results Display - <span>settings for the display of the available terms</"
+"span>"
+msgstr ""
+
+#: core/field-types/related-term/mpft-related-term.php:173
+msgid ""
+"Selection Display - <span>settings for the display of the selected terms</"
+"span>"
+msgstr ""
+
+#: core/field-types/related-term/mpft-related-term.php:180
+msgid ""
+"Defines the term properties used to derive the info shown in result rows."
+"<br /><b>Note: </b>Descriptions and images will be truncated / resized "
+"automatically."
+msgstr ""
+
+#: core/field-types/related-term/mpft-related-term.php:1084
+#: core/field-types/related-term/mpft-related-term.php:1095
+msgid "No term has been set for this field"
+msgstr ""
+
+#: core/field-types/related-user/mpft-related-user.php:15
+msgid "Related User(s)"
+msgstr ""
+
+#: core/field-types/related-user/mpft-related-user.php:24
+msgid "Related Users"
+msgstr ""
+
+#: core/field-types/related-user/mpft-related-user.php:34
+msgid ""
+"Allows selection of one or more related users from a list of Wordpress users "
+"for this site"
+msgstr ""
+
+#: core/field-types/related-user/mpft-related-user.php:92
+#: core/field-types/related-user-role/mpft-related-user-role.php:89
+msgid "Available User Roles:"
+msgstr ""
+
+#: core/field-types/related-user/mpft-related-user.php:94
+msgid ""
+"Specify the roles that users must have to be available for selection in the "
+"field control"
+msgstr ""
+
+#: core/field-types/related-user/mpft-related-user.php:113
+msgid "Details"
+msgstr ""
+
+#: core/field-types/related-user/mpft-related-user.php:122
+msgid "Role"
+msgstr ""
+
+#: core/field-types/related-user/mpft-related-user.php:127
+msgid ""
+"Results Display - <span>settings for the display of the available users</"
+"span>"
+msgstr ""
+
+#: core/field-types/related-user/mpft-related-user.php:128
+msgid ""
+"Selection Display - <span>settings for the display of the selected users</"
+"span>"
+msgstr ""
+
+#: core/field-types/related-user/mpft-related-user.php:137
+msgid ""
+"Defines the user properties used to derive the info shown in result rows."
+"<br /><b>Note: </b>Details and images will be truncated / resized "
+"automatically."
+msgstr ""
+
+#: core/field-types/related-user/mpft-related-user.php:145
+#: core/view/mpv-masterplan.php:582 core/view/mpv-roles.php:6
+#: masterpress.php:2634
+msgid "User Role"
+msgstr ""
+
+#: core/field-types/related-user/mpft-related-user.php:321
+msgid "Full Name"
+msgstr ""
+
+#: core/field-types/related-user/mpft-related-user.php:322
+msgid "Role Name"
+msgstr ""
+
+#: core/field-types/related-user/mpft-related-user.php:323
+msgid "Login"
+msgstr ""
+
+#: core/field-types/related-user/mpft-related-user.php:324
+msgid "Email"
+msgstr ""
+
+#: core/field-types/related-user/mpft-related-user.php:325
+msgid "Avatar"
+msgstr ""
+
+#: core/field-types/related-user/mpft-related-user.php:760
+#: core/field-types/related-user/mpft-related-user.php:770
+msgid "No user has been set for this field"
+msgstr ""
+
+#: core/field-types/related-user-role/mpft-related-user-role.php:15
+msgid "Related User Role(s)"
+msgstr ""
+
+#: core/field-types/related-user-role/mpft-related-user-role.php:24
+msgid "Related User Roles"
+msgstr ""
+
+#: core/field-types/related-user-role/mpft-related-user-role.php:34
+msgid ""
+"Allows selection of a related user role from a list of the available roles "
+"in your Wordpress site"
+msgstr ""
+
+#: core/field-types/related-user-role/mpft-related-user-role.php:91
+msgid "Specify the user roles available for selection in the field control"
+msgstr ""
+
+#: core/field-types/related-user-role/mpft-related-user-role.php:110
+msgid ""
+"Selection Display - <span>settings for the display of the selected user "
+"roles</span>"
+msgstr ""
+
+#: core/field-types/related-user-role/mpft-related-user-role.php:314
+msgid "-- Select a User Role --"
+msgstr ""
+
+#: core/field-types/related-user-role/mpft-related-user-role.php:328
+msgid "-- Select User Roles --"
+msgstr ""
+
+#: core/field-types/related-user-role/mpft-related-user-role.php:456
+#: core/field-types/related-user-role/mpft-related-user-role.php:467
+msgid "No role has been set for this field"
+msgstr ""
+
+#: core/field-types/spinner/mpft-spinner.php:13
+#: core/field-types/spinner/mpft-spinner.php:22
+msgid "Spinner"
+msgstr ""
+
+#: core/field-types/spinner/mpft-spinner.php:32
+msgid "A numeric text input with with increment / decrement arrow buttons"
+msgstr ""
+
+#: core/field-types/spinner/mpft-spinner.php:82
+msgid "Show Negative in red?:"
+msgstr ""
+
+#: core/field-types/spinner/mpft-spinner.php:84
+msgid "Minimum Value:"
+msgstr ""
+
+#: core/field-types/spinner/mpft-spinner.php:85
+msgid "Maximum Value:"
+msgstr ""
+
+#: core/field-types/spinner/mpft-spinner.php:87
+#: core/field-types/text-box/mpft-text-box.php:92
+msgid "Default Value:"
+msgstr ""
+
+#: core/field-types/spinner/mpft-spinner.php:89
+msgid "Step By:"
+msgstr ""
+
+#: core/field-types/spinner/mpft-spinner.php:90
+msgid "Enter a numeric step amount for the up / down buttons or arrow keys."
+msgstr ""
+
+#: core/field-types/spinner/mpft-spinner.php:92
+msgid "Number Format:"
+msgstr ""
+
+#: core/field-types/spinner/mpft-spinner.php:93
+msgid ""
+"Enter a numeric format to use made up of zeros (0), hashes (#), commas (,) a "
+"decimal point, and other symbols.<br />0 represents a decimal that will "
+"always be present (generally only used on either side of a decimal point)."
+"<br /># is a decimal that is present if needed, and commas and other symbols "
+"are placed into the same position.<br />Example: $#,###,###,##0.00 is a "
+"currency amount with 2 decimal places always shown,<br />and a leading zero "
+"always in front of the decimal point."
+msgstr ""
+
+#: core/field-types/text-box/mpft-text-box.php:13
+#: core/field-types/text-box/mpft-text-box.php:22
+msgid "Text Box"
+msgstr ""
+
+#: core/field-types/text-box/mpft-text-box.php:32
+msgid "A standard HTML single-line text input control"
+msgstr ""
+
+#: core/field-types/text-box/mpft-text-box.php:85
+#: core/field-types/text-box-multiline/mpft-text-box-multiline.php:85
+msgid "Maximum Length:"
+msgstr ""
+
+#: core/field-types/text-box/mpft-text-box.php:86
+#: core/field-types/text-box-multiline/mpft-text-box-multiline.php:86
+msgid "(characters)"
+msgstr ""
+
+#: core/field-types/text-box/mpft-text-box.php:90
+#: core/field-types/text-box-multiline/mpft-text-box-multiline.php:88
+msgid "show a count of remaining characters"
+msgstr ""
+
+#: core/field-types/text-box/mpft-text-box.php:93
+msgid "Use the preview of your control above to set a default value"
+msgstr ""
+
+#: core/field-types/text-box/mpft-text-box.php:181
+#: core/field-types/text-box-multiline/mpft-text-box-multiline.php:199
+msgid "%d characters remaining"
+msgstr ""
+
+#: core/field-types/text-box/mpft-text-box.php:182
+#: core/field-types/text-box-multiline/mpft-text-box-multiline.php:200
+msgid "%d character remaining"
+msgstr ""
+
+#: core/field-types/text-box/mpft-text-box.php:183
+#: core/field-types/text-box-multiline/mpft-text-box-multiline.php:201
+msgid "no characters remaining"
+msgstr ""
+
+#: core/field-types/text-box-multiline/mpft-text-box-multiline.php:13
+msgid "Text Box (Multiple-line)"
+msgstr ""
+
+#: core/field-types/text-box-multiline/mpft-text-box-multiline.php:22
+msgid "Text Boxes (Multiple-line)"
+msgstr ""
+
+#: core/field-types/text-box-multiline/mpft-text-box-multiline.php:32
+msgid "A standard HTML text area (multiple-line) control"
+msgstr ""
+
+#: core/field-types/video/mpft-video.php:30
+msgid "Video"
+msgstr ""
+
+#: core/field-types/video/mpft-video.php:39
+msgid "Videos"
+msgstr ""
+
+#: core/field-types/video/mpft-video.php:49
+msgid "Link to hosted online videos from popular online video services"
+msgstr ""
+
+#: core/field-types/video/mpft-video.php:261
+#: core/field-types/video/mpft-video.php:491
+msgid "A video could not be found on YouTube at the specified URL"
+msgstr ""
+
+#: core/field-types/video/mpft-video.php:344
+#: core/field-types/video/mpft-video.php:580
+msgid "A video could not be found on Vimeo at the specified URL"
+msgstr ""
+
+#: core/field-types/video/mpft-video.php:631
+#: core/field-types/video/mpft-video.php:742
+msgid "YouTube"
+msgstr ""
+
+#: core/field-types/video/mpft-video.php:632
+#: core/field-types/video/mpft-video.php:744
+msgid "Vimeo"
+msgstr ""
+
+#: core/field-types/video/mpft-video.php:633
+msgid ""
+"The URL entered does not appear to be valid. Please enter a valid URL for a "
+"video hosted on YouTube or Vimeo"
+msgstr ""
+
+#: core/field-types/video/mpft-video.php:663 core/other/mpft.php:835
+#: core/view/mpv-templates.php:122 core/view/mpv.php:1422
+msgid "( none )"
+msgstr ""
+
+#: core/field-types/video/mpft-video.php:689
+msgid "( no URL )"
+msgstr ""
+
+#: core/field-types/video/mpft-video.php:786
+msgid "( no URL entered )"
+msgstr ""
+
+#: core/field-types/video/mpft-video.php:787
+msgid "URL:"
+msgstr ""
+
+#: core/field-types/video/mpft-video.php:789
+msgid "Refresh Info"
+msgstr ""
+
+#: core/field-types/video/mpft-video.php:791
+msgid "Fetching video info&hellip; please wait"
+msgstr ""
+
+#: core/field-types/video/mpft-video.php:793
+msgid "Visit video page"
+msgstr ""
+
+#: core/field-types/video/mpft-video.php:795
+msgid "Watch video"
+msgstr ""
+
+#: core/field-types/visual-editor/mpft-visual-editor.php:32
+msgid "Visual / HTML Editor"
+msgstr ""
+
+#: core/field-types/visual-editor/mpft-visual-editor.php:41
+msgid "Visual / HTML Editors"
+msgstr ""
+
+#: core/field-types/visual-editor/mpft-visual-editor.php:51
+msgid ""
+"A Visual / HTML editor for large content blocks, like the main post content "
+"area"
+msgstr ""
+
+#: core/field-types/visual-editor/mpft-visual-editor.php:107
+msgid "Editor Height:"
+msgstr ""
+
+#: core/field-types/visual-editor/mpft-visual-editor.php:110
+msgid "HTML Editor:"
+msgstr ""
+
+#: core/field-types/visual-editor/mpft-visual-editor.php:111
+msgid ""
+"<a href=\"http://codemirror.net\" target=\"_blank\">CodeMirror 2</a> is a "
+"wonderful JavaScript text editor that support live syntax-coloring, among "
+"other features."
+msgstr ""
+
+#: core/field-types/visual-editor/mpft-visual-editor.php:122
+msgid "CodeMirror Theme:"
+msgstr ""
+
+#: core/field-types/visual-editor/mpft-visual-editor.php:136
+msgid "Block Formats:"
+msgstr ""
+
+#: core/field-types/visual-editor/mpft-visual-editor.php:137
+msgid ""
+"Specify the block-level tags which appear in the <em>Format</em> dropdown "
+"list in TinyMCE.<br />Leave this value empty to use the same formats as the "
+"WordPress content editor. <a target=\"_blank\" href=\"http://www.tinymce.com/"
+"wiki.php/Configuration:theme_advanced_blockformats\">More Info</a>"
+msgstr ""
+
+#: core/field-types/visual-editor/mpft-visual-editor.php:141
+msgid "Styles:"
+msgstr ""
+
+#: core/field-types/visual-editor/mpft-visual-editor.php:142
+msgid ""
+"Specify the style names and the underlying CSS classes for these styles, in "
+"the form <span class=\"tt\">label = css_class</span> separated by semi-"
+"colons (;). Leave this value empty to use the same formats as the WordPress "
+"content editor. <a target=\"_blank\" href=\"http://www.tinymce.com/wiki.php/"
+"Configuration:theme_advanced_styles\">More Info</a>"
+msgstr ""
+
+#: core/field-types/visual-editor/mpft-visual-editor.php:147
+msgid "Default Tab:"
+msgstr ""
+
+#: core/field-types/visual-editor/mpft-visual-editor.php:151
+msgid "Visual <span>( TinyMCE )</span>"
+msgstr ""
+
+#: core/field-types/visual-editor/mpft-visual-editor.php:151
+msgid "HTML"
+msgstr ""
+
+#: core/model/mpm-field-set.php:27 core/model/mpm-field-set.php:31
+#: core/model/mpm-field.php:29 core/model/mpm-post-type.php:24
+#: core/model/mpm-post-type.php:25 core/model/mpm-post-type.php:36
+#: core/model/mpm-post-type.php:37 core/model/mpm-post-type.php:38
+#: core/model/mpm-post-type.php:39 core/model/mpm-post-type.php:40
+#: core/model/mpm-taxonomy-field-set.php:35
+#: core/model/mpm-taxonomy-field-set.php:37
+msgid "?"
+msgstr ""
+
+#: core/model/mpm-field-set.php:32 core/model/mpm-taxonomy-field-set.php:38
+msgid "No ?"
+msgstr ""
+
+#: core/model/mpm-field-set.php:33 core/model/mpm-taxonomy-field-set.php:39
+msgid "%d ?"
+msgstr ""
+
+#: core/model/mpm-field-set.php:34 core/model/mpm-taxonomy-field-set.php:40
+msgid "1 ?"
+msgstr ""
+
+#: core/model/mpm-field-set.php:35 core/model/mpm-taxonomy-field-set.php:41
+msgid "Click to add ?"
+msgstr ""
+
+#: core/model/mpm-field-set.php:36 core/model/mpm-taxonomy-field-set.php:42
+msgid "Add ?"
+msgstr ""
+
+#: core/model/mpm-field-set.php:37 core/model/mpm-field.php:32
+#: core/model/mpm-taxonomy-field-set.php:43
+msgid "Add Another ?"
+msgstr ""
+
+#: core/model/mpm-field-set.php:38 core/model/mpm-field.php:33
+#: core/model/mpm-taxonomy-field-set.php:44
+msgid "Remove ?"
+msgstr ""
+
+#: core/model/mpm-field-set.php:222 core/model/mpm-field.php:237
+#: core/model/mpm-taxonomy-field-set.php:84
+msgid "<em>Name</em> must be provided"
+msgstr ""
+
+#: core/model/mpm-field-set.php:230 core/model/mpm-taxonomy-field-set.php:91
+msgid ""
+"Since this set allows multiple items, <em>Singular Name</em> must also be "
+"provided"
+msgstr ""
+
+#: core/model/mpm-field-set.php:266
+msgid ""
+"Sorry, a field set named <em>%s</em> already exists for post type <em>%s</"
+"em>. Please enter another name."
+msgstr ""
+
+#: core/model/mpm-field.php:262
+msgid ""
+"Sorry, a field named <em>%s</em> already exists in this field set. Please "
+"enter a different <em>Name</em>"
+msgstr ""
+
+#: core/model/mpm-post-type.php:26 core/model/mpm-post-type.php:534
+#: core/model/mpm-post-type.php:603 core/model/mpm-post-type.php:661
+#: core/view/mpv-post-types.php:1475 masterpress.php:2600
+msgid "Add New"
+msgstr ""
+
+#: core/model/mpm-post-type.php:27
+msgid "Add New ?"
+msgstr ""
+
+#: core/model/mpm-post-type.php:28
+msgid "Edit ?"
+msgstr ""
+
+#: core/model/mpm-post-type.php:29
+msgid "New ?"
+msgstr ""
+
+#: core/model/mpm-post-type.php:30
+msgid "All ?"
+msgstr ""
+
+#: core/model/mpm-post-type.php:31
+msgid "View ?"
+msgstr ""
+
+#: core/model/mpm-post-type.php:32
+msgid "Search ?"
+msgstr ""
+
+#: core/model/mpm-post-type.php:33
+msgid "No ? found."
+msgstr ""
+
+#: core/model/mpm-post-type.php:34
+msgid "No ? found in Trash."
+msgstr ""
+
+#: core/model/mpm-post-type.php:179 core/model/mpm-taxonomy.php:271
+msgid "<em>Singular Name</em> must be provided"
+msgstr ""
+
+#: core/model/mpm-post-type.php:186
+msgid "Sorry, a post type named <em>%s</em> already exists"
+msgstr ""
+
+#: core/model/mpm-post-type.php:192 core/model/mpm-taxonomy.php:284
+msgid "<em>Plural Name</em> must be provided"
+msgstr ""
+
+#: core/model/mpm-post-type.php:532 core/model/mpm-post-type.php:545
+#: core/view/mpv-post-types.php:1128 masterpress.php:682
+msgid "Posts"
+msgstr ""
+
+#: core/model/mpm-post-type.php:533
+msgid "Post"
+msgstr ""
+
+#: core/model/mpm-post-type.php:535 core/model/mpm-post-type.php:662
+msgid "Add New Post"
+msgstr ""
+
+#: core/model/mpm-post-type.php:536 core/model/mpm-post-type.php:537
+msgid "Edit Post"
+msgstr ""
+
+#: core/model/mpm-post-type.php:538 core/model/mpm-post-type.php:665
+msgid "New Post"
+msgstr ""
+
+#: core/model/mpm-post-type.php:539 core/model/mpm-post-type.php:540
+msgid "View Post"
+msgstr ""
+
+#: core/model/mpm-post-type.php:541
+msgid "Search Posts"
+msgstr ""
+
+#: core/model/mpm-post-type.php:542
+msgid "No posts found."
+msgstr ""
+
+#: core/model/mpm-post-type.php:543
+msgid "No posts found in Trash."
+msgstr ""
+
+#: core/model/mpm-post-type.php:601 core/model/mpm-post-type.php:614
+#: core/view/mpv-post-types.php:1131 core/view/mpv-roles.php:680
+#: masterpress.php:711
+msgid "Pages"
+msgstr ""
+
+#: core/model/mpm-post-type.php:602
+msgid "Page"
+msgstr ""
+
+#: core/model/mpm-post-type.php:604
+msgid "Add New Page"
+msgstr ""
+
+#: core/model/mpm-post-type.php:605 core/model/mpm-post-type.php:606
+msgid "Edit Page"
+msgstr ""
+
+#: core/model/mpm-post-type.php:607
+msgid "New Page"
+msgstr ""
+
+#: core/model/mpm-post-type.php:608 core/model/mpm-post-type.php:609
+msgid "View Page"
+msgstr ""
+
+#: core/model/mpm-post-type.php:610
+msgid "Search Pages"
+msgstr ""
+
+#: core/model/mpm-post-type.php:611
+msgid "No pages found."
+msgstr ""
+
+#: core/model/mpm-post-type.php:612
+msgid "No pages found in Trash."
+msgstr ""
+
+#: core/model/mpm-post-type.php:613
+msgid "Parent Page"
+msgstr ""
+
+#: core/model/mpm-post-type.php:659 core/model/mpm-post-type.php:660
+#: core/model/mpm-post-type.php:672 core/view/mpv-post-types.php:1129
+msgid "Media"
+msgstr ""
+
+#: core/model/mpm-post-type.php:663 core/model/mpm-post-type.php:664
+msgid "Edit Media"
+msgstr ""
+
+#: core/model/mpm-post-type.php:666 core/model/mpm-post-type.php:667
+msgid "View Media"
+msgstr ""
+
+#: core/model/mpm-post-type.php:668
+msgid "Search Media"
+msgstr ""
+
+#: core/model/mpm-post-type.php:669
+msgid "No media found."
+msgstr ""
+
+#: core/model/mpm-post-type.php:670
+msgid "No media found in Trash."
+msgstr ""
+
+#: core/model/mpm-post-type.php:671
+msgid "Parent Post"
+msgstr ""
+
+#: core/model/mpm-role-field-set.php:61
+msgid ""
+"Sorry, a role field set named <em>%s</em> already exists for the role <span "
+"class=\"tt\">%s</span>. Please enter a unique name"
+msgstr ""
+
+#: core/model/mpm-shared-field-set.php:64
+msgid "Sorry, a shared field set named <em>%s</em> already exists"
+msgstr ""
+
+#: core/model/mpm-site-field-set.php:65
+msgid "Sorry, a site field set named <em>%s</em> already exists"
+msgstr ""
+
+#: core/model/mpm-taxonomy-field-set.php:127
+msgid ""
+"Sorry, a field set named <em>%s</em> already exists for taxonomy <em>%s</"
+"em>. Please enter another name."
+msgstr ""
+
+#: core/model/mpm-taxonomy.php:278
+msgid "Sorry, a taxonomy named <em>%s</em> already exists"
+msgstr ""
+
+#: core/model/mpm-template-field-set.php:65
+msgid ""
+"Sorry, a template field set named <em>%s</em> already exists for the "
+"template <span class=\"tt\">%s</span>. Please enter a unique name"
+msgstr ""
+
+#: core/other/mpft-file-base.php:136
+msgid ""
+"This Media Library item cannot be used, as this field only allows the file "
+"types %s"
+msgstr ""
+
+#: core/other/mpft-file-base.php:187
+msgid "Cannot download %s. This field only allows the file types %s"
+msgstr ""
+
+#: core/other/mpft-file-base.php:213
+msgid ""
+"The %s was downloaded, but it could not saved as it was too large. This "
+"field only allows files up to %s"
+msgstr ""
+
+#: core/other/mpft-file-base.php:219
+msgid ""
+"The %s could not be downloaded. Please check the URL is valid and try again"
+msgstr ""
+
+#: core/other/mpft-file-base.php:223
+msgid ""
+"This %s field could not be found in the database to check the validity of "
+"this download."
+msgstr ""
+
+#: core/other/mpft-file-base.php:230
+msgid "No URL specified"
+msgstr ""
+
+#: core/other/mpft.php:82
+msgid "There is no property named %s"
+msgstr ""
+
+#: core/other/mpft.php:625
+msgid "Multi-Select Layout:"
+msgstr ""
+
+#: core/other/mpft.php:627
+msgid "Partial rows (Float)"
+msgstr ""
+
+#: core/other/mpft.php:628
+msgid "Best for items with short labels"
+msgstr ""
+
+#: core/other/mpft.php:630
+msgid "Full Rows (Block)"
+msgstr ""
+
+#: core/other/mpft.php:631
+msgid "Better for items with long labels"
+msgstr ""
+
+#: core/other/mpft.php:676
+msgid "Row Style:"
+msgstr ""
+
+#: core/other/mpft.php:732
+msgid "Use Native Control:"
+msgstr ""
+
+#: core/other/mpft.php:732
+msgid ""
+"MasterPress uses <a href=\"http://ivaynberg.github.com/select2/\" target="
+"\"_blank\">Select2 by Igor Vaynberg</a> to improve the usability of select "
+"controls. Check this box to disable Select2 for this field."
+msgstr ""
+
+#: core/other/mpft.php:738
+msgid "Check to exclude the current item being edited from this list"
+msgstr ""
+
+#: core/other/mpft.php:741
+msgid "Exclude Current?"
+msgstr ""
+
+#: core/other/mpft.php:747 core/view/mpv-field-sets.php:229
+#: core/view/mpv-role-field-sets.php:106
+#: core/view/mpv-shared-field-sets.php:100
+#: core/view/mpv-site-field-sets.php:99
+#: core/view/mpv-taxonomy-field-sets.php:115
+#: core/view/mpv-template-field-sets.php:117
+msgid "Type"
+msgstr ""
+
+#: core/other/mpft.php:751
+msgid "By %s"
+msgstr ""
+
+#: core/other/mpft.php:752
+msgid "None (Flat List)"
+msgstr ""
+
+#: core/other/mpft.php:755
+msgid "Grouping:"
+msgstr ""
+
+#: core/other/mpft.php:759
+msgid "Placeholder Text:"
+msgstr ""
+
+#: core/other/mpft.php:759
+msgid "Enter a custom prompt for user selection."
+msgstr ""
+
+#: core/other/mpft.php:782
+msgid "<b>Single:</b> Drop Down"
+msgstr ""
+
+#: core/other/mpft.php:783
+msgid "<b>Multiple:</b> List Box"
+msgstr ""
+
+#: core/other/mpft.php:786
+msgid "Control Style:"
+msgstr ""
+
+#: core/other/mpft.php:791
+msgid "Title - Ascending"
+msgstr ""
+
+#: core/other/mpft.php:792
+msgid "Post Date - Descending"
+msgstr ""
+
+#: core/other/mpft.php:793
+msgid "Post Date - Ascending"
+msgstr ""
+
+#: core/other/mpft.php:794
+msgid "Menu Order"
+msgstr ""
+
+#: core/other/mpft.php:797
+msgid "Order By:"
+msgstr ""
+
+#: core/other/mpft.php:810
+msgid "Font:"
+msgstr ""
+
+#: core/other/mpft.php:810
+msgid "The first avalable font from this list will be used"
+msgstr ""
+
+#: core/other/mpft.php:1093
+msgid "(no summary)"
+msgstr ""
+
+#: core/other/mpft.php:1105
+msgid "(no description)"
+msgstr ""
+
+#: core/other/mpft.php:1177
+msgid "no image"
+msgstr ""
+
+#: core/other/mpft.php:1585
+msgid "No method or property could be found for %s"
+msgstr ""
+
+#: core/other/mpft.php:1590
+msgid "This field type does not need to forward calls"
+msgstr ""
+
+#: core/other/mpu.php:246
+msgid "Cannot create icon sprites outside of admin"
+msgstr ""
+
+#: core/other/mpu.php:512
+msgid "The icon is not specified, or does not exist"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:6
+msgid "Post Type Field Set"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:10
+msgid "Post Type Field Sets"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:14 core/view/mpv-field-sets.php:145
+#: core/view/mpv-field-sets.php:278 core/view/mpv-fields.php:57
+#: core/view/mpv-fields.php:70 core/view/mpv-fields.php:81
+#: core/view/mpv-fields.php:100 core/view/mpv-role-field-sets.php:149
+#: core/view/mpv-shared-field-sets.php:154
+#: core/view/mpv-site-field-sets.php:152
+#: core/view/mpv-taxonomy-field-sets.php:162
+#: core/view/mpv-template-field-sets.php:166
+msgid "Field Set"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:18 core/view/mpv-masterplan.php:187
+#: core/view/mpv-masterplan.php:276 core/view/mpv-masterplan.php:437
+#: core/view/mpv-masterplan.php:569 core/view/mpv-post-types.php:200
+#: core/view/mpv-roles.php:85 core/view/mpv-roles.php:732
+#: core/view/mpv-taxonomies.php:204 core/view/mpv-templates.php:42
+msgid "Field Sets"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:32 core/view/mpv-field-sets.php:86
+msgid "Are you sure you want to delete the %s <em>%s</em>?"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:48
+msgid "This field has <strong>%s</strong>."
+msgstr ""
+
+#: core/view/mpv-field-sets.php:48 core/view/mpv-field-sets.php:104
+msgid "%d custom field data record"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:48 core/view/mpv-field-sets.php:104
+msgid "%d custom field data records"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:49 core/view/mpv-field-sets.php:105
+#: core/view/mpv-post-types.php:69 core/view/mpv-taxonomies.php:71
+msgid ""
+"Please indicate how you would like to handle this related information upon "
+"deletion:"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:53
+msgid "Field (Meta) Data:"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:58
+msgid "Data is stored in the Wordpress postmeta table."
+msgstr ""
+
+#: core/view/mpv-field-sets.php:58 core/view/mpv-field-sets.php:118
+msgid "Keep in Database"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:104
+msgid "This field set has <strong>%s</strong>."
+msgstr ""
+
+#: core/view/mpv-field-sets.php:107
+msgid ""
+"<br /><b>Note:</b> If you choose to <em>Delete</em> data, it will only be "
+"removed from the <b>current site</b> in your multisite network."
+msgstr ""
+
+#: core/view/mpv-field-sets.php:113
+msgid "Field Set (Meta) Data:"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:151 core/view/mpv-fields.php:6
+msgid "Field"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:230 core/view/mpv-post-types.php:197
+#: core/view/mpv-role-field-sets.php:107 core/view/mpv-roles.php:82
+#: core/view/mpv-roles.php:522 core/view/mpv-shared-field-sets.php:101
+#: core/view/mpv-site-field-sets.php:100
+#: core/view/mpv-taxonomy-field-sets.php:116
+#: core/view/mpv-template-field-sets.php:118
+msgid "Label"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:231 core/view/mpv-role-field-sets.php:108
+#: core/view/mpv-shared-field-sets.php:102
+#: core/view/mpv-site-field-sets.php:101
+#: core/view/mpv-taxonomy-field-sets.php:117
+#: core/view/mpv-template-field-sets.php:119
+msgid "Front End Name"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:233 core/view/mpv-post-types.php:204
+#: core/view/mpv-role-field-sets.php:110 core/view/mpv-roles.php:88
+#: core/view/mpv-shared-field-sets.php:107
+#: core/view/mpv-site-field-sets.php:103 core/view/mpv-taxonomies.php:208
+#: core/view/mpv-taxonomy-field-sets.php:119
+#: core/view/mpv-template-field-sets.php:121 core/view/mpv-templates.php:45
+msgid "Actions"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:265 core/view/mpv-role-field-sets.php:136
+#: core/view/mpv-shared-field-sets.php:138
+#: core/view/mpv-site-field-sets.php:136
+#: core/view/mpv-taxonomy-field-sets.php:149
+#: core/view/mpv-template-field-sets.php:153
+msgid "this field set is disabled"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:270 core/view/mpv-shared-field-sets.php:144
+#: core/view/mpv-site-field-sets.php:142
+msgid "field set is not currently available in this site (multi-site setting)"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:276 core/view/mpv-role-field-sets.php:147
+#: core/view/mpv-shared-field-sets.php:152
+#: core/view/mpv-site-field-sets.php:150
+#: core/view/mpv-taxonomy-field-sets.php:160
+#: core/view/mpv-template-field-sets.php:164
+msgid "Field Set (Multiple Items)"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:313 core/view/mpv-role-field-sets.php:183
+#: core/view/mpv-shared-field-sets.php:297
+#: core/view/mpv-site-field-sets.php:187
+#: core/view/mpv-taxonomy-field-sets.php:196
+#: core/view/mpv-template-field-sets.php:200
+msgid "this field is disabled"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:318 core/view/mpv-shared-field-sets.php:302
+#: core/view/mpv-site-field-sets.php:192
+msgid "field is not currently available in this site (multi-site setting)"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:373 core/view/mpv-role-field-sets.php:239
+#: core/view/mpv-shared-field-sets.php:462
+#: core/view/mpv-site-field-sets.php:240
+#: core/view/mpv-taxonomy-field-sets.php:251
+#: core/view/mpv-template-field-sets.php:256
+msgid "%s contains %s"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:373 core/view/mpv-role-field-sets.php:239
+#: core/view/mpv-shared-field-sets.php:462
+#: core/view/mpv-site-field-sets.php:240
+#: core/view/mpv-taxonomy-field-sets.php:251
+#: core/view/mpv-template-field-sets.php:256
+msgid "%d custom field"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:373 core/view/mpv-role-field-sets.php:239
+#: core/view/mpv-shared-field-sets.php:462
+#: core/view/mpv-site-field-sets.php:240
+#: core/view/mpv-taxonomy-field-sets.php:251
+#: core/view/mpv-template-field-sets.php:256
+msgid "%d custom fields"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:375 core/view/mpv-role-field-sets.php:241
+#: core/view/mpv-shared-field-sets.php:465
+#: core/view/mpv-site-field-sets.php:242
+msgid ""
+"<strong>%s</strong> is not yet active as it contains <em>no custom fields</"
+"em>. Click here to create one"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:407
+msgid ""
+"The <strong>%s</strong> post type currently has <em>no field sets</em>. "
+"Click here to create one."
+msgstr ""
+
+#: core/view/mpv-field-sets.php:450
+msgid "Post Type:"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:462 core/view/mpv-fields.php:69
+#: core/view/mpv-template-field-sets.php:56
+msgid "Template:"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:473 core/view/mpv-fields.php:80
+#: core/view/mpv-role-field-sets.php:45
+msgid "User Role:"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:496 core/view/mpv-fields.php:99
+#: core/view/mpv-taxonomy-field-sets.php:54
+msgid "Taxonomy:"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:514
+msgid ""
+"This is a unique identifier for the field set used in the MasterPress API. "
+"Since it can be used as a PHP variable name, it is restricted to being a "
+"lowercase string with words separated by underscores."
+msgstr ""
+
+#: core/view/mpv-field-sets.php:522 core/view/mpv-post-types.php:417
+#: core/view/mpv-taxonomies.php:423
+msgid "<strong>Singular</strong> Name"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:527
+msgid ""
+"The singular form of <em>Name</em>, following the same naming conventions"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:535
+msgid "Allow Multiple Items"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:540
+msgid ""
+"For multiple-item field sets, <em>Name</em> should be specified in "
+"<strong>plural form</strong>. Please verify that this is correct above."
+msgstr ""
+
+#: core/view/mpv-field-sets.php:550
+msgid "Title Icon (16 x 16)"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:553 core/view/mpv-fields.php:510
+#: core/view/mpv-masterplan.php:1112 core/view/mpv-post-types.php:454
+msgid "Choose from Computer&hellip;"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:553 core/view/mpv-fields.php:510
+#: core/view/mpv-post-types.php:454 core/view/mpv-taxonomies.php:456
+msgid "Replace file&hellip;"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:566 core/view/mpv-field-sets.php:579
+#: core/view/mpv-fields.php:523 core/view/mpv-fields.php:536
+#: core/view/mpv-masterplan.php:1118 core/view/mpv-masterplan.php:1124
+#: core/view/mpv-post-types.php:465 core/view/mpv-post-types.php:473
+#: core/view/mpv-shared-field-sets.php:177
+#: core/view/mpv-shared-field-sets.php:215
+#: core/view/mpv-shared-field-sets.php:255 core/view/mpv-taxonomies.php:467
+#: core/view/mpv-taxonomies.php:475
+msgid "( None )"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:597
+msgid "Expanded"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:601
+msgid ""
+"this field set will be expanded (not summarised) by default in the edit post "
+"screen, but can still be collapsed. It is recommended that this is "
+"<strong>unchecked if <em>Allow Multiple Items</em> is checked.</strong>"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:610
+msgid "Show in Sidebar"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:614
+msgid ""
+"this field set will be positioned in the sidebar of the edit post screen by "
+"default (but may still be dragged across to the main content area by users)"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:623 core/view/mpv-fields.php:172
+#: core/view/mpv-post-types.php:492 core/view/mpv-taxonomies.php:496
+msgid "Disabled"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:627
+msgid ""
+"disabling a field set will keep its definition in the database but it will "
+"not be available in any post editing screens in WordPress, which may be "
+"<strong>preferable to deleting it</strong> completely."
+msgstr ""
+
+#: core/view/mpv-field-sets.php:634
+msgid "Version Limit"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:638
+msgid ""
+"Set a <b>maximum number of versions</b> of content based on this field set "
+"to retain.<br />Versions can be used to restore previous revisions of "
+"content at a later time.<br />Set this value to 0 if you do not wish to "
+"retain previous versions."
+msgstr ""
+
+#: core/view/mpv-field-sets.php:649 core/view/mpv-fields.php:236
+#: core/view/mpv-post-types.php:1432 core/view/mpv-taxonomies.php:1025
+msgid "Labels"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:649
+msgid "displayed in the <em>Edit Post</em> and MasterPress admin screens"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:652 core/view/mpv-post-types.php:1435
+#: core/view/mpv-taxonomies.php:1028
+msgid "<strong>Auto-Fill</strong> Labels"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:665
+msgid "Set Label"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:678
+msgid ""
+"Displayed on the Create / Edit Post screen in the info area above the fields "
+"in this set."
+msgstr ""
+
+#: core/view/mpv-field-sets.php:686
+msgid "Description (User)"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:690
+msgid ""
+"Displayed on the Create / Edit User and Profile screen in the info area "
+"above the fields in this set.<br />If not specified, the standard "
+"<em>Description</em> label will be used (if available)"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:697
+msgid "Description (Term)"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:701
+msgid ""
+"Displayed on the Edit (Taxonomy) Term in the info area above the fields in "
+"this set.<br />If not specified, the standard <em>Description</em> label "
+"will be used (if available)"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:709
+msgid "<em>Singular</em> Name"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:718
+msgid "Add"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:720
+msgid "Add {{singular_name}}"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:726
+msgid "Add Another"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:728
+msgid "Add Another {{singular_name}}"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:734 core/view/mpv-post-types.php:818
+#: core/view/mpv-post-types.php:955 core/view/mpv-taxonomies.php:641
+#: core/view/mpv-taxonomies.php:777
+msgid "Remove"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:736 core/view/mpv-post-types.php:1610
+msgid "Remove {{singular_name}}"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:742
+msgid "Click to Add"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:744
+msgid "Click to add {{singular_name}}"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:750
+msgid "1 Item"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:752 core/view/mpv-post-types.php:1592
+msgid "1 {{singular_name}}"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:758
+msgid "n Items"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:760 core/view/mpv-post-types.php:1601
+msgid "%d {{plural_name}}"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:766 core/view/mpv-meta.php:124
+msgid "No Items"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:768 core/view/mpv-post-types.php:1583
+msgid "No {{plural_name}}"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:786 core/view/mpv-fields.php:378
+#: core/view/mpv-post-types.php:1630 core/view/mpv-roles.php:86
+#: core/view/mpv-roles.php:533 core/view/mpv-taxonomies.php:1170
+msgid "Capabilities"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:786
+msgid "the keys used to control access to this field set"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:794 core/view/mpv-fields.php:386
+msgid "Editable"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:803
+msgid "-- None (Always Editable) --"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:822 core/view/mpv-field-sets.php:861
+#: core/view/mpv-fields.php:414 core/view/mpv-fields.php:453
+msgid "OR custom value"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:826
+msgid ""
+"All fields in this set will be read-only for users without this capability."
+"<br />Individual fields may override this with their own capabilities."
+msgstr ""
+
+#: core/view/mpv-field-sets.php:833 core/view/mpv-fields.php:425
+msgid "Visible"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:842
+msgid "-- None (Always Visible) --"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:865
+msgid "This field set will be invisible for users without this capability"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:910
+msgid "control the visibility of this field set within WordPress"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:911
+msgid ""
+"specify the sites in the multisite network that this field set is available "
+"in"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:912
+msgid "specify the post types that this field set is available in"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:913
+msgid "specify the templates that this field set is available in"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:914
+msgid ""
+"specify the roles that users must have for this field set to be available in "
+"their profile edit screen"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:915 core/view/mpv-post-types.php:619
+#: core/view/mpv-taxonomies.php:920
+msgid "All Sites"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:916
+msgid "All Post Types"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:917
+msgid "All Templates"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:984
+msgid "Set Position"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:1050
+msgid "This field set is disabled"
+msgstr ""
+
+#: core/view/mpv-field-sets.php:1070
+msgid ""
+"Drag set to the desired <em>default</em> position in the WordPress "
+"<em>Create / Edit Post</em> screen.<br />Note: Field sets are displayed in a "
+"standard WordPress UI panel (metabox), which can be dragged around by the "
+"user to also influence the order."
+msgstr ""
+
+#: core/view/mpv-fields.php:10 core/view/mpv-roles.php:649
+#: core/view/mpv-roles.php:738
+msgid "Fields"
+msgstr ""
+
+#: core/view/mpv-fields.php:44 core/view/mpv-shared-field-sets.php:6
+#: core/view/mpv-shared-field-sets.php:32 masterpress.php:2645
+msgid "Shared Field Set"
+msgstr ""
+
+#: core/view/mpv-fields.php:46 core/view/mpv-masterplan.php:498
+#: core/view/mpv-site-field-sets.php:6 core/view/mpv-site-field-sets.php:32
+#: masterpress.php:2656
+msgid "Site Field Set"
+msgstr ""
+
+#: core/view/mpv-fields.php:119
+msgid ""
+"This is a unique identifier for the field in the MasterPress API. Since it "
+"can be used as a PHP variable name, it is restricted to being a lowercase "
+"string with words separated by underscores."
+msgstr ""
+
+#: core/view/mpv-fields.php:129
+msgid "Field Type"
+msgstr ""
+
+#: core/view/mpv-fields.php:161
+msgid "Required"
+msgstr ""
+
+#: core/view/mpv-fields.php:165
+msgid ""
+"A field value must be specified by the user, or the content editing form "
+"will not submit."
+msgstr ""
+
+#: core/view/mpv-fields.php:176
+msgid ""
+"disabling a field will hide it from all content editing screens in "
+"WordPress, which may be <strong>preferable to deleting it</strong> "
+"completely."
+msgstr ""
+
+#: core/view/mpv-fields.php:202
+msgid "Field Type Options"
+msgstr ""
+
+#: core/view/mpv-fields.php:202
+msgid "defines the user-interface for this field"
+msgstr ""
+
+#: core/view/mpv-fields.php:236 core/view/mpv-post-types.php:1432
+#: core/view/mpv-taxonomies.php:1025
+msgid "displayed throughout the WordPress administration UI"
+msgstr ""
+
+#: core/view/mpv-fields.php:245
+msgid "Field Label"
+msgstr ""
+
+#: core/view/mpv-fields.php:258
+msgid ""
+"Appears adjacent to the label in brackets to provide a little extra "
+"information about the field.<br />For more extensive information, use "
+"<em>Tooltip Help</em>."
+msgstr ""
+
+#: core/view/mpv-fields.php:265
+msgid "Tooltip Help"
+msgstr ""
+
+#: core/view/mpv-fields.php:269
+msgid ""
+"Provides more extensive help for this field through a tooltip, revealed by "
+"mousing over a question-mark badge adjacent to the field label"
+msgstr ""
+
+#: core/view/mpv-fields.php:322
+msgid "control the visibility of this field within WordPress"
+msgstr ""
+
+#: core/view/mpv-fields.php:323
+msgid ""
+"specify the sites in the multisite network that this field is available in"
+msgstr ""
+
+#: core/view/mpv-fields.php:324
+msgid "specify the post types that this field is available in"
+msgstr ""
+
+#: core/view/mpv-fields.php:326
+msgid ""
+"All Templates <span>( that the <em>%s</em> field set is available in )</span>"
+msgstr ""
+
+#: core/view/mpv-fields.php:327
+msgid ""
+"All Sites <span>( that the <em>%s</em> field set is available in )</span>"
+msgstr ""
+
+#: core/view/mpv-fields.php:328
+msgid ""
+"All Post Types <span>( that the <em>%s</em> field set is available in )</"
+"span>"
+msgstr ""
+
+#: core/view/mpv-fields.php:329
+msgid ""
+"All User Roles <span>( that the <em>%s</em> field set is available in )</"
+"span>"
+msgstr ""
+
+#: core/view/mpv-fields.php:330
+msgid ""
+"All Taxonomies <span>( that the <em>%s</em> field set is available in )</"
+"span>"
+msgstr ""
+
+#: core/view/mpv-fields.php:378
+msgid "the keys used to control access to this field"
+msgstr ""
+
+#: core/view/mpv-fields.php:396 core/view/mpv-fields.php:434
+msgid "-- None (Same as Field Set) --"
+msgstr ""
+
+#: core/view/mpv-fields.php:418
+msgid "This field will be read-only for users without this capability"
+msgstr ""
+
+#: core/view/mpv-fields.php:457
+msgid "This field will be invisible for users without this capability"
+msgstr ""
+
+#: core/view/mpv-fields.php:476
+msgid "Summary Options"
+msgstr ""
+
+#: core/view/mpv-fields.php:476
+msgid "settings for the collapsed summary display"
+msgstr ""
+
+#: core/view/mpv-fields.php:485
+msgid "Emphasise"
+msgstr ""
+
+#: core/view/mpv-fields.php:489
+msgid ""
+"Show the summary for this field in <strong>bold text</strong>, which may "
+"often be appropriate for the first field in a set, or for other important "
+"fields in your content."
+msgstr ""
+
+#: core/view/mpv-fields.php:496
+msgid "Block Width"
+msgstr ""
+
+#: core/view/mpv-fields.php:500
+msgid ""
+"Override block width of the summary, when the field's set is collapsed (min "
+"value 1, max value 5)<br />Leave this value empty to use the block width "
+"recommended by the field type<br />The pixel width of the summary will be "
+"the value here x 150."
+msgstr ""
+
+#: core/view/mpv-fields.php:507 core/view/mpv-post-types.php:451
+msgid "Icon (16 x 16)"
+msgstr ""
+
+#: core/view/mpv-fields.php:575
+msgid "Position in set"
+msgstr ""
+
+#: core/view/mpv-fields.php:624
+msgid "This field is disabled"
+msgstr ""
+
+#: core/view/mpv-fields.php:644
+msgid ""
+"Drag field to the desired position in the %s set.<br />Note: changes to the "
+"positions of other fields will also be saved."
+msgstr ""
+
+#: core/view/mpv-masterplan.php:117
+msgid "Import Complete - your new site Masterplan is shown below."
+msgstr ""
+
+#: core/view/mpv-masterplan.php:125
+msgid "Restore Complete - your site Masterplan is shown below."
+msgstr ""
+
+#: core/view/mpv-masterplan.php:148
+msgid "Manage Post Types"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:153
+msgid "<em>No</em> Post Types"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:153
+msgid "<b>%d</b> Post Type"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:153
+msgid "<b>%d</b> Post Types"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:165
+msgid "This post type is currently disabled"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:185 core/view/mpv-masterplan.php:274
+#: core/view/mpv-masterplan.php:435 core/view/mpv-masterplan.php:567
+msgid "Manage Field Sets"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:235
+msgid "Manage Taxonomies"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:240
+msgid "<em>No</em> Taxonomies"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:240
+msgid "<b>%d</b> Taxonomy"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:240
+msgid "<b>%d</b> Taxonomies"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:252
+msgid "This taxonomy is currently disabled"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:312
+msgid "Manage Shared Field Sets"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:317
+msgid "<em>No</em> Shared Field Sets"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:317
+msgid "<b>%d</b> Shared Field Set"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:317
+msgid "<b>%d</b> Shared Field Sets"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:329
+msgid "This shared field set is currently disabled"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:335
+msgid "Edit Shared Field Set"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:393
+msgid "Manage Templates"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:398
+msgid "<em>No</em> Templates"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:398
+msgid "<b>%d</b> Template"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:398
+msgid "<b>%d</b> Templates"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:454
+msgid "Manage Site Field Sets"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:459
+msgid "<em>No</em> Site Field Sets"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:459
+msgid "<b>%d</b> site Field Set"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:459
+msgid "<b>%d</b> site Field Sets"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:471
+msgid "This site field set is currently disabled"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:475
+msgid "Edit Site Field Set"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:512
+msgid "Manage User Roles"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:517
+msgid "<em>No</em> User Roles"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:517
+msgid "<b>%d</b> User Role"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:517
+msgid "<b>%d</b> User Roles"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:608
+msgid "Exporting Masterplan. Please wait&hellip;"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:616
+msgid "Export completed successfully"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:617
+msgid "Download %s"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:626 core/view/mpv-masterplan.php:1370
+msgid ""
+"Note: the following dependent files were included in the Masterplan package"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:630 core/view/mpv-masterplan.php:1374
+msgid "Icons"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:639 core/view/mpv-masterplan.php:1383
+msgid "Field Types"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:658 core/view/mpv-masterplan.php:1399
+msgid "Package File"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:665 core/view/mpv-masterplan.php:1406
+msgid "Name:"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:681
+msgid ""
+"Read Me<span> - this Markdown-formatted text will be stored in <span class="
+"\"tt\">README.markdown</span> inside the Masterplan package</span>"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:703
+msgid ""
+"Export Items<span> - check the items you wish to include in the Masterplan "
+"package</span>"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:715 core/view/mpv-masterplan.php:1212
+#: core/view/mpv-post-types.php:10 core/view/mpv-roles.php:712
+#: core/view/mpv-settings.php:135 core/view/mpv-shared-field-sets.php:103
+#: core/view/mpv-taxonomies.php:206 core/view/mpv-taxonomies.php:596
+#: core/view/mpv-templates.php:43 core/view/mpv.php:338 masterpress.php:2281
+#: masterpress.php:2282 masterpress.php:2498
+msgid "Post Types"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:782 core/view/mpv-masterplan.php:1233
+#: core/view/mpv-post-types.php:202 core/view/mpv-post-types.php:635
+#: core/view/mpv-roles.php:713 core/view/mpv-settings.php:136
+#: core/view/mpv-shared-field-sets.php:104 core/view/mpv-taxonomies.php:10
+#: core/view/mpv.php:557 masterpress.php:2292 masterpress.php:2293
+#: masterpress.php:2526
+msgid "Taxonomies"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:848 core/view/mpv-masterplan.php:1253
+#: core/view/mpv-post-types.php:201 core/view/mpv-roles.php:717
+#: core/view/mpv-settings.php:140 core/view/mpv-shared-field-sets.php:10
+#: core/view/mpv-taxonomies.php:205 masterpress.php:2336 masterpress.php:2337
+#: masterpress.php:2566
+msgid "Shared Field Sets"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:897 core/view/mpv-masterplan.php:1269
+#: core/view/mpv-roles.php:716 core/view/mpv-settings.php:139
+#: core/view/mpv-site-field-sets.php:10 masterpress.php:2325
+#: masterpress.php:2326 masterpress.php:2589
+msgid "Site Field Sets"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:945 core/view/mpv-masterplan.php:1288
+#: core/view/mpv-roles.php:714 core/view/mpv-settings.php:137
+#: core/view/mpv-templates.php:10 core/view/mpv.php:455 masterpress.php:2303
+#: masterpress.php:2304 masterpress.php:2555
+msgid "Templates"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:1012 core/view/mpv-masterplan.php:1308
+#: core/view/mpv-roles.php:10 core/view/mpv-roles.php:715
+#: core/view/mpv-settings.php:138 core/view/mpv-shared-field-sets.php:105
+#: masterpress.php:2314 masterpress.php:2315 masterpress.php:2577
+msgid "User Roles"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:1105
+msgid "Package Upload"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:1110
+msgid ""
+"Upload a Masterplan zip package to begin.<br  /><b>Note:</b> you will be "
+"able to review the contents of the package before going ahead with the "
+"import."
+msgstr ""
+
+#: core/view/mpv-masterplan.php:1112
+msgid "Select a Different File&hellip;"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:1136
+msgid "Fetching Masterplan info - Please wait&hellip;"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:1142
+msgid "Confirmation"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:1142
+msgid "select import options and review the uploaded package"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:1152
+msgid ""
+"<strong>Backup the existing setup</strong> before importing ( highly "
+"recommended )"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:1160
+msgid ""
+"<strong>Overwrite</strong> existing field type extensions with those "
+"included in the imported package"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:1167
+msgid ""
+"When items are present in the existing setup, but not in the imported "
+"Masterplan:"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:1172
+msgid ""
+"Remove the items from the existing setup ( <strong class=\"replace"
+"\">completely replace</strong> the existing setup )"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:1177
+msgid ""
+"Keep the items in the existing setup ( <strong class=\"append\">append to</"
+"strong> the existing setup )"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:1349
+msgid "Note - this utility does <b>not</b> backup your WordPress content."
+msgstr ""
+
+#: core/view/mpv-masterplan.php:1356
+msgid "Backing up Masterplan. Please wait&hellip;"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:1363
+msgid "Backup created successfully"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:1416
+msgid ""
+"Use the editable field as a way to tag the backup for reference later "
+"( optional )"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:1424
+msgid ""
+"Read Me<span> - this Markdown-formatted text will be stored in <span class="
+"\"tt\">README.markdown</span> inside the Masterplan backup</span>"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:1461
+msgid "Package Selection"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:1461
+msgid "select a backup package to restore from"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:1468
+msgid "File:"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:1472
+msgid "Please Select a Masterplan to restore"
+msgstr ""
+
+#: core/view/mpv-masterplan.php:1473
+msgid "Select a backup package"
+msgstr ""
+
+#: core/view/mpv-meta.php:70 core/view/mpv-meta.php:118
+#: core/view/mpv-meta.php:120 core/view/mpv-meta.php:554
+#: core/view/mpv-meta.php:1093
+msgid "Check All Items"
+msgstr ""
+
+#: core/view/mpv-meta.php:71
+msgid "Uncheck All Items"
+msgstr ""
+
+#: core/view/mpv-meta.php:72 core/view/mpv-meta.php:552
+#: core/view/mpv-meta.php:1091
+msgid "Remove Checked Items"
+msgstr ""
+
+#: core/view/mpv-meta.php:73
+msgid "Remove Checked Items: Are You Sure?"
+msgstr ""
+
+#: core/view/mpv-meta.php:117 core/view/mpv-meta.php:553
+#: core/view/mpv-meta.php:1092
+msgid "Expand All"
+msgstr ""
+
+#: core/view/mpv-meta.php:119 core/view/mpv-meta.php:555
+#: core/view/mpv-meta.php:1094
+msgid "Collapse All"
+msgstr ""
+
+#: core/view/mpv-meta.php:122
+msgid "One Item"
+msgstr ""
+
+#: core/view/mpv-meta.php:123
+msgid "%d Items"
+msgstr ""
+
+#: core/view/mpv-meta.php:164
+msgid "Click to toggle"
+msgstr ""
+
+#: core/view/mpv-meta.php:172
+msgid ""
+"Some required fields are missing. Please provide values for any fields "
+"marked in red, and try again"
+msgstr ""
+
+#: core/view/mpv-meta.php:176
+msgid ""
+"The title for this item must be entered. Please provide a title and try again"
+msgstr ""
+
+#: core/view/mpv-meta.php:314 core/view/mpv-meta.php:316
+msgid "Current"
+msgstr ""
+
+#: core/view/mpv-meta.php:316
+msgid "1 version ago"
+msgstr ""
+
+#: core/view/mpv-meta.php:316
+msgid "%d versions ago"
+msgstr ""
+
+#: core/view/mpv-meta.php:326
+msgid "no items"
+msgstr ""
+
+#: core/view/mpv-meta.php:326
+msgid "1 item"
+msgstr ""
+
+#: core/view/mpv-meta.php:326
+msgid "%d items"
+msgstr ""
+
+#: core/view/mpv-meta.php:348
+msgid "<i class=\"clock-history\"></i>Versions of '%s'"
+msgstr ""
+
+#: core/view/mpv-meta.php:368 core/view/mpv-meta.php:1007
+#: core/view/mpv-meta.php:1095
+msgid "Copy / Paste Content"
+msgstr ""
+
+#: core/view/mpv-meta.php:372
+msgid "Copy Content"
+msgstr ""
+
+#: core/view/mpv-meta.php:437 core/view/mpv-meta.php:724
+msgid "Are you sure?"
+msgstr ""
+
+#: core/view/mpv-meta.php:442
+msgid ""
+"To Save changes you must also <strong>Save Draft</strong> or <strong class="
+"\"update\">Update</strong> this %s"
+msgstr ""
+
+#: core/view/mpv-meta.php:444
+msgid ""
+"To Save changes you must also <strong class=\"update\">Update</strong> this "
+"%s"
+msgstr ""
+
+#: core/view/mpv-meta.php:446
+msgid ""
+"To Save changes you must also <strong class=\"update\">Update</strong> this "
+"user"
+msgstr ""
+
+#: core/view/mpv-meta.php:726
+msgid "Collapse"
+msgstr ""
+
+#: core/view/mpv-meta.php:736
+msgid "Toggle"
+msgstr ""
+
+#: core/view/mpv-meta.php:822
+msgid "Edit Field Definition"
+msgstr ""
+
+#: core/view/mpv-meta.php:1008 core/view/mpv-meta.php:1100
+msgid "Versions"
+msgstr ""
+
+#: core/view/mpv-meta.php:1010
+msgid "You do not have permission to edit this field"
+msgstr ""
+
+#: core/view/mpv-meta.php:1097
+msgid "Copy"
+msgstr ""
+
+#: core/view/mpv-meta.php:1098
+msgid "Paste"
+msgstr ""
+
+#: core/view/mpv-meta.php:1102
+msgid "Version - <span>select a version to review content</span>"
+msgstr ""
+
+#: core/view/mpv-meta.php:1103
+msgid ""
+"Content - <span>restore all fields, or copy content out of specific fields "
+"manually</span>"
+msgstr ""
+
+#: core/view/mpv-meta.php:1104
+msgid ""
+"Content - <span>check the items you wish to restore, or copy content out of "
+"specific fields manually</span>"
+msgstr ""
+
+#: core/view/mpv-meta.php:1106
+msgid "fetching content"
+msgstr ""
+
+#: core/view/mpv-meta.php:1108
+msgid "The selected version contains no content"
+msgstr ""
+
+#: core/view/mpv-meta.php:1111
+msgid "Copy the content snippet below to the clipboard"
+msgstr ""
+
+#: core/view/mpv-meta.php:1112
+msgid "Paste a copied content snippet into the text field below, and click OK"
+msgstr ""
+
+#: core/view/mpv-post-types.php:19
+msgid ""
+"Are you sure you want to delete the <em>%s</em> post type? This action is "
+"not reversible!"
+msgstr ""
+
+#: core/view/mpv-post-types.php:53
+msgid ""
+"This post type was not created by MasterPress and will not be removed upon "
+"deletion if it is still externally defined in a plug-in or theme."
+msgstr ""
+
+#: core/view/mpv-post-types.php:59
+msgid "This post type has:"
+msgstr ""
+
+#: core/view/mpv-post-types.php:63
+msgid "%d post record"
+msgstr ""
+
+#: core/view/mpv-post-types.php:63
+msgid "%d post records"
+msgstr ""
+
+#: core/view/mpv-post-types.php:64 core/view/mpv-taxonomies.php:66
+msgid "%d custom field (meta) data records"
+msgstr ""
+
+#: core/view/mpv-post-types.php:65 core/view/mpv-taxonomies.php:67
+msgid "%d field set definition"
+msgstr ""
+
+#: core/view/mpv-post-types.php:65 core/view/mpv-taxonomies.php:67
+msgid "%d field set definitions"
+msgstr ""
+
+#: core/view/mpv-post-types.php:71 core/view/mpv-taxonomies.php:73
+msgid ""
+"<br /><b>Note:</b> If you choose to <em>Delete</em> Meta Data, it will only "
+"be removed from the <b>current site</b> in your multisite network."
+msgstr ""
+
+#: core/view/mpv-post-types.php:78
+msgid "Existing Posts:"
+msgstr ""
+
+#: core/view/mpv-post-types.php:83
+msgid "Re-assign to Post Type:"
+msgstr ""
+
+#: core/view/mpv-post-types.php:92
+msgid "Trash"
+msgstr ""
+
+#: core/view/mpv-post-types.php:94 core/view/mpv-post-types.php:116
+#: core/view/mpv-post-types.php:134 core/view/mpv-taxonomies.php:94
+#: core/view/mpv-taxonomies.php:116 core/view/mpv-taxonomies.php:134
+msgid "Keep"
+msgstr ""
+
+#: core/view/mpv-post-types.php:111 core/view/mpv-taxonomies.php:111
+msgid "Field Set Definitions:"
+msgstr ""
+
+#: core/view/mpv-post-types.php:114 core/view/mpv-taxonomies.php:114
+msgid "Delete <span>&nbsp;(Shared Field Sets will not be deleted)</span>"
+msgstr ""
+
+#: core/view/mpv-post-types.php:116
+msgid "Re-attach by creating a post type with the same name"
+msgstr ""
+
+#: core/view/mpv-post-types.php:129 core/view/mpv-taxonomies.php:129
+msgid "Meta Data:"
+msgstr ""
+
+#: core/view/mpv-post-types.php:196
+msgid "Menu Icon"
+msgstr ""
+
+#: core/view/mpv-post-types.php:199 core/view/mpv-taxonomies.php:203
+msgid "Hierarchical?"
+msgstr ""
+
+#: core/view/mpv-post-types.php:213
+msgid "this post type is disabled"
+msgstr ""
+
+#: core/view/mpv-post-types.php:217
+msgid ""
+"this post type is not currently available in this site (multi-site setting)"
+msgstr ""
+
+#: core/view/mpv-post-types.php:238
+msgid "this post type is hierarchical"
+msgstr ""
+
+#: core/view/mpv-post-types.php:238
+msgid "this post type is not hierarchical"
+msgstr ""
+
+#: core/view/mpv-post-types.php:277
+msgid ""
+"This post type does not support field sets as the 'show ui' parameter is off"
+msgstr ""
+
+#: core/view/mpv-post-types.php:277 core/view/mpv-post-types.php:311
+#: core/view/mpv-taxonomies.php:284 core/view/mpv-taxonomies.php:319
+msgid "N/A"
+msgstr ""
+
+#: core/view/mpv-post-types.php:311
+msgid ""
+"This post type does not support shared field sets as the 'show ui' parameter "
+"is off"
+msgstr ""
+
+#: core/view/mpv-post-types.php:342 core/view/mpv-roles.php:164
+msgid "Please Confirm Delete Action"
+msgstr ""
+
+#: core/view/mpv-post-types.php:362
+msgid "This post type cannot be deleted as it is built-in to WordPress"
+msgstr ""
+
+#: core/view/mpv-post-types.php:362 core/view/mpv-taxonomies.php:372
+msgid "( Built-in )"
+msgstr ""
+
+#: core/view/mpv-post-types.php:364
+msgid "This post type cannot be deleted as it was not created by MasterPress"
+msgstr ""
+
+#: core/view/mpv-post-types.php:364 core/view/mpv-taxonomies.php:374
+msgid "( External )"
+msgstr ""
+
+#: core/view/mpv-post-types.php:421
+msgid "(required)"
+msgstr ""
+
+#: core/view/mpv-post-types.php:423
+msgid ""
+"This is a unique identifier for the custom post type in the WordPress and "
+"MasterPress APIs. It is not displayed, and by convention it <strong>must</"
+"strong> be a singular form, lowercase string with underscores to separate "
+"words."
+msgstr ""
+
+#: core/view/mpv-post-types.php:428 core/view/mpv-taxonomies.php:435
+msgid ""
+"Note: check that you have definitely entered a <strong>singular word</"
+"strong> here, as the singular form of <em>Plural Name</em> is currently "
+"different to this value."
+msgstr ""
+
+#: core/view/mpv-post-types.php:435 core/view/mpv-taxonomies.php:442
+msgid "<strong>Plural</strong> Name"
+msgstr ""
+
+#: core/view/mpv-post-types.php:440
+msgid "Suggest"
+msgstr ""
+
+#: core/view/mpv-post-types.php:443 core/view/mpv-taxonomies.php:446
+msgid ""
+"The plural form of <em>Singular Name</em>, following the same naming "
+"conventions"
+msgstr ""
+
+#: core/view/mpv-post-types.php:498
+msgid ""
+"Since this post type is built-in, disabling it may render some WordPress "
+"themes unusable.<br />This is only recommended for sites that are highly "
+"customised."
+msgstr ""
+
+#: core/view/mpv-post-types.php:500
+msgid ""
+"disabling a post type will keep its definition in the database but it will "
+"not be registered in WordPress, which will often be <strong>preferable to "
+"deleting it</strong> entirely."
+msgstr ""
+
+#: core/view/mpv-post-types.php:524 core/view/mpv-taxonomies.php:512
+msgid "Hierarchical"
+msgstr ""
+
+#: core/view/mpv-post-types.php:528
+msgid ""
+"hierarchical post types behave like <strong>pages</strong> in WordPress, "
+"where each post can have parent and child posts"
+msgstr ""
+
+#: core/view/mpv-post-types.php:538 core/view/mpv-taxonomies.php:524
+msgid "Show UI"
+msgstr ""
+
+#: core/view/mpv-post-types.php:543
+msgid ""
+"uncheck this to internalize this post type, which will cause many other "
+"features to be unsupported"
+msgstr ""
+
+#: core/view/mpv-post-types.php:550 core/view/mpv-taxonomies.php:548
+msgid "Show in Nav Menus"
+msgstr ""
+
+#: core/view/mpv-post-types.php:555
+msgid "allow selection of posts of this type in WordPress custom menus"
+msgstr ""
+
+#: core/view/mpv-post-types.php:563
+msgid "Show in Admin Menu"
+msgstr ""
+
+#: core/view/mpv-post-types.php:569
+msgid "show this post type in the WordPress admin menu"
+msgstr ""
+
+#: core/view/mpv-post-types.php:576
+msgid "Default Manage Order"
+msgstr ""
+
+#: core/view/mpv-post-types.php:600
+msgid ""
+"Specify the default sort order in the manage post screen (for when the user "
+"hasn't yet clicked on a table header to manually sort). For chronological "
+"types (such as blog posts) a descending date order is appropriate, but for "
+"other post types a title or menu order (user-defined) sort might be better."
+msgstr ""
+
+#: core/view/mpv-post-types.php:617
+msgid "control the visibility of this Post Type within WordPress"
+msgstr ""
+
+#: core/view/mpv-post-types.php:618
+msgid ""
+"specify the sites in the multisite network that this Post Type is available "
+"in"
+msgstr ""
+
+#: core/view/mpv-post-types.php:635
+msgid "attach taxonomies to this post type"
+msgstr ""
+
+#: core/view/mpv-post-types.php:637 core/view/mpv-post-types.php:675
+#: core/view/mpv-roles.php:467 core/view/mpv-taxonomies.php:598
+#: core/view/mpv-templates.php:197
+msgid "Select <strong class=\"all\">All</strong>"
+msgstr ""
+
+#: core/view/mpv-post-types.php:638 core/view/mpv-post-types.php:676
+#: core/view/mpv-roles.php:468 core/view/mpv-taxonomies.php:599
+#: core/view/mpv-templates.php:198
+msgid "Select <strong class=\"none\">None</strong>"
+msgstr ""
+
+#: core/view/mpv-post-types.php:648
+msgid "This taxonomy is disabled"
+msgstr ""
+
+#: core/view/mpv-post-types.php:648 core/view/mpv-taxonomies.php:609
+#: core/view/mpv.php:379
+msgid "(Built-in)"
+msgstr ""
+
+#: core/view/mpv-post-types.php:673 core/view/mpv-templates.php:195
+msgid "Supports"
+msgstr ""
+
+#: core/view/mpv-post-types.php:673
+msgid "controls the user interface for creating and editing posts of this type"
+msgstr ""
+
+#: core/view/mpv-post-types.php:696
+msgid "The title feature must be enabled"
+msgstr ""
+
+#: core/view/mpv-post-types.php:717 core/view/mpv-templates.php:241
+msgid "show a text input to edit the post title"
+msgstr ""
+
+#: core/view/mpv-post-types.php:723 core/view/mpv-templates.php:247
+msgid "Editor"
+msgstr ""
+
+#: core/view/mpv-post-types.php:723 core/view/mpv-templates.php:247
+msgid "show the main content box"
+msgstr ""
+
+#: core/view/mpv-post-types.php:729 core/view/mpv-post-types.php:1132
+#: core/view/mpv-templates.php:253
+msgid "Comments"
+msgstr ""
+
+#: core/view/mpv-post-types.php:729 core/view/mpv-templates.php:253
+msgid "the <em>ability</em> to allow / disallow comments on posts of this type"
+msgstr ""
+
+#: core/view/mpv-post-types.php:735 core/view/mpv-templates.php:259
+msgid "Trackbacks"
+msgstr ""
+
+#: core/view/mpv-post-types.php:735 core/view/mpv-templates.php:259
+msgid ""
+"the <em>ability</em> to allow / disallow trackbacks to posts of this type"
+msgstr ""
+
+#: core/view/mpv-post-types.php:741 core/view/mpv-templates.php:265
+msgid "Post Formats"
+msgstr ""
+
+#: core/view/mpv-post-types.php:741 core/view/mpv-templates.php:265
+msgid "used by themes to change the display of posts of this type"
+msgstr ""
+
+#: core/view/mpv-post-types.php:747
+msgid "Front Page"
+msgstr ""
+
+#: core/view/mpv-post-types.php:747
+msgid "allow posts of this type to be selected as the front page"
+msgstr ""
+
+#: core/view/mpv-post-types.php:759 core/view/mpv-templates.php:277
+msgid "Revisions"
+msgstr ""
+
+#: core/view/mpv-post-types.php:759 core/view/mpv-templates.php:277
+msgid "allow revisions for posts of this type"
+msgstr ""
+
+#: core/view/mpv-post-types.php:765 core/view/mpv-templates.php:283
+msgid "Author"
+msgstr ""
+
+#: core/view/mpv-post-types.php:765 core/view/mpv-templates.php:283
+msgid "show a select box for changing the author"
+msgstr ""
+
+#: core/view/mpv-post-types.php:771 core/view/mpv-templates.php:289
+msgid "show a text area for writing a custom excerpt"
+msgstr ""
+
+#: core/view/mpv-post-types.php:777 core/view/mpv-templates.php:295
+msgid "Type Attributes"
+msgstr ""
+
+#: core/view/mpv-post-types.php:777
+msgid "Show the UI for editing Template, Menu Order and Parent"
+msgstr ""
+
+#: core/view/mpv-post-types.php:783 core/view/mpv-templates.php:301
+msgid "Thumbnail"
+msgstr ""
+
+#: core/view/mpv-post-types.php:783 core/view/mpv-templates.php:301
+msgid "show the <em>standard</em> thumbnail upload for posts of this type"
+msgstr ""
+
+#: core/view/mpv-post-types.php:829 core/view/mpv-post-types.php:1085
+msgid "<em class=\"create\">Add</em> <b>%s</b> Column"
+msgstr ""
+
+#: core/view/mpv-post-types.php:841 core/view/mpv-taxonomies.php:654
+msgid "Columns"
+msgstr ""
+
+#: core/view/mpv-post-types.php:841
+msgid "specify the columns shown in the manage listing for posts of this type"
+msgstr ""
+
+#: core/view/mpv-post-types.php:944 core/view/mpv-taxonomies.php:766
+msgid "Content cannot be changed as this is a built-in column"
+msgstr ""
+
+#: core/view/mpv-post-types.php:973 core/view/mpv-taxonomies.php:795
+msgid "Built-in columns:"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1033 core/view/mpv-taxonomies.php:855
+msgid "Select a Field to Display in the Column"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1068 core/view/mpv-taxonomies.php:890
+msgid "<em class=\"create\">Add</em> <b>Field</b> Column"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1074
+msgid "<em class=\"create\">Add</em> <b>Custom</b> Column"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1109
+msgid "Admin Menu"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1109
+msgid ""
+"controls where your post type appears in the WordPress administration menu"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1118
+msgid "Position"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1130
+msgid "Links"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1134
+msgid "Plugins"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1135 core/view/mpv-roles.php:84
+msgid "Users"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1136 masterpress.php:2463
+msgid "Tools"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1137
+msgid "Settings"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1218 core/view/mpv-taxonomies.php:609
+#: core/view/mpv.php:379
+msgid "This post type is disabled"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1267
+msgid "Drag post type to the desired position in the admin menu."
+msgstr ""
+
+#: core/view/mpv-post-types.php:1271
+msgid ""
+"Note: You cannot adjust the positions of the built-in menus, but you can "
+"position items before and after them (with the exception that items must be "
+"positioned after <em>Posts</em>)."
+msgstr ""
+
+#: core/view/mpv-post-types.php:1275
+msgid ""
+"The menu presented here is a representation only, and does not include other "
+"menus registered by your theme and other plug-ins."
+msgstr ""
+
+#: core/view/mpv-post-types.php:1304 core/view/mpv-taxonomies.php:936
+msgid "URL Options"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1304
+msgid "controls how your post type is accessible via URLs in your site"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1313 core/view/mpv-taxonomies.php:945
+msgid "Rewrite Slug"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1317
+msgid "The slug your post types will sit underneath in the URL structure."
+msgstr ""
+
+#: core/view/mpv-post-types.php:1318
+msgid ""
+"The default value follows the popular convention of using the lowercase "
+"sanitized version of <em>Plural Name</em>."
+msgstr ""
+
+#: core/view/mpv-post-types.php:1327
+msgid ""
+"Has Archive Page? - <span>allows an archive page for this post type, using "
+"the template named %s"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1332 core/view/mpv-taxonomies.php:958
+msgid ""
+"With Front? - <span>Append the above slug to the top level URL set in your "
+"permalink settings.</span>"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1338
+msgid "Has Feeds? - <span>Create RSS / ATOM feeds for this post type.</span>"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1343
+msgid "Permalink End-Point Mask"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1355
+msgid ""
+"Separate multiple end-point constants with a pipe. e.g. <span class=\"tt"
+"\">EP_PAGES | EP_TAGS</span>"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1364
+msgid "Allow Rewrite Slug to be ommitted?"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1364
+msgid ""
+"allows you to also access posts of this type <em>without</em> the rewrite "
+"slug in the URL.<br/>Be careful with this setting - it may affect site "
+"performance, and pages with the same slug as a post of this type will no "
+"longer be accessible."
+msgstr ""
+
+#: core/view/mpv-post-types.php:1378 core/view/mpv-taxonomies.php:978
+msgid "Query &amp; Data Options"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1378
+msgid ""
+" controls the visibility of this post type in database queries and site "
+"searches, and exportability"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1387
+msgid ""
+"Publicly Queryable? - <span>Allow queries on this post type from the front-"
+"end WordPress API</span>"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1393 core/view/mpv-taxonomies.php:993
+msgid "Query Variable"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1397
+msgid ""
+"Enter the query variable used to query posts of this type with <span class="
+"\"tt\">query_posts</span> or <span class=\"tt\">WP_Query</span>. Generally "
+"this should simply be the default value of the <em>Singular Name</em>, "
+"unless you have a good reason to change it."
+msgstr ""
+
+#: core/view/mpv-post-types.php:1406
+msgid ""
+"Exclude from Search? - <span>Hide items of this post type in site search "
+"results</span>"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1413
+msgid ""
+"Exportable? - <span>Allow this post type to be exported via the WordPress "
+"Export Tool</span>"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1445 core/view/mpv-taxonomies.php:1038
+msgid "<em>Singular</em> Name:"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1448 core/view/mpv-post-types.php:1457
+#: core/view/mpv-taxonomies.php:1041 core/view/mpv-taxonomies.php:1050
+msgid "recommended"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1454 core/view/mpv-taxonomies.php:1047
+msgid "<em>Plural</em> Name:"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1463 core/view/mpv-taxonomies.php:1056
+msgid "Menu Name:"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1465 core/view/mpv-taxonomies.php:1058
+msgid "{{plural_name}}"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1466
+msgid "The name to give menu items"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1473
+msgid "Add New:"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1476
+msgid "Menu label for creating a post of this type"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1482 core/view/mpv-taxonomies.php:1080
+msgid "All Items:"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1484 core/view/mpv-taxonomies.php:1082
+msgid "All {{plural_name}}"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1485
+msgid "The all items text used in the menu"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1491 core/view/mpv-taxonomies.php:1120
+msgid "Add New Item:"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1493 core/view/mpv-taxonomies.php:1122
+msgid "Add New {{singular_name}}"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1494
+msgid "Header shown when creating a new item of this type"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1500
+msgid "Edit:"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1502
+msgid "Edit"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1503
+msgid "Menu label for editing posts of this type"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1509 core/view/mpv-taxonomies.php:1104
+msgid "Edit Item:"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1511 core/view/mpv-taxonomies.php:1106
+msgid "Edit {{singular_name}}"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1512
+msgid "Header shown when editing posts of this type"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1518
+msgid "New Item Label:"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1520
+msgid "New {{singular_name}}"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1521
+msgid "Shown in the favorites menu in the admin header"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1527
+msgid "View:"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1529 core/view/mpv-post-types.php:1538
+msgid "View {{singular_name}}"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1530
+msgid "Used as text in links to view posts of this type"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1536
+msgid "View Item:"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1539
+msgid "Text for the button alongside the permalink on the edit post screen"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1545 core/view/mpv-taxonomies.php:1064
+msgid "Search Items:"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1547 core/view/mpv-taxonomies.php:1066
+msgid "Search {{plural_name}}"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1548
+msgid "Button text for the search box on the edit post screen"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1554
+msgid "Not Found:"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1556
+msgid "No {{plural_name}} found"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1557
+msgid ""
+"Text to display when no posts of this type are found through search in the "
+"admin"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1563
+msgid "Not Found In Trash:"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1565
+msgid "No {{plural_name}} found in Trash"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1566
+msgid "Text to display when no posts of this type are in the trash"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1572
+msgid "Parent Item (Colon):"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1574 core/view/mpv-taxonomies.php:1090
+msgid "Parent {{singular_name}}"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1575
+msgid ""
+"The label for the parent selector on the edit posts screen (hierarchical "
+"only)"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1581
+msgid "No Posts:"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1584 core/view/mpv-post-types.php:1593
+#: core/view/mpv-post-types.php:1602 core/view/mpv-post-types.php:1611
+msgid "Used when listing posts in a master-detail relationship"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1590
+msgid "One Post:"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1599
+msgid "n Posts:"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1608
+msgid "Remove Post:"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1630
+msgid "the keys used to control access to this post type."
+msgstr ""
+
+#: core/view/mpv-post-types.php:1639
+msgid ""
+"<em>Post</em> style, based on the partial key <span class=\"tt\">post</span>"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1642 core/view/mpv-post-types.php:1653
+#: core/view/mpv-post-types.php:1665 core/view/mpv-post-types.php:1693
+msgid "primitive capabilities"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1643 core/view/mpv-post-types.php:1654
+#: core/view/mpv-post-types.php:1666 core/view/mpv-post-types.php:1694
+msgid "meta capabilities"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1650
+msgid ""
+"<em>Page</em> style, based on the partial key <span class=\"tt\">page</span>"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1662
+msgid "<em>Specific</em>, based on <em>Singular Name</em>"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1687
+msgid "<em>Custom</em>, based on the partial key (singular)"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1703
+msgid ""
+"Map Meta Capabilities? - <span>whether to use the internal default meta "
+"capability handling. See the section on the <span class=\"tt\">capabilities</"
+"span> argument %s</span>"
+msgstr ""
+
+#: core/view/mpv-post-types.php:1703
+msgid " here"
+msgstr ""
+
+#: core/view/mpv-role-field-sets.php:6 core/view/mpv-role-field-sets.php:25
+msgid "User Role Field Set"
+msgstr ""
+
+#: core/view/mpv-role-field-sets.php:10
+msgid "User Role Field Sets"
+msgstr ""
+
+#: core/view/mpv-role-field-sets.php:18
+msgid "User Role Field"
+msgstr ""
+
+#: core/view/mpv-role-field-sets.php:141
+#: core/view/mpv-taxonomy-field-sets.php:154
+#: core/view/mpv-template-field-sets.php:158
+msgid ""
+"this field set is not currently available in this site (multi-site setting)"
+msgstr ""
+
+#: core/view/mpv-role-field-sets.php:188
+#: core/view/mpv-taxonomy-field-sets.php:201
+#: core/view/mpv-template-field-sets.php:205
+msgid "this field is not currenty available in this site (multi-site setting)"
+msgstr ""
+
+#: core/view/mpv-role-field-sets.php:273
+msgid ""
+"The '<em>%s</em>' role currently has <em>no field sets</em>. Click here to "
+"create one."
+msgstr ""
+
+#: core/view/mpv-roles.php:22
+msgid ""
+"Are you sure you want to delete the <em>%s</em> Role? This operation is not "
+"reversible!</span>"
+msgstr ""
+
+#: core/view/mpv-roles.php:170
+msgid "( required )"
+msgstr ""
+
+#: core/view/mpv-roles.php:172
+msgid "( default )"
+msgstr ""
+
+#: core/view/mpv-roles.php:233
+msgid "Export, Import, Backup and Restore your Masterplan"
+msgstr ""
+
+#: core/view/mpv-roles.php:234
+msgid "Access the post types admin area"
+msgstr ""
+
+#: core/view/mpv-roles.php:235
+msgid "Access the taxonomies admin area"
+msgstr ""
+
+#: core/view/mpv-roles.php:236
+msgid "Access the templates admin area"
+msgstr ""
+
+#: core/view/mpv-roles.php:237
+msgid ""
+"Access the user roles admin area. Note: users in the Administrator role will "
+"ALWAYS have access to this area, to avoid potential lock-out scenarios"
+msgstr ""
+
+#: core/view/mpv-roles.php:238
+msgid "Access the site field set administration area"
+msgstr ""
+
+#: core/view/mpv-roles.php:239
+msgid "Access the shared field set administration area"
+msgstr ""
+
+#: core/view/mpv-roles.php:240
+msgid ""
+"Manage MasterPress settings. Note: users in the Administrator role will "
+"ALWAYS have access to this area, to avoid potential lock-out scenarios"
+msgstr ""
+
+#: core/view/mpv-roles.php:241
+msgid "Access the MasterPress Tools Menus"
+msgstr ""
+
+#: core/view/mpv-roles.php:245
+msgid "Export the current masterplan to a zip file"
+msgstr ""
+
+#: core/view/mpv-roles.php:246
+msgid ""
+"Replace the current masterplan with the contents of a masterplan zip file"
+msgstr ""
+
+#: core/view/mpv-roles.php:247
+msgid "Backup the current masterplan"
+msgstr ""
+
+#: core/view/mpv-roles.php:248
+msgid "Restore the masterplan from a backup"
+msgstr ""
+
+#: core/view/mpv-roles.php:252
+msgid "Create a new post type"
+msgstr ""
+
+#: core/view/mpv-roles.php:253
+msgid "Edit existing post types"
+msgstr ""
+
+#: core/view/mpv-roles.php:254
+msgid "Delete post types"
+msgstr ""
+
+#: core/view/mpv-roles.php:255
+msgid "Manage the custom field sets associated with post types."
+msgstr ""
+
+#: core/view/mpv-roles.php:256
+msgid "Create custom field sets associated with post types."
+msgstr ""
+
+#: core/view/mpv-roles.php:257
+msgid "Edit existing custom field sets associated with post types."
+msgstr ""
+
+#: core/view/mpv-roles.php:258
+msgid "Delete existing custom field sets associated with post types."
+msgstr ""
+
+#: core/view/mpv-roles.php:259
+msgid "Create custom fields associated with post types."
+msgstr ""
+
+#: core/view/mpv-roles.php:260
+msgid "Edit custom fields associated with post types."
+msgstr ""
+
+#: core/view/mpv-roles.php:261
+msgid "Delete custom fields associated with post types."
+msgstr ""
+
+#: core/view/mpv-roles.php:265
+msgid "Create a new taxonomy"
+msgstr ""
+
+#: core/view/mpv-roles.php:266
+msgid "Edit existing taxonomies"
+msgstr ""
+
+#: core/view/mpv-roles.php:267
+msgid "Delete taxonomies"
+msgstr ""
+
+#: core/view/mpv-roles.php:268
+msgid "Manage the custom field sets associated with taxonomies."
+msgstr ""
+
+#: core/view/mpv-roles.php:269
+msgid "Create custom field sets associated with taxonomies."
+msgstr ""
+
+#: core/view/mpv-roles.php:270
+msgid "Edit custom field sets associated with taxonomies."
+msgstr ""
+
+#: core/view/mpv-roles.php:271
+msgid "Delete custom field sets associated with taxonomies."
+msgstr ""
+
+#: core/view/mpv-roles.php:272
+msgid "Create custom fields associated with taxonomies."
+msgstr ""
+
+#: core/view/mpv-roles.php:273
+msgid "Edit custom fields associated with taxonomies."
+msgstr ""
+
+#: core/view/mpv-roles.php:274
+msgid "Delete custom fields associated with taxonomies."
+msgstr ""
+
+#: core/view/mpv-roles.php:278
+msgid "Edit content settings for templates"
+msgstr ""
+
+#: core/view/mpv-roles.php:279
+msgid "Manage the custom field sets associated with templates."
+msgstr ""
+
+#: core/view/mpv-roles.php:280
+msgid "Create custom field sets associated with templates."
+msgstr ""
+
+#: core/view/mpv-roles.php:281
+msgid "Edit custom field sets associated with templates."
+msgstr ""
+
+#: core/view/mpv-roles.php:282
+msgid "Delete custom field sets associated with templates."
+msgstr ""
+
+#: core/view/mpv-roles.php:283
+msgid "Create custom fields associated with templates."
+msgstr ""
+
+#: core/view/mpv-roles.php:284
+msgid "Edit custom fields associated with templates."
+msgstr ""
+
+#: core/view/mpv-roles.php:285
+msgid "Delete custom fields associated with templates."
+msgstr ""
+
+#: core/view/mpv-roles.php:289
+msgid "Create a new user role"
+msgstr ""
+
+#: core/view/mpv-roles.php:290
+msgid ""
+"Edit existing user roles. Note: users in the Administrator role will ALWAYS "
+"be able to edit user roles, to avoid potential lock-out scenarios"
+msgstr ""
+
+#: core/view/mpv-roles.php:291
+msgid "Delete user roles"
+msgstr ""
+
+#: core/view/mpv-roles.php:292
+msgid "Manage the custom field sets associated with user roles."
+msgstr ""
+
+#: core/view/mpv-roles.php:293
+msgid "Create custom field sets associated with user roles."
+msgstr ""
+
+#: core/view/mpv-roles.php:294
+msgid "Edit custom field sets associated with user roles."
+msgstr ""
+
+#: core/view/mpv-roles.php:295
+msgid "Delete custom field sets associated with user roles."
+msgstr ""
+
+#: core/view/mpv-roles.php:296
+msgid "Create custom fields associated with user roles."
+msgstr ""
+
+#: core/view/mpv-roles.php:297
+msgid "Edit custom fields associated with user roles."
+msgstr ""
+
+#: core/view/mpv-roles.php:298
+msgid "Delete custom fields associated with user roles."
+msgstr ""
+
+#: core/view/mpv-roles.php:302
+msgid "Create site field sets, and the fields within them"
+msgstr ""
+
+#: core/view/mpv-roles.php:303
+msgid "Edit existing site field sets, and the fields within them"
+msgstr ""
+
+#: core/view/mpv-roles.php:304
+msgid "Delete existing site field sets, and the fields within them"
+msgstr ""
+
+#: core/view/mpv-roles.php:305
+msgid "Create custom fields associated with sites."
+msgstr ""
+
+#: core/view/mpv-roles.php:306
+msgid "Edit custom fields associated with sites."
+msgstr ""
+
+#: core/view/mpv-roles.php:307
+msgid "Delete custom fields associated with sites."
+msgstr ""
+
+#: core/view/mpv-roles.php:311
+msgid "Create shared field sets, and the fields within them"
+msgstr ""
+
+#: core/view/mpv-roles.php:312
+msgid "Edit existing shared field sets, and the fields within them"
+msgstr ""
+
+#: core/view/mpv-roles.php:313
+msgid "Delete existing shared field sets, and the fields within them"
+msgstr ""
+
+#: core/view/mpv-roles.php:314
+msgid "Create shared custom fields."
+msgstr ""
+
+#: core/view/mpv-roles.php:315
+msgid "Edit shared custom fields."
+msgstr ""
+
+#: core/view/mpv-roles.php:316
+msgid "Delete shared custom fields."
+msgstr ""
+
+#: core/view/mpv-roles.php:349
+msgid "Access the Dashboard and Users &gt; Your Profile"
+msgstr ""
+
+#: core/view/mpv-roles.php:350
+msgid "Configure screen options and individual dashboard panels (metaboxes)"
+msgstr ""
+
+#: core/view/mpv-roles.php:351
+msgid ""
+"Access installed Plugin settings and these areas in WordPress Settings - "
+"General, Writing, Reading, Discussion, Permalinks"
+msgstr ""
+
+#: core/view/mpv-roles.php:352
+msgid "Auto-update WordPress itself"
+msgstr ""
+
+#: core/view/mpv-roles.php:356
+msgid "View a list of the users in the site"
+msgstr ""
+
+#: core/view/mpv-roles.php:357
+msgid "Add a new user to the site"
+msgstr ""
+
+#: core/view/mpv-roles.php:358
+msgid "Edit users in the site"
+msgstr ""
+
+#: core/view/mpv-roles.php:359
+msgid "Create other users"
+msgstr ""
+
+#: core/view/mpv-roles.php:360
+msgid "Remove other users from a role"
+msgstr ""
+
+#: core/view/mpv-roles.php:361
+msgid "Remove users altogether"
+msgstr ""
+
+#: core/view/mpv-roles.php:362
+msgid "Change the role of other users"
+msgstr ""
+
+#: core/view/mpv-roles.php:366
+msgid "Access the Plugins main screen"
+msgstr ""
+
+#: core/view/mpv-roles.php:367
+msgid "Access Plugins &gt; Add New"
+msgstr ""
+
+#: core/view/mpv-roles.php:368
+msgid "Remove plugins via the Plugins screen"
+msgstr ""
+
+#: core/view/mpv-roles.php:369
+msgid "Access Plugins &gt; Plugin Editor"
+msgstr ""
+
+#: core/view/mpv-roles.php:370
+msgid "Auto-update plugins"
+msgstr ""
+
+#: core/view/mpv-roles.php:374
+msgid "Access Appearance &gt; Theme Editor to edit theme files"
+msgstr ""
+
+#: core/view/mpv-roles.php:375
+msgid ""
+"Access the Background, Header, Menus, Widgets sections of Appearance, and "
+"access theme-specific options"
+msgstr ""
+
+#: core/view/mpv-roles.php:376
+msgid "Access Appearance &gt; Add New Themes to install new themes"
+msgstr ""
+
+#: core/view/mpv-roles.php:377
+msgid "Auto-update themes"
+msgstr ""
+
+#: core/view/mpv-roles.php:378
+msgid "Delete themes"
+msgstr ""
+
+#: core/view/mpv-roles.php:379
+msgid "Access Appearance &gt; Themes to change the active theme"
+msgstr ""
+
+#: core/view/mpv-roles.php:384
+msgid "Manage categories, tags, and custom taxonomies using this capability"
+msgstr ""
+
+#: core/view/mpv-roles.php:388
+msgid "Manage links"
+msgstr ""
+
+#: core/view/mpv-roles.php:389
+msgid ""
+"Access moderation controls in the Comments screen (Requires edit_posts "
+"capability to access)"
+msgstr ""
+
+#: core/view/mpv-roles.php:390
+msgid ""
+"Access the Media, and Media &gt; Add New screens, and attach uploads to post "
+"content"
+msgstr ""
+
+#: core/view/mpv-roles.php:391
+msgid "Access Tools &gt; Import to import content into the site"
+msgstr ""
+
+#: core/view/mpv-roles.php:392
+msgid "Access Tools &gt; Export to export content from the site"
+msgstr ""
+
+#: core/view/mpv-roles.php:393
+msgid ""
+"Allowed to use HTML and JavaScript code in page, post, and comment content"
+msgstr ""
+
+#: core/view/mpv-roles.php:394
+msgid "Allowed to upload file types that are not regarded as secure"
+msgstr ""
+
+#: core/view/mpv-roles.php:398
+msgid ""
+"Access Posts, Posts &gt; Add New, Comments, and Comments &gt; Awaiting "
+"Moderation areas for standard posts, and custom post types with this "
+"capability"
+msgstr ""
+
+#: core/view/mpv-roles.php:399
+msgid "Edit other users' posts"
+msgstr ""
+
+#: core/view/mpv-roles.php:400
+msgid "Edit posts marked as private"
+msgstr ""
+
+#: core/view/mpv-roles.php:401
+msgid "Edit posts that have already been published"
+msgstr ""
+
+#: core/view/mpv-roles.php:402
+msgid "Delete posts"
+msgstr ""
+
+#: core/view/mpv-roles.php:403
+msgid "Delete other users' posts"
+msgstr ""
+
+#: core/view/mpv-roles.php:404
+msgid "Delete posts marked as private"
+msgstr ""
+
+#: core/view/mpv-roles.php:405
+msgid "Delete posts that have already been published"
+msgstr ""
+
+#: core/view/mpv-roles.php:406
+msgid "Publish posts - that is, elevate them beyond Draft status"
+msgstr ""
+
+#: core/view/mpv-roles.php:407
+msgid "See posts marked as private in the admin and site"
+msgstr ""
+
+#: core/view/mpv-roles.php:412
+msgid ""
+"Access Pages, Pages &gt; Add New, Comments, and Comments &gt; Awaiting "
+"Moderation areas for standard pages, and custom post types with this "
+"capability"
+msgstr ""
+
+#: core/view/mpv-roles.php:413
+msgid "Edit other users' pages"
+msgstr ""
+
+#: core/view/mpv-roles.php:414
+msgid "Edit pages marked as private"
+msgstr ""
+
+#: core/view/mpv-roles.php:415
+msgid "Edit pages that have already been published"
+msgstr ""
+
+#: core/view/mpv-roles.php:416
+msgid "Delete pages"
+msgstr ""
+
+#: core/view/mpv-roles.php:417
+msgid "Delete other users' pages"
+msgstr ""
+
+#: core/view/mpv-roles.php:418
+msgid "Delete pages marked as private"
+msgstr ""
+
+#: core/view/mpv-roles.php:419
+msgid "Delete pages tat have already been published"
+msgstr ""
+
+#: core/view/mpv-roles.php:420
+msgid "Publish pages - that is, elevate them beyond Draft status"
+msgstr ""
+
+#: core/view/mpv-roles.php:421
+msgid "See pages marked as private in the admin and site"
+msgstr ""
+
+#: core/view/mpv-roles.php:426
+msgid "User Level 1 (in the legacy user level system)"
+msgstr ""
+
+#: core/view/mpv-roles.php:427
+msgid "User Level 2 (in the legacy user level system)"
+msgstr ""
+
+#: core/view/mpv-roles.php:428
+msgid "User Level 3 (in the legacy user level system)"
+msgstr ""
+
+#: core/view/mpv-roles.php:429
+msgid "User Level 4 (in the legacy user level system)"
+msgstr ""
+
+#: core/view/mpv-roles.php:430
+msgid "User Level 5 (in the legacy user level system)"
+msgstr ""
+
+#: core/view/mpv-roles.php:431
+msgid "User Level 6 (in the legacy user level system)"
+msgstr ""
+
+#: core/view/mpv-roles.php:432
+msgid "User Level 7 (in the legacy user level system)"
+msgstr ""
+
+#: core/view/mpv-roles.php:433
+msgid "User Level 8 (in the legacy user level system)"
+msgstr ""
+
+#: core/view/mpv-roles.php:434
+msgid "User Level 9 (in the legacy user level system)"
+msgstr ""
+
+#: core/view/mpv-roles.php:435
+msgid "User Level 10 (in the legacy user level system)"
+msgstr ""
+
+#: core/view/mpv-roles.php:452
+msgid ""
+"This capability cannot be changed for the Administrator role, as it may "
+"cause WordPress to become inaccessible"
+msgstr ""
+
+#: core/view/mpv-roles.php:533
+msgid "determines the tasks that users in this role are able to perform"
+msgstr ""
+
+#: core/view/mpv-roles.php:644
+msgid "Dashboard"
+msgstr ""
+
+#: core/view/mpv-roles.php:645
+msgid "Posts &amp; Pages"
+msgstr ""
+
+#: core/view/mpv-roles.php:646
+msgid "Terms"
+msgstr ""
+
+#. #-#-#-#-#  masterpress.pot (MasterPress 1.0.1.b3)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: core/view/mpv-roles.php:654 masterpress.php:2347
+msgid "MasterPress"
+msgstr ""
+
+#: core/view/mpv-roles.php:656
+msgid "Custom"
+msgstr ""
+
+#: core/view/mpv-roles.php:665
+msgid "Access &amp; Customisation"
+msgstr ""
+
+#: core/view/mpv-roles.php:666
+msgid "Content, Comments &amp; Links"
+msgstr ""
+
+#: core/view/mpv-roles.php:667
+msgid "User Admin"
+msgstr ""
+
+#: core/view/mpv-roles.php:668
+msgid "Plugin Admin"
+msgstr ""
+
+#: core/view/mpv-roles.php:669
+msgid "Theme Admin"
+msgstr ""
+
+#: core/view/mpv-roles.php:670
+msgid ""
+"User Levels&nbsp;- <span>using these keys should be avoided, but some legacy "
+"themes and plug-ins may still make use of them</span>"
+msgstr ""
+
+#: core/view/mpv-roles.php:679
+msgid ""
+"Posts - <span>custom post types will generally use these capabilities unless "
+"the <em>specific</em> or <em>custom</em> key styles are used</span>"
+msgstr ""
+
+#: core/view/mpv-roles.php:694
+msgid ""
+"Categories &amp; Tags - <span>custom taxonomies will have generally use "
+"these capabilities unless otherwise specified"
+msgstr ""
+
+#: core/view/mpv-roles.php:710 core/view/mpv-settings.php:133
+msgid "Section Access"
+msgstr ""
+
+#: core/view/mpv-roles.php:711 masterpress.php:1498 masterpress.php:2263
+#: masterpress.php:2264
+msgid "Masterplan"
+msgstr ""
+
+#: core/view/mpv-roles.php:753
+msgid ""
+"New - <span>enter new capability keys for this role, which will appear under "
+"<b>Keys</b> below after updating this role</span>"
+msgstr ""
+
+#: core/view/mpv-roles.php:778
+msgid ""
+"Keys - <span>additional recorded capabilities (from themes, plug-ins, and "
+"custom additions)</span>"
+msgstr ""
+
+#: core/view/mpv-settings.php:18
+msgid "Save Settings"
+msgstr ""
+
+#: core/view/mpv-settings.php:24
+msgid "Licence"
+msgstr ""
+
+#: core/view/mpv-settings.php:24
+msgid "your registration info"
+msgstr ""
+
+#: core/view/mpv-settings.php:32
+msgid "Key"
+msgstr ""
+
+#: core/view/mpv-settings.php:70
+msgid ""
+"A valid licence key is required for access to automatic updates and support."
+msgstr ""
+
+#: core/view/mpv-settings.php:75
+msgid "Your licence key is valid"
+msgstr ""
+
+#: core/view/mpv-settings.php:80
+msgid "Key not valid"
+msgstr ""
+
+#: core/view/mpv-settings.php:102
+msgid "MasterPress Capabilities"
+msgstr ""
+
+#: core/view/mpv-settings.php:102
+msgid "the keys used to control access to features of MasterPress"
+msgstr ""
+
+#: core/view/mpv-settings.php:114
+msgid ""
+"<em>Standard</em> - all features are allowed for user roles with the <span "
+"class=\"tt\">manage_options</span> capability (typical plug-in setup)"
+msgstr ""
+
+#: core/view/mpv-settings.php:120
+msgid "<em>Specific</em> - allows fine-grained control over MasterPress"
+msgstr ""
+
+#: core/view/mpv-settings.php:134
+msgid "Masterplans"
+msgstr ""
+
+#: core/view/mpv-settings.php:147
+msgid ""
+"On save, add all capabilities above to roles with the <span class=\"tt"
+"\">manage_options</span> capability."
+msgstr ""
+
+#: core/view/mpv-settings.php:149
+msgid ""
+"Note: you can also add these capabilities at a later time in the <em>User "
+"Roles</em> section, under the <b>Masterpress</b> tab when creating or "
+"editing a user role."
+msgstr ""
+
+#: core/view/mpv-settings.php:169
+msgid "Support Info"
+msgstr ""
+
+#: core/view/mpv-settings.php:169
+msgid "useful information for support requests"
+msgstr ""
+
+#: core/view/mpv-settings.php:171
+msgid "Select <strong>All</strong>"
+msgstr ""
+
+#: core/view/mpv-settings.php:202
+msgid "MasterPress Version: %s"
+msgstr ""
+
+#: core/view/mpv-settings.php:203
+msgid "WordPress Version: %s"
+msgstr ""
+
+#: core/view/mpv-settings.php:204
+msgid "Multi-site: %s"
+msgstr ""
+
+#: core/view/mpv-settings.php:205
+msgid "Host: %s"
+msgstr ""
+
+#: core/view/mpv-settings.php:209
+msgid "PHP Version: %s"
+msgstr ""
+
+#: core/view/mpv-settings.php:210
+msgid "MySQL Version: %s"
+msgstr ""
+
+#: core/view/mpv-settings.php:211
+msgid "Operating System: %s"
+msgstr ""
+
+#: core/view/mpv-settings.php:213
+msgid "Memory Limit: %s"
+msgstr ""
+
+#: core/view/mpv-settings.php:214
+msgid "Max Execution Time: %ss"
+msgstr ""
+
+#: core/view/mpv-settings.php:215
+msgid "File Uploads: %s"
+msgstr ""
+
+#: core/view/mpv-settings.php:216
+msgid "Post Max Size: %s"
+msgstr ""
+
+#: core/view/mpv-settings.php:217
+msgid "Upload Max File Size: %s"
+msgstr ""
+
+#: core/view/mpv-settings.php:218
+msgid "Allow URL fopen: %s"
+msgstr ""
+
+#: core/view/mpv-settings.php:220
+msgid "Short Open Tag: %s"
+msgstr ""
+
+#: core/view/mpv-settings.php:221
+msgid "Display Errors: %s"
+msgstr ""
+
+#: core/view/mpv-settings.php:223
+msgid "Register Globals: %s"
+msgstr ""
+
+#: core/view/mpv-settings.php:224
+msgid "Magic Quotes GPC: %s"
+msgstr ""
+
+#: core/view/mpv-settings.php:225
+msgid "Magic Quotes Runtime: %s"
+msgstr ""
+
+#: core/view/mpv-settings.php:226
+msgid "Safe Mode: %s"
+msgstr ""
+
+#: core/view/mpv-shared-field-sets.php:14
+#: core/view/mpv-taxonomy-field-sets.php:14
+#: core/view/mpv-template-field-sets.php:14
+msgid "Set"
+msgstr ""
+
+#: core/view/mpv-shared-field-sets.php:18
+#: core/view/mpv-taxonomy-field-sets.php:18
+#: core/view/mpv-template-field-sets.php:18
+msgid "Sets"
+msgstr ""
+
+#: core/view/mpv-shared-field-sets.php:25
+msgid "Shared Field"
+msgstr ""
+
+#: core/view/mpv-shared-field-sets.php:173
+#: core/view/mpv-shared-field-sets.php:211
+#: core/view/mpv-shared-field-sets.php:250
+msgid "( All )"
+msgstr ""
+
+#: core/view/mpv-shared-field-sets.php:335
+#: core/view/mpv-shared-field-sets.php:375
+#: core/view/mpv-shared-field-sets.php:416
+msgid "same as set"
+msgstr ""
+
+#: core/view/mpv-shared-field-sets.php:497
+msgid "There are currently no Shared Field Sets. Click here to create one."
+msgstr ""
+
+#: core/view/mpv-site-content.php:14
+msgid "Content Updated"
+msgstr ""
+
+#: core/view/mpv-site-content.php:26 core/view/mpv-site-content.php:56
+msgid "Save Changes"
+msgstr ""
+
+#: core/view/mpv-site-field-sets.php:14
+msgid "Site Set"
+msgstr ""
+
+#: core/view/mpv-site-field-sets.php:18
+msgid "Site Sets"
+msgstr ""
+
+#: core/view/mpv-site-field-sets.php:25
+msgid "Site Field"
+msgstr ""
+
+#: core/view/mpv-site-field-sets.php:276
+msgid "There are currently no Site Field Sets. Click here to create one."
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:21
+msgid ""
+"Are you sure you want to delete the <em>%s</em> Taxonomy? This operation is "
+"not reversible!</span>"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:55
+msgid ""
+"This taxonomy was not created by MasterPress and will not be removed upon "
+"deletion if it is still externally defined in a plug-in or theme."
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:61
+msgid "This taxonomy has:"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:65
+msgid "%d tern record"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:65
+msgid "%d term records"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:80
+msgid "Existing terms:"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:85
+msgid "Re-assign to Taxonomy:"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:116
+msgid "Re-attach by creating a taxonomy with the same name"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:200
+msgid "Title Icon"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:201
+msgid "Menu Label"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:216
+msgid "this taxonomy is disabled"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:222
+msgid ""
+"this taxonomy is not currently available in this site (multi-site setting)"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:284
+msgid ""
+"This taxonomy does not support field sets as the 'show ui' parameter is off"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:319
+msgid ""
+"This taxonomy does not support shared field sets as the 'show ui' parameter "
+"is off"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:372
+msgid "This taxonomy cannot be deleted as it is built-in to WordPress"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:374
+msgid "This taxonomy cannot be deleted as it was not created by MasterPress"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:429
+msgid ""
+"This is a unique identifier for the taxonomy in the WordPress API. It is not "
+"displayed, and by convention it <strong>must</strong> be a singular form, "
+"lowercase string with underscores to separate words."
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:454
+msgid "Icon"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:456
+msgid "Choose From Computer&hellip;"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:500
+msgid ""
+"disabling a taxonomy will keep its definition in the database but it will "
+"not be registered in WordPress, which will often be <strong>preferable to "
+"deleting it</strong> entirely."
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:516
+msgid ""
+"hierarchical taxonomies are like WordPress <em>Categories</em>, whereas non-"
+"hierarchical taxonomies are like WordPress <em>Tags</em>."
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:529
+msgid ""
+"unchecking this will internalize this taxonomy, hiding it from both the "
+"admin menus and the edit post interface"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:536
+msgid "Hide Standard Terms UI"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:541
+msgid ""
+"hides the standard interface for assigning terms from this taxonomy to posts."
+"<br>This may be useful if you are solely using this taxonomy to provide the "
+"values<br>for a <em>Related Terms</em> field."
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:553
+msgid "allows this taxonomy to be selected in navigation menus"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:560
+msgid "Show Tag Cloud"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:565
+msgid "check to allow the Tag Cloud widget to use this taxonomy"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:573
+msgid "Show Manage Filter"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:578
+msgid ""
+"show a drop-down filter list of terms above post listings attached to this "
+"taxonomy"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:596
+msgid "associate post types with this taxonomy"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:654
+msgid ""
+"specify the columns shown in the manage listing for terms in this taxonomy"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:694
+msgid ""
+"This title cannot be changed, as it dynamically displays the active post type"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:896
+msgid "<em class=\"create\">Add</em> Custom Column"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:918
+msgid "control the visibility of this Taxonomy within WordPress"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:919
+msgid ""
+"specify the sites in the multisite network that this Taxonomy is available in"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:936
+msgid "controls how your taxonomy is accessible via URLs in your site"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:949
+msgid ""
+"The slug prepended to posts attached to this taxonomy in the URL structure."
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:950
+msgid ""
+"The default value follows the WordPress of using the lowercase sanitized "
+"version of <em>Singular Name</em>."
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:964
+msgid ""
+"Hierarchical? - <span>Allow hierarchical urls, mirroring the hierarchy of "
+"the taxonomy.</span>"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:978
+msgid ""
+" controls API access to this taxonomy in database queries and site searches"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:988
+msgid ""
+"Allow Queries? - <span>Allow this taxonomy to be queried in the database.</"
+"span>"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:997
+msgid ""
+"Enter the query variable used to query this taxonomy with <span class=\"tt"
+"\">query_posts</span> or <span class=\"tt\">WP_Query</span>. Generally this "
+"should simply be the default value of the <em>Singular Name</em>, unless you "
+"have a good reason to change it."
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:1004
+msgid "Update Count Callback"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:1008
+msgid ""
+"The name of a function that will be called to update the count of an "
+"associated post type."
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:1072
+msgid "Popular Items:"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:1074
+msgid "Popular {{plural_name}}"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:1088
+msgid "Parent Item:"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:1096
+msgid "Parent Item Colon:"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:1098
+msgid "Parent {{singular_name}}:"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:1112
+msgid "Update Item:"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:1114
+msgid "Update {{singular_name}}"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:1128
+msgid "New Item Name:"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:1130
+msgid "New {{singular_name}} Name"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:1136
+msgid "Separate Items With Commas:"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:1138
+msgid "Separate {{plural_name}} with commas"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:1144
+msgid "Add or remove items:"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:1146
+msgid "Add or remove {{plural_name}}"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:1152
+msgid "Choose from most used:"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:1154
+msgid "Choose from most used {{plural_name}}"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:1170
+msgid "the keys used to control access to this taxonomy"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:1178
+msgid "Manage Terms:"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:1182 core/view/mpv-taxonomies.php:1194
+#: core/view/mpv-taxonomies.php:1205
+msgid "<span class=\"tt\">manage_categories</span> is the typical value"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:1190
+msgid "Edit Terms:"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:1201
+msgid "Delete Terms:"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:1212
+msgid "Assign Terms:"
+msgstr ""
+
+#: core/view/mpv-taxonomies.php:1216
+msgid "<span class=\"tt\">edit_posts</span> is the typical value"
+msgstr ""
+
+#: core/view/mpv-taxonomy-field-sets.php:6
+#: core/view/mpv-taxonomy-field-sets.php:32
+msgid "Taxonomy Field Set"
+msgstr ""
+
+#: core/view/mpv-taxonomy-field-sets.php:10
+msgid "Taxonomy Field Sets"
+msgstr ""
+
+#: core/view/mpv-taxonomy-field-sets.php:25
+msgid "Taxonomy Field"
+msgstr ""
+
+#: core/view/mpv-taxonomy-field-sets.php:253
+#: core/view/mpv-template-field-sets.php:258
+msgid ""
+"<strong>%s</strong> is not yet active as it contains contains <em>no custom "
+"fields</em>. Click here to create one"
+msgstr ""
+
+#: core/view/mpv-taxonomy-field-sets.php:285
+msgid ""
+"The '<em>%s</em>' taxonomy currently has <em>no field sets</em>. Click here "
+"to create one."
+msgstr ""
+
+#: core/view/mpv-template-field-sets.php:6
+#: core/view/mpv-template-field-sets.php:32
+msgid "Template Field Set"
+msgstr ""
+
+#: core/view/mpv-template-field-sets.php:10
+msgid "Template Field Sets"
+msgstr ""
+
+#: core/view/mpv-template-field-sets.php:25
+msgid "Template Field"
+msgstr ""
+
+#: core/view/mpv-template-field-sets.php:290
+msgid ""
+"The '<em>%s</em>' template currently has <em>no field sets</em>. Click here "
+"to create one."
+msgstr ""
+
+#: core/view/mpv-templates.php:40 core/view/mpv-templates.php:184
+msgid "File Name"
+msgstr ""
+
+#: core/view/mpv-templates.php:41
+msgid "Template Name"
+msgstr ""
+
+#: core/view/mpv-templates.php:116
+msgid "All"
+msgstr ""
+
+#: core/view/mpv-templates.php:195
+msgid ""
+"controls the user interface for creating and editing posts based on this "
+"template"
+msgstr ""
+
+#: core/view/mpv-templates.php:218
+msgid "Use the same features as the associated post type(s)"
+msgstr ""
+
+#: core/view/mpv-templates.php:229
+msgid "Use custom features"
+msgstr ""
+
+#: core/view/mpv-templates.php:295
+msgid "Show the UI for editing the Template, Menu Order and Parent"
+msgstr ""
+
+#: core/view/mpv-templates.php:329
+msgid "control the visibility of this template in WordPress"
+msgstr ""
+
+#: core/view/mpv-templates.php:330
+msgid ""
+"specify the sites in the multisite network that this template is available in"
+msgstr ""
+
+#: core/view/mpv-templates.php:331
+msgid "specify the post types that this template can be used by"
+msgstr ""
+
+#: core/view/mpv.php:77
+msgid "This value cannot be changed"
+msgstr ""
+
+#: core/view/mpv.php:137
+msgid "control the visibility of this object in your site"
+msgstr ""
+
+#: core/view/mpv.php:138
+msgid "specify the network sites that this object is available in"
+msgstr ""
+
+#: core/view/mpv.php:139
+msgid "specify the post types that this object is available in"
+msgstr ""
+
+#: core/view/mpv.php:140
+msgid "specify the templates that this object is available in"
+msgstr ""
+
+#: core/view/mpv.php:141
+msgid "specify the user roles that this object is available in"
+msgstr ""
+
+#: core/view/mpv.php:142
+msgid "specify the taxonomies that this object is available in"
+msgstr ""
+
+#: core/view/mpv.php:143
+msgid ""
+"control display of this field based on the value of another field in the set"
+msgstr ""
+
+#: core/view/mpv.php:145
+msgid "Make avalable in:"
+msgstr ""
+
+#: core/view/mpv.php:147
+msgid "<em class=\"all\">All</em> sites in the network"
+msgstr ""
+
+#: core/view/mpv.php:148
+msgid "<em class=\"allow\">Include</em> only in specific Sites"
+msgstr ""
+
+#: core/view/mpv.php:149
+msgid "<em class=\"deny\">Exclude</em> from specific Sites"
+msgstr ""
+
+#: core/view/mpv.php:153
+msgid "<em class=\"all\">All</em> Post Types"
+msgstr ""
+
+#: core/view/mpv.php:154
+msgid "<em class=\"none\">No</em> Post Types"
+msgstr ""
+
+#: core/view/mpv.php:155
+msgid "<em class=\"allow\">Include</em> only in specific Post Types"
+msgstr ""
+
+#: core/view/mpv.php:156
+msgid "<em class=\"deny\">Exclude</em> from specific Post Types"
+msgstr ""
+
+#: core/view/mpv.php:158
+msgid "<em class=\"all\">All</em> Templates"
+msgstr ""
+
+#: core/view/mpv.php:159
+msgid "<em class=\"allow\">Include</em> only in specific Templates"
+msgstr ""
+
+#: core/view/mpv.php:160
+msgid "<em class=\"deny\">Exclude</em> from specific Templates"
+msgstr ""
+
+#: core/view/mpv.php:162
+msgid "<em class=\"all\">All</em> User Roles"
+msgstr ""
+
+#: core/view/mpv.php:163
+msgid "<em class=\"none\">No</em> User Roles"
+msgstr ""
+
+#: core/view/mpv.php:164
+msgid "<em class=\"allow\">Include</em> only in specific Roles"
+msgstr ""
+
+#: core/view/mpv.php:165
+msgid "<em class=\"deny\">Exclude</em> from specific Roles"
+msgstr ""
+
+#: core/view/mpv.php:167
+msgid "<em class=\"all\">All</em> Taxonomies"
+msgstr ""
+
+#: core/view/mpv.php:168
+msgid "<em class=\"none\">No</em> Taxonomies"
+msgstr ""
+
+#: core/view/mpv.php:169
+msgid "<em class=\"allow\">Include</em> only in specific Taxonomies"
+msgstr ""
+
+#: core/view/mpv.php:170
+msgid "<em class=\"deny\">Exclude</em> from specific Taxonomies"
+msgstr ""
+
+#: core/view/mpv.php:172
+msgid "No conditions"
+msgstr ""
+
+#: core/view/mpv.php:173
+msgid "When another field <em class=\"allow\">has a specific value</em>"
+msgstr ""
+
+#: core/view/mpv.php:174
+msgid ""
+"When another field <em class=\"deny\">does not have a specific value</em>"
+msgstr ""
+
+#: core/view/mpv.php:236
+msgid "Availability"
+msgstr ""
+
+#: core/view/mpv.php:267
+msgid "Conditional Display"
+msgstr ""
+
+#: core/view/mpv.php:297
+msgid "Field:"
+msgstr ""
+
+#: core/view/mpv.php:302
+msgid "Value:"
+msgstr ""
+
+#: core/view/mpv.php:524
+msgid ""
+"The Field Set <em>%s</em> is not yet associated with <em>any</em> field "
+"types, so this option is not yet available"
+msgstr ""
+
+#: core/view/mpv.php:669
+msgid "User Profiles"
+msgstr ""
+
+#: core/view/mpv.php:792
+msgid "This is the current site"
+msgstr ""
+
+#: core/view/mpv.php:804
+msgid "Multi-site"
+msgstr ""
+
+#: core/view/mpv.php:947
+msgid "-- OR select an icon --"
+msgstr ""
+
+#: core/view/mpv.php:1378
+msgid "Overview"
+msgstr ""
+
+#: core/view/mpv.php:1394
+msgid "<span class=\"create\">Add New</span>%s"
+msgstr ""
+
+#: core/view/mpv.php:1398
+msgid "<span class=\"manage\">Manage</span>%s"
+msgstr ""
+
+#: core/view/mpv.php:1402
+msgid "<span class=\"edit\">Edit</span>%s"
+msgstr ""
+
+#: core/view/mpv.php:1406
+msgid "<span class=\"delete\">Delete</span>%s"
+msgstr ""
+
+#: core/view/mpv.php:1410
+msgid "Save%s"
+msgstr ""
+
+#: core/view/mpv.php:1414
+msgid "Update %s"
+msgstr ""
+
+#: masterpress.php:527
+msgid "enabled"
+msgstr ""
+
+#: masterpress.php:531
+msgid "disabled"
+msgstr ""
+
+#: masterpress.php:538
+msgid "on"
+msgstr ""
+
+#: masterpress.php:538
+msgid "off"
+msgstr ""
+
+#: masterpress.php:695
+msgid "All Posts"
+msgstr ""
+
+#: masterpress.php:721
+msgid "All Pages"
+msgstr ""
+
+#: masterpress.php:810
+msgid "Edit %s Role"
+msgstr ""
+
+#: masterpress.php:948
+msgid ""
+"<b>Important: </b>When trying to determine the location of your uploads "
+"directory, WordPress reported the following error: <code>%s</code>That is, "
+"your WordPress installation <b>does not currently contain a writable uploads "
+"directory</b>, so MasterPress will not function correctly as it cannot "
+"create its own required sub-folders.<br>To avoid further problems, you must "
+"correct this before creating or editing anything with MasterPress.<br>"
+msgstr ""
+
+#: masterpress.php:1344
+msgid "Rewrite rules flushed"
+msgstr ""
+
+#: masterpress.php:1363
+msgid "Field Definition Updated"
+msgstr ""
+
+#: masterpress.php:1493
+msgid ""
+"There are unsaved changes which will be lost if you manage this item now. "
+"Are you sure you wish to navigate away from this page?"
+msgstr ""
+
+#: masterpress.php:1552
+msgid "Select"
+msgstr ""
+
+#: masterpress.php:1931
+msgid ""
+"<strong>Note: the MasterPress content folder %s for this site does not yet "
+"exist and cannot be automatically created</strong>, which will cause "
+"problems when using MasterPress.<br /><br />Using your FTP client, server "
+"admin panel, or operating system (for local installations), please give the "
+"%s folder permission <strong>777</strong> so that MasterPress can create the "
+"necessary folders.<br /><br />Alternatively, use the following command if "
+"you have shell or terminal access: %s<br /><a href=%s>Click here</a> once "
+"this is complete, to verify this problem has been solved."
+msgstr ""
+
+#: masterpress.php:1933
+msgid ""
+"<strong>Note: the MasterPress content folder %s does not yet exist and "
+"cannot be automatically created</strong>, which will cause problems when "
+"using MasterPress.<br /><br />Using your FTP client, server admin panel, or "
+"operating system (for local installations), please give the %s folder the "
+"permission <strong>777</strong> so that MasterPress can create the necessary "
+"folders.<br /><br />Alternatively, use the following command if you have "
+"shell or terminal access: %s<br /><a href=%s>Click here</a> once this is "
+"complete, to verify this problem has been solved."
+msgstr ""
+
+#: masterpress.php:1955
+msgid ""
+"<strong>Note: the MasterPress shared content folder %s for your multi-site "
+"network does not yet exist and cannot be automatically created</strong>, "
+"which will cause problems when using MasterPress.<br /><br />Using your FTP "
+"client, server admin panel, or operating system (for local installations), "
+"please give the %s folder the permission <strong>777</strong> so that "
+"MasterPress can create the necessary folders.<br /><br />Alternatively, use "
+"the following command if you have shell or terminal access: %s<br /><a href="
+"%s>Click here</a> once this is complete, to verify this problem has been "
+"solved"
+msgstr ""
+
+#: masterpress.php:1969
+msgid ""
+"Please change the permissions of your <span class=\"tt\">wp-content</span> "
+"directory to <span class=\"tt\">755</span>. <br />"
+msgstr ""
+
+#: masterpress.php:1982
+msgid ""
+"<strong>Note: the MasterPress folder %s does not seem to be writable</"
+"strong>, which will cause problems when using MasterPress.<br /><br />Using "
+"your FTP client, server admin panel, or operating system (for local "
+"installations), please give this folder the permission 777.<br /><br /"
+">Alternatively, use the following command if you have shell or terminal "
+"access: %s<br /><a href=%s>Click here</a> once this is complete, to verify "
+"this problem has been solved"
+msgstr ""
+
+#: masterpress.php:1985
+msgid ""
+"<strong>Note: the MasterPress shared folder %s for your multi-site network "
+"does not seem to be writable</strong>, which will cause problems when using "
+"MasterPress.<br /><br />Using your FTP client, server admin panel, or "
+"operating system (for local installations), please give this folder the "
+"permission 777.<br /><br />Alternatively, use the following command if you "
+"have shell or terminal access: %s<br /><a href=%s>Click here</a> once this "
+"is complete, to verify this problem has been solved"
+msgstr ""
+
+#: masterpress.php:2152
+msgid ""
+"<p><strong>Note:</strong> these MasterPress folders in <span class=\"tt\">wp-"
+"content</span> are not writable which will cause problems using WordPress:"
+"%s<br /></p><p>Using your FTP client, server admin panel, or operating "
+"system (for local installations), please give these folders permission 777."
+"<br /><br />Alternatively, use the following commands if you have shell or "
+"terminal access:<br />%s"
+msgstr ""
+
+#: masterpress.php:2400
+msgid "<strong>Error:</strong> No view has been prepared"
+msgstr ""
+
+#: masterpress.php:2470
+msgid "Flush Rewrite Rules"
+msgstr ""
+
+#: masterpress.php:2477
+msgid "Clear Image Cache (Site)"
+msgstr ""
+
+#: masterpress.php:2484
+msgid "Clear Image Cache (Admin)"
+msgstr ""
+
+#: masterpress.php:2775
+msgid ""
+"The Masterplan view summarises your WordPress content management system setup"
+msgstr ""
+
+#: masterpress.php:3202
+msgid " All %s&nbsp;&nbsp;"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://masterpressplugin.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A complete CMS plugin solution for creating custom post types, taxonomies, "
+"and custom field controls to enable richly typed meta-data alongside the "
+"standard data objects in WordPress. Includes a rich object-oriented "
+"developer API to access content and data in your WordPress site, and the "
+"custom fields attached to them."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Traversal"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://traversal.com.au"
+msgstr ""

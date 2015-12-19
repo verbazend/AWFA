@@ -1,0 +1,16 @@
+#mpft-related-site-options .maxwidth-f input.text,
+#mpft-related-site-options .height-f input.text {
+  width: 60px;
+}
+
+#mpft-related-site-options label.checkbox {
+  margin-right: 0px;
+}
+
+#mpft-related-site-options .f-user-roles .fwi {
+  margin-right: 20px;
+  float: left;
+  padding-bottom: 4px;
+}
+
+

@@ -1,0 +1,13 @@
+#mpft-spinner-options input.text {
+  width: 100px;
+}
+
+#mpft-spinner-options #mpft-spinner-maxwidth {
+  width: 60px;
+}
+
+#mpft-spinner-options #mpft-spinner-format {
+  width: 200px;
+}
+
+

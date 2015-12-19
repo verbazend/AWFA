@@ -1,0 +1,27 @@
+
+.CodeMirror .cm-s-default { background: #FFF; }
+.CodeMirror .cm-s-default .CodeMirror-gutter { background: #EEE; border-right: 1px solid #CCC; }
+.CodeMirror .cm-s-default .CodeMirror-gutter-text { color: #999; text-shadow: 0 1px 0 #FFF }
+
+
+.CodeMirror .cm-s-default span.cm-keyword {color: #708;}
+.CodeMirror .cm-s-default span.cm-atom {color: #219;}
+.CodeMirror .cm-s-default span.cm-number {color: #164;}
+.CodeMirror .cm-s-default span.cm-def {color: #00f;}
+.CodeMirror .cm-s-default span.cm-variable {color: black;}
+.CodeMirror .cm-s-default span.cm-variable-2,
+.CodeMirror .cm-s-default span.cm-tag {color: #05a;}
+.CodeMirror .cm-s-default span.cm-variable-3,
+.CodeMirror .cm-s-default span.cm-def  {color: #0a5;}
+.CodeMirror .cm-s-default span.cm-property {color: black;}
+.CodeMirror .cm-s-default span.cm-operator {color: black;}
+.CodeMirror .cm-s-default span.cm-comment {color: #a50;}
+.CodeMirror .cm-s-default span.cm-string {color: #a11;}
+.CodeMirror .cm-s-default span.cm-string-2 {color: #f50;}
+.CodeMirror .cm-s-default span.cm-meta {color: #555;}
+.CodeMirror .cm-s-default span.cm-error {color: #f00;}
+.CodeMirror .cm-s-default span.cm-qualifier {color: #555;}
+.CodeMirror .cm-s-default span.cm-builtin {color: #30a;}
+.CodeMirror .cm-s-default span.cm-bracket {color: #cc7;}
+.CodeMirror .cm-s-default span.cm-tag {color: #170;}
+.CodeMirror .cm-s-default span.cm-attribute {color: #00c;}

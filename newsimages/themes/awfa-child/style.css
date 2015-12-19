@@ -1,0 +1,187 @@
+@import url("../twentythirteen/style.css");
+/* Theme Name:     AWFA Child Theme
+ * Theme URI:      http://example.com/twenty-thirteen-child/
+ * Description:    AWFA Child Theme
+ * Template:       twentythirteen
+ * Version:        1.0.0 */
+ 
+ 
+ .site { max-width: none;}
+ 
+ #content { max-width: 1000px; margin: 0 auto; background: #fff;}
+ .site-main { background: #ce1443 url(images/bg_content.png) repeat-x top;}
+ .main-navigation { max-width: 1000px; }
+ .site-guide .entry-header, .site-guide .entry-content, .site-guide .entry-meta {max-width: 850px;padding: 0;}
+.site-main .sidebar-inner {margin: 0 auto;max-width: 1000px;}
+
+.widget a { color: #000; }
+.widget a:hover {color: #000 ;}
+
+#footerWrap { background: url(images/bg_footer.png) repeat-x top;}
+.site-footer , .site-footer .sidebar-container { background: none; background-color: transparent !important; }
+.sidebar .site-footer .widget-area  {
+	max-width: 1300px;
+	margin: 0 auto;
+	left:auto;
+}
+.menu-footer-container { margin: 10px auto; padding: 50px 0 0 0;}
+
+.sidebar .site-footer .widget { width: 100%; }
+
+.sidebar .site-footer .widget  li { display: inline-block; border-right: 1px solid #fff; padding: 0 5px; }
+.sidebar .site-footer .widget  li:last-child {border-right: 0;}
+.sidebar .site-footer .widget   a { color: #fff !important; text-transform: uppercase; font-weight: normal;}
+.site-info {padding: 0 0 10px 0; colour: #fff !important;}
+.site-info  a { color: #fff;}
+ 
+h1 {
+font-size: 30px;
+color: #ce1443;
+}
+.site-header {
+  background: #727272 url(images/bg_header.jpg) no-repeat top center !important; padding-top:1px; }
+  .site-header .home-link {
+    min-height: 181px !important; margin: 38px  auto 0 auto;max-width: 1000px;
+    background: url(images/hme_logo.png) no-repeat top right !important; }
+a.home-link { margin: 38px 0 0 0; !important}
+
+
+.navbar {
+  background: url(images/bg_nav_bar.png) repeat-x top;
+  height: 52px; max-width: none; }
+  .navbar .nav-menu {
+    height: 52px; }
+	.nav-menu li:hover > a, .nav-menu li a:hover { background: #000 url(images/nav-icon.png) no-repeat left center;}
+	
+    .navbar .nav-menu li a {
+      color: white;
+      display: block;
+      font-size: 17px;
+      line-height: 1;
+      padding: 18px 20px;
+      text-decoration: none;
+      text-transform: uppercase;
+	  border-right: 1px solid #000; }
+	  
+	  .navbar .nav-menu li:first-child a { border-left: 1px solid #000;}
+	  
+	  .nav-menu .sub-menu, .nav-menu .children , ul.nav-menu ul a { border: none; background: #000 url(images/nav-icon.png) no-repeat left center;background-position:5px 20px; }
+	  ul.nav-menu ul a { padding-right:35px;}
+
+ul.nav-menu ul a:hover, .nav-menu ul ul a:hover{  color: #C91441; background-color: #000; background-position:5px 20px;}
+
+.nav-menu .current_page_item > a, .nav-menu .current_page_ancestor > a, .nav-menu .current-menu-item > a, .nav-menu .current-menu-ancestor > a { font-style: normal;}
+
+H1, h2, h3, h4, h5, h6 {
+  font-family: "GillSansMT", Arial, Helvetica, sans-serif;
+  color: #ce1443;
+  margin-bottom: 20px; }
+
+.content-area {
+/*   padding-top: 20px !important */
+}
+
+#post-49 textarea[style] {
+   height: 120px !important;
+}
+
+.cta {
+  text-align: center !important; 
+  border: 2px solid #5aa93d; 
+  background-color: #EAEAEA; 
+  border-radius: 5px; 
+  padding: 5px
+}
+
+.cta h4 a {
+  color: #208d20
+}
+
+.cta .ctabutton {
+  margin: 0 0 10px 0;
+}
+
+.cta a.button {
+  display: block;
+  color: white;
+  margin: 10px 10px 0 10px;
+  border: 2px solid #5aa93d; 
+  background-color: #5aa93d; 
+  border-radius: 5px; 
+  padding: 5px
+}
+
+.cta a.button:hover {
+  color: white;
+  background-color: #478530;
+}
+
+.entry-content img.alignleft, .entry-content .wp-caption.alignleft {
+  margin-left: 0px;
+}
+
+.site-guide .entry-title {
+  text-align: center;
+}
+
+.site-guide .left-block, .site-wide .left-block {
+  width: 500px;
+  float: left;
+}
+
+.site-guide .right-block, .site-wide .right-block  {
+  width: 250px;
+  float: right;
+}
+
+.site-content, .site-infographic, .site-guide {
+  background: url(images/bg_content_inner.png) repeat-x top white; }
+
+.site-infographic .entry-header,.site-infographic .entry-content,.site-infographic .entry-meta  {
+  /*max-width: 800px;*/
+}
+.site-guide .entry-header,.site-guide .entry-content,.site-guide .entry-meta {
+  max-width: 800px;
+}
+
+.hentry {
+  padding: 40px 0 !important;
+}
+
+.home .hentry {
+  padding: 20px 0 !important;
+}
+
+.entry-content {
+/*   border-bottom: 1px solid #DDD; */
+}
+
+.martiniboy_social_list {
+  padding: 10px;
+  background-color: #EEE;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.widget {
+  background-color: #EEE;
+}
+
+.comment-respond {
+  background: url(images/bg_archive_header.png) repeat-x top #eeeeee;
+  padding: 30px 0; }
+
+.site-footer {
+  background-color: #eeeeee; }
+
+.archive-header, .page-header {
+  background: url(images/bg_archive_header.png) repeat-x top #eeeeee; }
+
+.page-links {
+width:100%;
+text-align:center;
+}	
+.page-links a {
+	display:inline-block;
+	min-width:91px;
+}

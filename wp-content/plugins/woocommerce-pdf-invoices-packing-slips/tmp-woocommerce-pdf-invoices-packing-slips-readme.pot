@@ -1,0 +1,1134 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Short description.
+msgid "Create, print &amp; automatically email PDF invoices &amp; packing slips for WooCommerce orders."
+msgstr ""
+
+#. Screenshot description.
+msgid "General settings page"
+msgstr ""
+
+#. Screenshot description.
+msgid "Template settings page"
+msgstr ""
+
+#. Screenshot description.
+msgid "Simple invoice PDF"
+msgstr ""
+
+#. Screenshot description.
+msgid "Simple packing slip PDF"
+msgstr ""
+
+#. Found in description header.
+msgid "Main features"
+msgstr ""
+
+#. Found in description header.
+msgid "Fully customizable"
+msgstr ""
+
+#. Found in description list item.
+msgid "Automatically attach invoice PDF to WooCommerce emails of your choice"
+msgstr ""
+
+#. Found in description list item.
+msgid "Download the PDF invoice / packing slip from the order admin page"
+msgstr ""
+
+#. Found in description list item.
+msgid "Generate PDF invoices / packings slips in bulk"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Fully customizable</strong> HTML/CSS invoice templates"
+msgstr ""
+
+#. Found in description list item.
+msgid "Download invoices from the My Account page"
+msgstr ""
+
+#. Found in description list item.
+msgid "Sequential invoice numbers - with custom formatting"
+msgstr ""
+
+#. Found in description list item.
+msgid "<strong>Available in: Czech, Dutch, English, Finnish, French, German, Hungarian, Italian, Japanese (see FAQ for adding custom fonts!), Norwegian, Polish, Romanian, Russian, Slovak, Slovenian, Spanish, Swedish &amp; Ukrainian</strong>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Create/email PDF Proforma Invoices, Credit Notes (for Refunds), email Packing Slips &amp; more with <a href=\"https://wpovernight.com/downloads/woocommerce-pdf-invoices-packing-slips-professional/\">WooCommerce PDF Invoices &amp; Packing Slips Professional</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Upload all invoices automatically to Dropbox with <a href=\"https://wpovernight.com/downloads/woocommerce-pdf-invoices-packing-slips-dropbox/\">WooCommerce PDF Invoices &amp; Packing Slips to Dropbox</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Automatically send new orders or packing slips to your printer, as soon as the customer orders! <a href=\"https://www.simbahosting.co.uk/s3/product/woocommerce-automatic-order-printing/?affiliates=2\">WooCommerce Automatic Order Printing</a> (from our partners at Simba Hosting)"
+msgstr ""
+
+#. Found in description list item.
+msgid "More advanced &amp; stylish templates with <a href=\"https://wpovernight.com/downloads/woocommerce-pdf-invoices-packing-slips-premium-templates/\">WooCommerce PDF Invoices &amp; Packing Slips Premium Templates</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Insert customer header image/logo"
+msgstr ""
+
+#. Found in description list item.
+msgid "Modify shop data / footer / disclaimer etc. on the invoices &amp; packing slips"
+msgstr ""
+
+#. Found in description list item.
+msgid "Select paper size (Letter or A4)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Translation ready"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This WooCommerce extension automatically adds a PDF invoice to the order confirmation emails sent out to your customers. Includes a basic template (additional templates are available from <a href=\"https://wpovernight.com/downloads/woocommerce-pdf-invoices-packing-slips-premium-templates/\">WP Overnight</a>) as well as the possibility to modify/create your own templates. In addition, you can choose to download or print invoices and packing slips from the WooCommerce order admin."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "In addition to this, we offer several premium extensions:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "In addition to a number of default settings (including a custom header/logo) and several layout fields that you can use out of the box, the plugin contains HTML/CSS based templates that allow for customization &amp; full control over the PDF output. Copy the templates to your theme folder and you don't have to worry that your customizations will be overwritten when you update the plugin."
+msgstr ""
+
+#. Found in installation header.
+msgid "Minimum Requirements"
+msgstr ""
+
+#. Found in installation header.
+msgid "Automatic installation"
+msgstr ""
+
+#. Found in installation header.
+msgid "Manual installation via the WordPress interface"
+msgstr ""
+
+#. Found in installation header.
+msgid "Manual installation via FTP"
+msgstr ""
+
+#. Found in installation list item.
+msgid "WooCommerce 2.0 or later"
+msgstr ""
+
+#. Found in installation list item.
+msgid "WordPress 3.5 or later"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Download the plugin zip file to your computer"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to the WordPress admin panel menu Plugins &gt; Add New"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Choose upload"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload the plugin zip file, the plugin will now be installed"
+msgstr ""
+
+#. Found in installation list item.
+msgid "After installation has finished, click the 'activate plugin' link"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Download the plugin file to your computer and unzip it"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Using an FTP program, or your hosting control panel, upload the unzipped plugin folder to your WordPress installation's wp-content/plugins/ directory."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin from the Plugins menu within the WordPress admin."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Automatic installation is the easiest option as WordPress handles the file transfers itself and you don't even need to leave your web browser. To do an automatic install of WooCommerce PDF Invoices &amp; Packing Slips, log in to your WordPress admin panel, navigate to the Plugins menu and click Add New."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "In the search field type \"WooCommerce PDF Invoices &amp; Packing Slips\" and click Search Plugins. You can install it by simply clicking Install Now. After clicking that link you will be asked if you're sure you want to install the plugin. Click yes and WordPress will automatically complete the installation. After installation has finished, click the 'activate plugin' link."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Hotfix: Subscriptions renewal filter arguments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: WooCommerce Subscriptons 2.0 deprecation notice."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: better qTranslate-X support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: filter for user privileges check (wpo_wcpdf_check_privs)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: French translations fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Workaround for bug in WPML (which cleared all settings)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translation: fixed Polish translation for invoice"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Added Estionan (thanks Tanel!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: WC2.4 compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Option to 'never' display My Account invoice link"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Order total for refunds in WC2.4"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: notice when no custom statuses selected for My Account display"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Product bundles styles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Invoice number search (broke other custom searches)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: wpo_wcpdf_item_row_class packing slip filter arguments"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: WooCommerce Product Bundles compatibility styles"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: wpo_wcpdf_item_row_class as filter instead of action"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Search orders by invoice number (note: search on formatted invoice number only works for new orders)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Formatted invoice number stored in order"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Function parameters added to some of the filters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: WooCommerce 2.4 compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Dev feature: action to add class to items table row (wpo_wcpdf_item_row_class)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Swedish updated (thanks Conney!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Norwegian updated"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: invoice number padding didn't work for values lower than 3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: WPML compatibility filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Updated French (Thanks Nicolas!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Invoice number &amp; date edit fields moved to separate box on order edit page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Updated POT &amp; Dutch"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Better address comparison to determine when to display alternate address"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Filter N/A addresses"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Use WooCommerce function for 2.3 discounts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Czech Updated (Thanks Ivo!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: French (minor fixes)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: added Danish, Updated POT &amp; Italian"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Product text attributes (now checks key too)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Status page upload explanation typos"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Double check to make sure plugin doesn't attach to user emails"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Shorthand function to display product attributes: <code>$wpo_wcpdf-&gt;get_product_attribute( $attribute_name, $product )</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: disable invoice for free orders"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: action to insert data before &amp; after item meta"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Added classes to sku &amp; weight"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Hide payment method from totals (already shown in template)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Setting to show email address &amp; phone number on invoice or packing slip (does not work on custom templates based on previous versions!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Setting to show shipping address on invoice (does not work on custom templates based on previous versions!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: My Account invoice download setting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: several new template actions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: WooCommerce Bookings compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Gerenal stylesheet cleanup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: temp path check/error on settings page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Document titles for credit notes and proforma (Pro)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Discount including tax"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Special characters on item meta (requires WooCommerce 2.3.6)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Missing text domain on several strings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Check for incomplete line tax data (Subscriptions compatibility)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: More precise template path instructions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: duplicate stylesheet filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Always prefer original order's billing address for refunds (WooCommerce EU VAT Number compatibility)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Updated German (MwSt. instead of formal Ust.)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Updated Dutch"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: include plugin version in style/script includes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: upload code cleanup"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Parent invoice number (for Credit Notes in professional extension)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: add original order date value to order date filter"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Work with line_tax_data when available"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: pass item_id to items"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: later check for woocommerce active"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: do not try to validate empty settings (Status page settings)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Fixed Dutch typo"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: fatal error when trying to activate with WooCommerce not installed yet."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: indentation fix on the Simple template"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: prevent errors when upgrading"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: All temporary files are now stored centrally in the WP uploads folder."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Debug settings in status panel (output errors &amp; output to HTML)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Compatibility filter for WooCommerce Subscriptions (prevents duplicate invoice numbers)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Pass order to totals filters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Updated POT"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Updated Italian (Thanks Astrid!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FAQ: instructions for placing a link on the thank you page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: fatal error when user registers at checkout (applies to credit notes only)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Updated German (Thanks Dietmar!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Place your custom translations in wp-content/languages/woocommerce-pdf-invoices-packing-slips/wpo_wcpdf-LOCALE.mo to protect them from being overwritten by plugin updates."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: use separate file for all your template specific functions (template-functions.php)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Added Slovenian (thanks gregy1403!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Updated Norwegian &amp; Dutch."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Added Japanese - needs custom font!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "FAQ: instructions on how to use custom fonts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: issues with post parent objects (WC2.1 and older)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Small fix: bulk actions for specific i18n configurations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: total row key used as class in Simple template"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Invoice not attaching"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Updated POT file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Updated Dutch, Norwegian, Polish, Brazilian Portugese, Romanian, Russian, Slovak, Spanish &amp; Ukrainian (Many thanks to all the translators!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Templates: added action hooks for easier customizations (<code>wpo_wcpdf_before_order_details</code>,  <code>wpo_wcpdf_after_order_details</code>, <code>wpo_wcpdf_invoice_title</code> &amp; <code>wpo_wcpdf_packing_slip_title</code>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Order number and date are now displayed by default in the Simple template (invoice number and date still optional)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Display Customer/Order notes with a simple shorthand (see FAQ)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Added Brazilian Portugese (thanks Victor Debone!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Fail more gracefully when there are errors during PDF generation"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: added template type class to template output body"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: cleaned up Simple template style.css"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Added Finnish (Thanks Sami Mäkelä/Contrast.fi!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: check if image file exists locally, fallback to url if not (CDN compatibility)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: make deleting invoice date possible"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: correct tmp folder check on status page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: updated po/mo files"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: changed settings capability requirement to <code>manage_woocommerce</code> (was: <code>manage_options</code>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: better email attachment function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: prevent footer overlap (Simple template)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: fallback if <code>glob()</code> is not allowed on the server"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: better custom template instructions (reflects path to actual (child-)theme)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "HOTFIX: WooCommerce 2.2 compatibility fix"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Filter for PDF temp folder (wpo_wcpdf_tmp_path)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Double date conversion for order date on invoice number filter (to avoid i18n date issues)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Template selector reset after update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: added Norwegian (Thanks Aleksander!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Editable invoice date per order/invoice."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: HTML is now allowed in footer and other settings fields."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Updated German (Thanks Nadine!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: template paths are now saved relative to the site base path (ABSPATH) to prevent errors when moving to another server"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Changed bulk action hook for better theme compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Newlines in custom checkout fields"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Added function to call custom fields more easily (see FAQ)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Change the my account button text via a filter (wpo_wcpdf_myaccount_button_text)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Added Danish (Thanks Mads!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: only load PDF engine if it's not already loaded by another plugin"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Don't create invoice number when exporting packing slips"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Division by zero for 0 quantity items"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Added Polish (Thanks Mike!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Invoice number formatting notices in debug mode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Invoice numbers can now be given a prefix, suffix or padding on the settings page!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Filter: <code>wpo_wcpdf_email_allowed_statuses</code> to attach pdf to custom order status emails"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Sequential Order Numbers Pro compatibility"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Filenames are now automatically sanitized to prevent issues with illegal characters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: error on wpo_wcpdf_email_attachment filter when $pdf_path not set"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: invoice number was cleared when Order Actions were being used when an invoice number was not set"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Updated Slovak (Thanks Jozef!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Added Czech (Thanks CubiQ!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Added 'status' panel for better problem diagnosis"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: split create &amp; get invoice number calls to prevent slow database calls from causing number skipping"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Added Romanian (Thanks Leonardo!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Added Slovak (Thanks Oleg!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: added filter for custom email attachment condition (wpo_wcpdf_custom_email_condition)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: warning for tax implode"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: hyperlink underline (was more like a strikethrough)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Fixed German spelling error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Updated Swedish (Thanks Fredrik!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Added Swedish (Thanks Jonathan!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Line-height issue (on some systems, the space between lines was very high)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: bug where 'standard' tax class would not display in some cases"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: bug that caused the totals to jump for some font sizes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: WC2.1 deprecated totals function"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: If multiple taxes were set up with the same name, only one would display (Simple template was not affected)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Template: Body line-height defined to prevent character jumping with italic texts"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Open Sans now included in plugin package (fixes font issues for servers with allow_url_fopen disabled)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: POT, DE &amp; NL updated"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Removed stray span tag in totals table"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Spanish update (thanks prepu!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: More advanced checks to determine if a customer can download the invoice (including a status filter)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Optional Invoice Number column for the orders listing"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Better support for international characters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Added Russian &amp; Ukrainian translation (thanks Oleg!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Translations: Updated Spanish (Thanks Manuel!) and Dutch translations &amp; POT file"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Memory limit notice"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Filename name now includes invoice number (when configured in the settings)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Set which type of emails you want to attach the invoice to"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Manually edit invoice number on the edit order screen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Set the first (/next) invoice number on the settings screen"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Bug where invoice number would be generated twice due to slow database calls"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: php strict warnings"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Simple template now uses Open Sans to include more international special characters"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Implemented filters for paper size &amp; orientation (<a href=\"http://wordpress.org/support/topic/select-a5-paper-size-for-packing-slips?replies=5#post-5211129\">read here</a>)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: PDF engine updated (dompdf 0.6.0)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Download PDF link on the my account page is now only shown when an invoice is already created by the admin or automatically, to prevent unwanted invoice created (creating problems with european laws)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: shipping &amp; fees functions didn't output correctly with the tax set to 'incl'"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Sequential invoice numbers (set upon invoice creation)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Invoice date (set upon invoice creation)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Hungarian translations added - thanks Joseph!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Better debug code."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Error reporting when templates not found."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: tax rate calculation for free items."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: German translations added - thanks Christian!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: dompdf 0.6.0 proved to be less stable, so switching back to beta3 for now."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: Template paths on windows servers were not properly saved (stripslashes), resulting in an empty output."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: PDF engine (dompdf) updated to 0.6.0 for better stability and utf-8 support."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Local server path is used for header image for better compatibility with server settings."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: several small bugs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Totals can now be called with simpler template functions"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Italian translations - thanks max66max!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: improved memory performance"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: French translations - thanks Guillaume!"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Fees can now also be called ex. VAT"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Invoices can now be downloaded from the My Account page"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Feature: Spanish translation &amp; POT file included"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix: ternary statements that caused an error"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Packing slip now displays shipping address instead of billing address"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tweak: Variation data is now displayed by default"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "First release"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I create my own custom template?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Where can I find more templates?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I create/send a proforma invoice or a credit note?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I contribute to the code?"
+msgstr ""
+
+#. Found in faq header.
+msgid "My language is not included, how can I contribute?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I use my own font?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I display the HTML/CSS source for debugging/developing templates?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I display custom fields in the invoice or packing slip?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I display order notes in the invoice or packing slip?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do can I modify the pdf filename?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I add a download link to the invoice on the Thank you page?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I get a copy of the invoice emailed to the shop manager?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Fatal error: Allowed memory size of ######## bytes exhausted (tried to allocate ### bytes)"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Download POEdit at (http://www.poedit.net/download.php)"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Open POEdit"
+msgstr ""
+
+#. Found in faq list item.
+msgid "File &gt; New from POT"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Open wpo_wcpdf.pot (from <code>woocommerce-pdf-invoices-packing-slips/languages/</code>)"
+msgstr ""
+
+#. Found in faq list item.
+msgid "A popup will ask you for your language"
+msgstr ""
+
+#. Found in faq list item.
+msgid "This step is a bit tricky, configuring the plurals. Somehow the settings can't be copied from the pot. Go to Catalogue &gt; Preferences. Then enter nplurals=2; plural=n != 1; in the custom expression field"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Enter the translations. invoice and packing-slip now have two translation fields, single &amp; plural. Note that this is a filename, so replace spaces with a - just to be sure!"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Save as <code>wpo_wcpdf-xx_XX.po</code>, where you replace xx_XX with your language code &amp; country code suffix (da_DK, pl_PL, de_DE etc.)"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Only TTF fonts are supported."
+msgstr ""
+
+#. Found in faq list item.
+msgid "You can't use numeric font weights (like 700 instead of bold)!"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Avoid spaces or special characters in the font filenames."
+msgstr ""
+
+#. Found in faq list item.
+msgid "I have found that not all servers cope well with the font paths. If this is the case with your font, try to put the font in the root of your site and put that in the font url (i.e. <code>url(http://yoursite.com/fonts/myfont-italic.ttf)</code> )"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Japanese - http://ipafont.ipa.go.jp/index.html"
+msgstr ""
+
+#. Found in faq list item.
+msgid "Chinese - http://www.study-area.org/apt/firefly-font/"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Make sure to check out <a href=\"http://docs.wpovernight.com/woocommerce-pdf-invoices-packing-slips/\">WooCommerce PDF Invoices &amp; Packing Slips documentation</a> on our site - it covers most of the questions below (and more!) in more detail!"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Copy the files from <code>wp-content/plugins/woocommerce-pdf-invoices-packing-slips/templates/pdf/Simple/</code> to your (child) theme in <code>wp-content/themes/yourtheme/woocommerce/pdf/yourtemplate</code> and customize them there. The new template will show up as 'yourtemplate' (the folder name) in the settings panel."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Go to <a href=\"https://wpovernight.com/downloads/woocommerce-pdf-invoices-packing-slips-premium-templates/\">wpovernight.com</a> to checkout more templates! These include templates with more tax details and product thumbnails. Need a custom templates? Contact us at support@wpovernight.com for more information."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This is a feature of our Professional extension, which can be found at <a href=\"https://wpovernight.com/downloads/woocommerce-pdf-invoices-packing-slips-professional/\">wpovernight.com</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This plugin is translation ready, which means that you can translate it using standard WordPress methods."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "then make sure you assign that font family to the body or other elements of the template:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Some notes:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Some font links:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "There's a setting on the Status tab of the settings page that allows you to toggle HTML output. Don't forget to turn if off after you're done testing!"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Where you replace 'custom_fieldname' with the name of the field you want to display, and 'Custom field' with the label. The plugin only displays the field when it contains data. If you also want to display the label when the field is empty, you can pass a third parameter (true), like this:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "if you want to display all order notes, including the (private) admin notes, use:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can do this via a filter in your theme's <code>functions.php</code> (Some themes have a \"custom functions\" area in the settings)."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Here's a simple example for putting your shop name in front of the filname."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can also use the $template_type ('invoice' or 'packing-slip'), $order_ids (single array) or $context ('download' or 'attachment') variables to make more complex rules for the filename."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can do this with an action in your theme's <code>functions.php</code> (Some themes have a \"custom functions\" area in the settings). Note that due to security restrictions, this will only work for registered/logged in users!"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "alternatively, you can hook this text to the <code>woocommerce_thankyou</code> action, see <a href=\"https://wordpress.org/support/topic/suggestion-for-the-faq?replies=5#post-6298810\">this thread</a> on the support forum."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The easiest way to do this is to just tick the 'new order' box. However, this also means that an invoice will be created for all new orders, also the ones that are never completed."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This usually only happens on batch actions. PDF creation is a memory intensive job, especially if it includes several pages with images. Go to WooCommerce &gt; System Status to check your WP Memory Limit. We recommend setting it to 128mb or more."
+msgstr ""

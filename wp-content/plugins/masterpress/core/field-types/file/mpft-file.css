@@ -1,0 +1,420 @@
+
+.mpft-file-summary .summary {
+  padding-top: 4px;
+}
+
+.mpft-file-summary span.name,
+.mpft-file-summary span.type-size {
+  display: block;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.mpft-file-summary span.type-size {
+  border-top: 1px solid #ddd;
+  padding-top: 6px;
+  margin-top: 6px;
+  line-height: 1.8em;
+}
+
+.mpft-file-summary span.name {
+  font-weight: bold;
+}
+
+/* -- Post UI -- */
+
+.mpft-file-ui {
+  line-height: 1.1em;
+}
+
+.mpft-file-ui .summary {
+  display: none;
+}
+
+.mpft-file-ui .choose-label {
+  display: none;
+}
+
+.mpft-file-ui .choose-controls,
+.mpft-file-ui .from-url-ui {
+  background: url(images/bevel-h.png) repeat-x;
+  padding-top: 10px;
+  margin-top: 4px;
+  padding-left: 6px; 
+  clear: left;
+  overflow: hidden;
+  max-width: 580px;
+  min-width: 350px;
+}
+
+.mpft-file-ui .choose-controls h5 {
+  margin-left: 4px;
+  margin-right: 8px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  float: left;
+  line-height: 1.2em;
+  font-size: 11px;
+}
+
+.mpft-file-ui .choose-controls .buttons button {
+  margin: 0 0 8px 6px;
+  float: left;
+}
+
+.mpft-file-ui .choose-controls .buttons {
+  float: left;
+  width: 290px;
+  margin-left: -8px;
+}
+
+.mpft-file-ui .qq-upload-button {
+  width: 108px; 
+}
+
+.mpft-file-ui .file-info {
+  background: url(images/file-info.png) repeat-x;
+  border: 1px solid #9DB3C6;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #FFF;
+  max-width: 580px;
+  overflow: hidden;
+  margin-bottom: 2px;
+  position: relative;
+}
+
+.mpft-file-ui .file-info:hover {
+  background-position: 0 -36px;
+}
+
+.mpft-file-ui .file-info ul.prop {
+  float: right;
+  padding: 0;
+  margin: 1px 0;
+  line-height: 1.1em;
+}
+
+.mpft-file-ui .file-info ul.prop li {
+  font-size: 11px;
+  line-height: 1.1em;
+  margin: 0;
+  background: url(images/prop-li.png) repeat-y;
+  padding: 10px 20px 0 20px;
+  float: left;
+  height: 23px;
+}
+
+.mpft-file-ui .file-info:focus,
+.mpft-file-ui .file-info:hover {
+  border-color: #7BA9D3;
+  color: #497395;
+}
+
+.mpft-file-ui .file-info h4.name,
+.mpft-file-ui .upload-progress-well span.name {
+  padding-top: 10px;
+  height: 25px;
+  float: left;
+  margin-left: 10px;
+}
+
+.mpft-file-ui .file-info h4.name i,
+.mpft-file-ui .upload-progress-well span.name i {
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: text-top;
+  height: 16px;
+  width: 22px;
+  margin-top: -2px;
+}
+
+.mpft-file-ui .file-info h4.name {
+  color: #497395;
+}
+
+.mpft-file-ui .drop-area {
+  display: none;
+  position: absolute;
+  line-height: 1.1em;
+  height: 20px;
+  width: 527px;
+  padding: 7px 10px 0 34px;
+  color: #3F7CB7;
+  background: url(images/hand.png) #FFF no-repeat 7px 6px;
+  font-weight: bold;
+  left: 4px;
+  top: 4px;
+  font-size: 11px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.mpft-file-ui .drop-area.qq-upload-drop-area-active {
+  background-color: #00a513;
+  color: #FFF;
+  text-shadow: none;
+}
+
+
+/* -- File Controls -- */
+
+.mpft-file-ui .file-controls ul {
+  margin-left: 2px;
+  margin-bottom: 2px;
+}
+  
+.mpft-file-ui .file-controls ul li {
+  float: left;
+  list-style: none;
+  background: url(images/bevel-v.png) no-repeat 0 4px;
+  margin-top: 4px;
+  padding: 0 0px 0 4px;
+}
+
+.mpft-file-ui .file-controls ul li:first-child {
+  background: none;
+  padding-left: 0px;
+}
+
+.mpft-file-ui .file-controls ul li button {
+  line-height: 1.1em;
+  padding-top: 3px;
+  text-indent: 29px;
+  height: 21px;
+}
+
+.mpft-file-ui .file-controls ul li button.view {
+  padding-top: 2px;
+  background-image: url(images/icon-zoom-in.png);
+  background-size: 32px auto;
+}
+
+.mpft-file-ui .file-controls ul li button.clear {
+  padding-top: 2px;
+  background-image: url(images/icon-clear.png);
+  background-size: 32px auto;
+}
+
+
+.mpft-file-ui .upload-progress {
+  display: none;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.mpft-file-ui .download-progress {
+  margin-top: 8px;
+  margin-left: 4px;
+  display: none;
+}
+
+.mpft-file-ui .upload-progress .progress-message {
+  margin-left: 11px;
+}
+
+.mpft-file-ui .upload-progress-well {
+  background: url(images/upload-progress-well.png);
+  border: 1px solid #B2B8BC;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  text-decoration: none;
+  cursor: default;
+  max-width: 580px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.mpft-file-ui .upload-progress-well span.name {
+  width: 230px;
+  overflow: hidden;
+}
+
+.mpft-file-ui .upload-progress-well span.name i {
+  background-image: url(images/document.png);
+}
+
+.mpft-file-ui .upload-progress-well .progress-bar-with-val {
+  margin-top: 7px;
+}
+
+.mpft-file-ui .upload-progress-well .progress-bar-with-val .val {
+  font-size: 11px;
+  line-height: 20px;
+  margin-left: 4px;
+  float: left;
+}
+
+/* -- from URL interface -- */
+
+.mpft-file-ui .from-url-ui {
+  padding-left: 4px;
+}
+
+.mpft-file-ui .from-url-ui label {
+  font-size: 11px;
+  display: block;
+  float: left;
+  margin: 3px 6px 0 0;
+  width: 90px;
+  text-align: right;
+}
+
+.mpft-file-ui .from-url-ui input {
+  width: 390px;
+  font-size: 11px;
+  font-family: "consolas", "andale mono", "lucida console", monospace;
+}
+
+.mpft-file-ui .from-url-ui button {
+  margin-right: 6px;
+}
+
+.mpft-file-ui .from-url-ui .buttons {
+  padding-top: 6px;
+  padding-left: 94px;
+}
+
+
+/* -- visibility for default state -- */
+
+.mpft-file-ui .from-url-ui {
+  display: none;
+}
+
+.mpft-file-ui .media-library-progress {
+  display: none;
+}
+
+
+/* -- visibility for from url -- */
+
+.mpft-file-ui .from-url .from-url-ui {
+  display: block;
+}
+
+.mpft-file-ui .from-url .choose-controls {
+  display: none;
+}
+
+
+/* -- visibility for downloading state (from url) -- */
+
+.mpft-file-ui .downloading .choose-controls,
+.mpft-file-ui .downloading .file-controls,
+.mpft-file-ui .downloading .prop,
+.mpft-file-ui .downloading .from-url-ui,
+.mpft-file-ui .downloading .fetching-info-message {
+  display: none;
+}
+
+.mpft-file-ui .downloading .download-progress {
+  display: block;
+}
+
+
+/* -- visibility for media library fetch -- */
+
+.mpft-file-ui .media-library .media-library-progress {
+  display: block;
+}
+
+.mpft-file-ui .media-library .choose-controls,
+.mpft-file-ui .media-library .file-controls,
+.mpft-file-ui .media-library .prop,
+.mpft-file-ui .media-library .fetching-info-message {
+  display: none;
+}
+
+.mpft-file-ui .fetching .fetching-info-message {
+  display: block;
+}
+
+.mpft-file-ui .fetching .fetching-message {
+  display: none;
+}
+
+
+/* -- Post UI States -- */
+
+.mpft-file-ui .empty .file-info {
+  background: #DADADA;
+  border-color: #B1B1B1;
+  cursor: default;
+  margin-bottom: 10px;
+}
+
+.mpft-file-ui .empty .file-info ul.prop {
+  display: none;
+}
+
+
+.mpft-file-ui .empty .file-info h4.name i {
+  background-image: url(images/document-not-supplied.png);
+  color: #808080;
+}
+
+.mpft-file-ui .empty .replace-label {
+  display: none;
+}
+
+.mpft-file-ui .empty .choose-label {
+  display: block;
+}
+
+.mpft-file-ui .uploading .file-info,
+.mpft-file-ui .uploading .choose-controls {
+  display: none;
+}
+
+.mpft-file-ui .uploading .upload-progress {
+  display: block;
+}
+
+
+.mpft-file-ui .fetching-info-message {
+  display: none;
+}
+
+.mpft-file-ui .fetching .fetching-info-message {
+  display: block;
+}
+
+.mpft-file-ui .fetching .uploading-message {
+  display: none;
+}
+
+.mpft-file-ui .fetching .downloading-message {
+  display: none;
+}
+
+.mpft-file-ui .uploading .file-controls,
+.mpft-file-ui .empty .file-controls {
+  display: none;
+}
+
+
+
+/* ----- 2x ----- */
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5), 
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+
+  .mpft-file-ui .file-controls ul li button.clear {
+    background-image: url(images/icon-clear.2x.png);
+  }
+
+  .mpft-file-ui .file-controls ul li button.view {
+    background-image: url(images/icon-zoom-in.2x.png);
+  }
+
+}

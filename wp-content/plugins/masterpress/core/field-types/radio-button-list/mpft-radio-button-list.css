@@ -1,0 +1,18 @@
+.mpft-radio-button-list-ui .buttons {
+  width: 580px;  
+  overflow: hidden;
+  clear: left;
+  padding-left: 0px;
+}
+
+.mpft-radio-button-list-ui .fwi {
+  margin-right: 10px;
+  margin-left: 0;
+  float: left;
+  padding-bottom: 2px;
+}
+
+.mpft-radio-button-list-ui .fwi input.radio {
+  margin-left: 2px;
+  margin-top: 5px;
+}

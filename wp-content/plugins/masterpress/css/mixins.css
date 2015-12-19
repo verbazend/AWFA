@@ -1,0 +1,38 @@
+.ir {
+  /* Phark Image Replacement */
+
+  display: block;
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+  outline: none;
+}
+.ac {
+  left: -9999px;
+  top: -9999px;
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.text-plain {
+  text-shadow: none;
+}

@@ -1,0 +1,16 @@
+.slickQuizWrapper h2.quizName {
+	display:none !important;
+}
+
+.slickQuizWrapper a.button {
+	background-color:#b0163c;
+	margin-top:20px;
+}
+
+.slickQuizWrapper a.button:hover {
+	background-color:#8c0a2a !important;
+}
+
+.slickQuizWrapper .quizShare i {
+	color:#b0163c !important;
+}

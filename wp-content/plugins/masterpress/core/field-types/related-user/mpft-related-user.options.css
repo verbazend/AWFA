@@ -1,0 +1,26 @@
+
+#mpft-related-user-options .maxwidth-f input.text {
+  width: 60px;
+}
+
+#mpft-related-user-options label.checkbox {
+  margin-right: 0px;
+}
+
+#mpft-related-user-options .f-user-roles .fwi {
+  margin-right: 20px;
+  float: left;
+  padding-bottom: 4px;
+}
+
+
+#mpft-related-user-options #mpft-related-user-results_input_length {
+  width: 60px;
+}
+
+
+/* -- Field Dialogs -- */
+
+#mpft-related-user-options .dialog {
+  display: none;
+}

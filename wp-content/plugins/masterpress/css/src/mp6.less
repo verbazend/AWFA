@@ -1,0 +1,231 @@
+// rolling support for MP6 integration (MP6 is the working plugin for a future admin refresh) 
+
+body.admin-color-mp6 {
+  
+  .mpv table.grid thead th {
+    height: 30px;
+  }
+  
+  .mpv .icon32 {
+    display: block;
+  }
+  
+  .aristo .ui-icon {
+    line-height: 16px;
+  }
+  
+  .mpv .mpv-title .buttons .add-new-h2, 
+  .mpv .mpv-title .buttons .simple-primary {
+    text-shadow: none;
+  }
+  
+  @newBorderColor: #e2e2e2;
+  @restoreMetaColor: #F3F3F3;
+  
+  #poststuff .postbox h3 {
+    padding-bottom: 4px;
+  }
+
+  #poststuff .postbox,
+  table.widefat {
+    border: 1px solid @newBorderColor !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    background-color: @restoreMetaColor;
+  }
+  
+  table.widefat {
+    margin-top: 10px;
+  }
+  
+  #poststuff  .postbox .hndle {
+    background-color: @restoreMetaColor;
+    border-top: 1px solid #FFF;
+    border-bottom-color: @newBorderColor;
+  }
+  
+  .widefat thead th, 
+  .widefat tfoot th {
+    background-color: @restoreMetaColor;
+  }
+
+
+  .mp-set-item > .mp-controls .set-index {
+    line-height: 32px;
+  }
+  
+  .mp-set .mp-set-description {
+    background: #F3F3F3;
+    border-bottom-color: @newBorderColor;
+    padding: 6px 12px 7px 12px;
+  }
+
+
+  .mp-set-item > .mp-controls {
+    .border-radius(0);
+  }
+
+  .mp-set-item > .mp-controls > li:first-child {
+    .border-radius(0);
+  }
+
+  .mp-set.multiple .mp-field {
+    border-left-color: #dfdfdf;
+    border-right-color: #e2e2e2;
+  }
+
+  .mp-set .mp-field-first {
+    border-top-color: #dfdfdf;
+  }
+
+  .mp-set.multiple .mp-set-item.expanded .mp-controls {
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+    box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+  }
+
+
+  .mp-set-item > .mp-controls {
+    border-bottom-color: @newBorderColor;
+    border-left-color: @newBorderColor;
+  }
+
+  .mp-set.multiple .mp-set-fields button.collapse-lower {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .mp-set .mp-set-fields button.collapse-lower,
+  .mp-set .mp-set-fields button.collapse-lower strong {
+    .border-radius(0);
+  }
+
+  .mp-set > .mp-set-inner > .mp-set-items > .mp-set-item > .mp-set-fields > .mp-item-divider {
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+    box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+  }
+
+  .mp-set-head .mp-controls button.add-set-item span, 
+  .mp-set-foot .mp-controls button.add-set-item span {
+    line-height: 33px;
+  }
+  
+  li.mp-field-summary {
+    background: none;
+  }
+
+  .mp-set-foot .mp-controls li.li-add-set-item, 
+  .mp-set-head .mp-controls li.li-add-set-item { 
+    border-left: none;
+  }
+
+  .mp-set-foot button.add-set-item i, 
+  .mp-set-head button.add-set-item i, 
+  .mp-set-item button.add-set-item i {
+    margin-top: -9px;
+  }
+
+  .mpv .button,
+  .qq-upload-button {
+    .border-radius(0);
+  }
+
+  .mpft-image-ui .qq-upload-button {
+    width: 114px;
+  }
+
+  @select2BG: #FFF;
+  
+  .select2-container .select2-choice {
+    .border-radius(0);
+    border-color: #CCC;
+    background: @select2BG;
+  }
+
+  .select2-drop .select2-search {
+    background: #f3f3f3;
+    border-bottom: none;
+    background-position: 0 0;
+    border-top: 1px solid @newBorderColor;
+    padding-top: 5px;
+    
+    input {
+      .border-radius(0);
+      -webkit-box-shadow: none;
+      -moz-box-shadow   : none;
+      -o-box-shadow     : none;
+      box-shadow        : none;
+      padding: 5px 20px 5px 6px;
+      background-position: 100% -21px;
+      border-color: #DFDFDF;
+    }
+
+  }
+
+  .select2-dropdown-open .select2-choice {
+    padding-bottom: 4px;
+    border-bottom: 1px solid #DFDFDF;
+  }
+  
+  .select2-container-multi .select2-choices {
+    .border-radius(0);
+    border-color: @newBorderColor;
+  }
+
+  .select2-container-multi .select2-choices .select2-search-choice {
+    .border-radius(0);
+    padding-top: 2px;
+  }
+
+  
+  .select2-container-active {
+
+    .select2-choice, 
+    .select2-choices {
+      -webkit-box-shadow: none;
+      -moz-box-shadow   : none;
+      -o-box-shadow     : none;
+      box-shadow        : none;
+      border-color: #aaa;
+    }
+
+  } // .select2-container-active
+
+  .select2-drop {
+    border-color: #aaa;
+  } 
+
+  .select2-container .select2-choice i,
+  .select2-drop .select2-results .select2-result-label div.result i {
+    margin-top: 1px;
+  }
+
+
+  .mpv input.text, 
+  .mpv textarea,
+  .mpv.mp-set.multiple input.text, 
+  .mpv.mp-set.multiple select, 
+  .mpv.mp-set.multiple textarea {
+    box-shadow: none;
+    border-color: @newBorderColor;
+  }
+
+
+  .mptt .mptt-text {
+    padding-top: 10px;
+  }
+  
+  .mptt-bubble {
+    .border-radius(0);
+  }
+
+
+
+  .mpft-image-ui ul.prop button.attributes {
+    margin-top: -4px;
+    line-height: 11px;
+    padding-top: 0px;
+  }
+
+
+  
+} // .admin-color-mp6

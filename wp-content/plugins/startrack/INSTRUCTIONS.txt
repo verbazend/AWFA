@@ -1,0 +1,59 @@
+=========================================================================
+StarTrack Express Shipping Plugin
+Developed by Alex Kebbell | Version 1.3
+=========================================================================
+
+This WooCommerce Shipping Plugin uses StarTrack Express eServices to calculate the shipping cost estimate. It requires that your store uses Australian Dollars (AUD) for its currency and that your store's base country is Australia.
+
+Delivery estimates are not yet a function of this plugin, but available upon request (email support).
+
+When setting up the extension it needs to Calculate the shipping on the Checkout Page. Not the Cart page. Please disable the function in WooCommerce to calculate the shipping on the cart page.Go to woocommerce/settings/shipping: untick or do not tick the option to calculate shipping on the cart page.
+
+=========================================================================
+INSTALLATION
+=========================================================================
+
+    1. Upload the plugin folder to the "/wp-content/plugins/" directory.
+   	2. Activate the plugin through the "Plugins" menu in WordPress.
+    3. Thats it - you can now configure the plugin.
+
+
+
+=========================================================================
+CONFIGURATION
+=========================================================================
+
+Registration with StarTrack Express is required to obtain a username, password, account number, and access / API key. Clients need to sign up for Cost Estimator Privilege (Step 5). Go to http://www.startrack.com.au/user-admin/request-registration for registration and complete Step 1, 2, and 5.
+
+	1. Once the plugin has been activated, go to WooCommerce > Settings > Shipping Methods.
+	2. The method will be listed at the top of the screen, underneath the tabs. Click on "StarTrack Express".
+	3. You can now configure the method.
+
+    Enable/Disable - Choose whether to enable the shipping method of not.
+    Method Availability -  This setting lets you narrow down the countries which can get quotes. Changing the setting to 'Specific Countries' and entering 'Australia' will ensure the shipping option only shows for Australian customers.
+	StarTrack API Username - Enter as provided by StarTrack Express (see above)
+	StarTrack API Password - Enter as provided by StarTrack Express (see above)
+	StarTrack API Key - Enter as provided by StarTrack Express (see above)
+	StarTrack Account Number - Enter as provided by StarTrack Express (see above)
+    Origin City - This should be set to the city / suburb from which you will ship. It is sent to the StarTrack Express API.
+    Origin State - This should be set to the state from which you will ship. This should be in capitals (e.g. NSW, VIC etc) It is sent to the StarTrack Express API.
+    Origin Postcode - This should be set to the postcode from which you will ship. It is sent to the StarTrack Express API.
+    Risk Warranty - Optional
+    Security Surcharge - Optional
+    Fuel Surcharge - Optional
+	Handling Charge - Enter a value to be appended to the returned shipping rate.
+	Handle GST Locally - If enabled, GST will be excluded in the returned total. If disabled, GST will be included.
+	
+	4. Ensure your products are in the correct format.  Make sure you have entered Weight and Dimensions.
+	
+   
+=========================================================================
+SUPPORT
+=========================================================================
+
+Each product includes a Single Website Licence.
+This includes 1 year of Updates and Support.
+
+eTicket Support Available via support@akebbell.com or http://www.akebbell.com/accounts
+
+Updates are available via http://www.akebbell.com/accounts

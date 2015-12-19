@@ -1,0 +1,215 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,800);
+
+.badge, #content {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif !important;
+	margin:0;
+	text-align:left; 
+}
+
+.blurb {
+	max-width:90%;
+	margin:20px auto auto;
+	text-align:center;
+}
+
+.container {
+	width:auto;
+	display:inline-block;
+	overflow:hidden;
+	max-width:100%;
+	vertical-align:top;
+}
+
+input[type="radio"].badge-select {
+	display:none;
+	margin:auto;
+	padding:0;
+}
+
+/* Name Input
+**********************/
+
+.input {
+	text-align:center;
+	padding:20px;
+}
+
+input#name {
+	font-size:20px;
+	width:400px;
+	max-width:90%;
+	height:30px;
+	padding:20px 5%;
+	text-align:center;
+	margin:auto auto 20px;
+}
+
+/* Generic Badge 
+**********************/
+
+.badge a {
+	text-decoration:none !important;
+}
+
+.badge {
+	box-sizing: border-box;
+	border:2px solid #AAA;
+	padding:20px;
+	max-width:90%;
+	margin:10px auto;
+	overflow:hidden;
+}
+
+.badge .name, .bade a .name {
+	font-weight:800;
+	text-transform:uppercase;
+	color:#000;
+	line-height:1;
+}
+
+.badge .label, .badge a .label {
+	font-weight:600;
+	text-transform:uppercase;
+	letter-spacing:0.2em;
+	color:#cc0739;
+	margin-bottom:10px;
+}
+
+/* Badge One
+**********************/
+
+.badge.one {
+	text-align:center;
+	width:390px;
+}
+
+.badge.one * {
+	display:block;
+}
+
+
+.badge.one img {
+	margin:auto auto 10px;
+	width:85.71%;
+}
+
+.badge.one .name {
+	font-size:33px;
+}
+
+.badge.one .label {
+	font-size:16px;
+}
+
+/* Badge Two
+**********************/
+
+.badge.two {
+	text-align:center;
+	width:390px;
+	vertical-align:middle;
+}
+
+.badge.two * {
+	display:block;
+}
+
+.badge.two img {
+	margin:auto auto 20px;
+}
+
+.badge.two .name {
+	font-size:33px;
+}
+
+.badge.one .label {
+	font-size:16px;
+}
+
+/* Badge Three
+**********************/
+
+.badge.three {
+	text-align:center;
+	width:390px;
+}
+
+.badge.three td * {
+	display:block;
+	text-align:center;
+}
+
+.badge.three img {
+	padding-right:5px;
+}
+
+.badge.three .name {
+	font-size:26px;
+}
+
+.badge.three .label {
+	font-size:13px;
+	margin:0px;
+}
+
+/* Badge Four
+**********************/
+
+.badge.four {
+	text-align:center;
+	width:390px;
+}
+
+.badge.four td * {
+	display:block;
+	text-align:center;
+}
+
+.badge.four img {
+	padding-right:20px;
+}
+
+.badge.four .name {
+	font-size:26px;
+}
+
+.badge.four .label {
+	font-size:13px;
+	margin:0px;
+}
+
+/* Dark Styles 
+**********************/
+
+.badge.dark {
+	background-color:#1d1d1b;
+}
+
+.badge.dark .name {
+	color:#FFF;
+}
+
+/* Transparent Styles 
+**********************/
+
+.badge.dark.transparent, .badge.transparent {
+background-color:transparent;
+}
+
+/* Selected Styles 
+**********************/
+
+.badge.selected {
+	border-color:#cc0739;
+	box-shadow:0px 0px 10px #aaa;
+}
+
+/* Output Styles 
+**********************/
+
+textarea.output {
+	width:90%;
+	height:200px;
+	margin:50px auto 50px;
+	display:block;
+}

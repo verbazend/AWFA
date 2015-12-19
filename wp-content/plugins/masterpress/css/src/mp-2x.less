@@ -1,0 +1,156 @@
+
+// 2x - Rules for high-resolution displays ( e.g. iPhone 4+, iPad 3rd Gen+, MacBook w/Retina )
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5), 
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+  
+  .mp-thumb.small {
+    a {
+    }
+    
+    img {
+    }
+  }
+  
+  .mpv .mpv-title .icon32 {
+    background-image: url(../images/mpv-title-icon32.2x.png); /* sprite map */
+  }
+
+  .mp-set input.checkbox {
+    border: 1px solid #888;
+  }
+
+  .mp-set-item > .mp-controls .set-index {
+    background-image: url(../images/mp-set-set-index.2x.png);
+    background-size: 40px auto; 
+  }
+    
+  /* -- Set Head (For Multiple Items) -- */ 
+  
+  .mpv-options-menu {
+    background-size: 12px auto;
+    background-image: url(../images/mpv-options-menu.2x.png);
+  }
+
+  
+  // mce media button
+  
+  .wp_themeSkin a.mce_mp_media span {
+    background-image: url(../images/mce-mp-media.2x.png);
+    background-size: 16px 64px;
+  }
+
+  
+  .mpv .fs .fs-loading,
+  #side-sortables #mp-attributes #mp-templates-loading-fields,
+  #licence-progress,
+  .mpv .file-uploader .file.progress,
+  .mpv .masterplan-export .progress,
+  .mpv #masterplan-import #import-fetching-summary,
+  .mp-set-versions .loading,
+  .mp-field-ui .progress-message,
+  .mpv button.select2-refresh.busy {
+    background-size: 16px 16px;
+    background-image: url(../images/mpv-small-spinner.2x.gif);
+  }
+
+
+  .mp-thumb {
+    .picture {
+      background-image: url(../images/mpv-small-spinner.2x.gif);
+    }
+  }
+
+  // related field display styles
+  
+  .mpv-fields-form .fs-field-type-options .multi_layout-f label,
+  .mpv-fields-form .fs-field-type-options .results-row-style-f .row-style {
+    background-image: url(../images/select-results.2x.png);
+  } 
+
+  .mpv .columns .head .handle,
+  .mpv .sortable-list li,
+  .mpv .sortable-list-menu li { 
+  	background-image: url(../images/mpv-handle.2x.png);
+  }
+
+  // -- all icons now use a sprite 
+  
+  .mpv .fst h3 i,
+  .mpv .fs h4 i,
+  .mpv .f label i,
+  .mpv .f .label i,
+  .mpv-roles-form .cap-section .info,
+  .mpv .title-info-panel-lt i,
+  .mpv .sortable-list li i,
+  .mpv .fs-masterplan .col li .field-sets,
+  .mpv .fs-masterplan .col.field-sets li .item i,
+  .mpv .fs-masterplan .col.roles li .item i,
+  .mpv .fs-masterplan ul.object-tree label.field-set i,
+  .mpv .fs-masterplan ul.object-tree .label.field-set i,
+  .mpv .fs-masterplan ul.object-tree label.template i,
+  .mpv .fs-masterplan ul.object-tree .label.template i,
+  .mpv .fs-masterplan ul.object-tree label.role i,
+  .mpv #masterplan-import #import-file-uploader .preview,
+  .mpv table.grid thead th i,
+  #mpv-settings #licence-invalid i,
+  #mpv-settings #licence-valid i,
+  .mpv table.grid tbody td i,
+  .mpv table.grid tbody tr th i,
+  .mpv-fields-form .fs-field-type-options table.grid-row-item-prop td button.ir,
+  .mp-set-versions h3 i,
+  .mpv .fs-masterplan .col li span.related-link,
+  .versions-dialog .ui-dialog-title,
+  .mpv .title-info-panel h3 i.divide,
+  .mpv .sortable-list .arrow,
+  .mp-messages li i,
+  .mpv a.no-items-create i,
+  .mp-field-ui .error-message i,
+  .mp-metabox-message p.warning i,
+  .mpv .delete-panel .panel-content p.soft-warning i,
+  .mpv .fs .list .soft-warning i,
+  .mpv .f .warning i,
+  .versions-dialog .ui-dialog-title i,
+  .mpv .masterplan-export #export-summary #export-file-download i,
+  .mpv .masterplan-export #backup-summary #backup-file-download i {
+    background-image: url(../images/icons.2x.png);
+  }
+  
+  i.file-type {
+    background-image: url(../images/icons.2x.png) !important;
+  }
+
+  // -- all button icons are now a CSS sprite
+
+  .mp-bool,
+  a.mp-go,
+  .mp-lock-icon,
+  .mp-tooltip-icon,
+  .mp-set-fields button.collapse-lower strong i,
+  .mpv .input-spinner button span,
+  .mpv .fs-tabs a span i,
+  .mpv table.grid td.manage a i.go,
+  .mp-set-head .mp-controls button,
+  .mp-set-foot .mp-controls button,
+  .mp-set-item .mp-controls button,
+  .mp-set-head .mp-controls button.add-set-item i,
+  .mp-set-foot .mp-controls button.add-set-item i,
+  .mpv a.create-link i,
+  .mpv .columns .foot button.remove i,
+  .mpv .custom-columns button.add i,
+  .mpv .custom-columns button.taxonomy i,
+  .mpv .custom-columns button.field i,
+  .mpv .file-uploader .clear {
+    background-image: url(../images/button-icons.2x.png);
+  }
+
+  .mp-set-head,
+  .mp-set-foot {
+    .mp-controls button.add-set-item {
+      background: none;
+    }
+  }
+  
+} // @media (1.5x)

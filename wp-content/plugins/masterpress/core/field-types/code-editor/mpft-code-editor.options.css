@@ -1,0 +1,23 @@
+#mpft-code-editor-options input.text {
+  width: 60px;
+}
+
+#mpft-code-editor-modeselect-wrap {
+  clear: left;
+  float: left;
+  padding-top: 6px;
+}
+
+#mpft-code-editor-modeselect-wrap label {
+  font-size: 11px;
+  color: #666;
+  margin-left: 6px;
+  margin-top: 4px;
+}
+
+
+#mpft-code-editor-options select {
+  width: 300px;
+}
+
+
